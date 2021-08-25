@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heighter{
+  height : 100vh; 
+  min-width : 100%
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.name {
+  font-family: "Kaisei Decol";
+  font-size: 9px;
   color: white;
+  position: absolute;
+  bottom: 28%;
+  right: 10vw;
+  font-weight:bolder;
+  font-stretch: expanded;
 }
 
-.App-link {
-  color: #61dafb;
+.avatar {
+  position: absolute;
+  top: 27%;
+  right: 12vw;
+  height: 29vh;
+  border-radius: 100%;
+  border: 0.9px solid white;
+  }
+
+.info {
+  height : 100vh; 
+  width : 100%;
+  color: whitesmoke;
+  font-family: "Nunito";
+  background-color: #f5f5f5;
+  color: #011820;
 }
 
-@keyframes App-logo-spin {
+
+.terminal-window {
+  width: 30vw;
+  height: 40vh;
+  border-radius: .625rem;
+  position: relative;
+  top: 10vh;
+  left: 27vw;
+  margin-right: 10px;
+  -webkit-animation: 1s blink step-end 
+}
+
+.terminal-window header {
+  background: hsl(210, 35%, 91%);
+  height: 7vh;
+  border-radius: .5rem .5rem 0 0;
+  width: 70vw;
+}
+
+.terminal-window header .button {
+  width: 3.8px;
+  height: 3.8px;
+  display: inline-block;
+  border-radius: .5rem;
+  margin-bottom: 6px;
+  margin-right: 1.5px;
+}
+
+.green {
+  background: #3BB662;
+}
+
+.yellow {
+  background: #f3d647;
+}
+
+.red {
+  margin-left: .325rem;
+  background: #E75448;
+}
+
+.terminal-window section.terminal {
+  color: white;
+  font-family: "Fira Code", monospace;
+  font-size: 4px;
+  background: #011820;
+  padding: 1.3em;
+  box-sizing: border-box;
+  position: relative;
+  width: 70vw;
+  font-stretch: extra-expanded;
+  overflow: auto;
+  height: 60vh;
+  border-radius: 0 0 5px 5px;
+}
+.cursor {
+  padding: 0.005vh 1px;
+  margin: 2px;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  opacity: 1;}
+
+.terminal-window .gray { color: gray; }
+.terminal-window .green { color: green;}
+
+@keyframes blink {
   from {
-    transform: rotate(0deg);
+    background-color: whitesmoke;
+    opacity: 1;
   }
   to {
-    transform: rotate(360deg);
+    background-color: transparent;
+    opacity: 0;
   }
 }
