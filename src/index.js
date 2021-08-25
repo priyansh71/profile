@@ -3,13 +3,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
-import Imager from "./components/Imager";
-import Terminal from "./components/Terminal";
+import Imager from "./sections/Imager";
+import Info from "./sections/Info";
 
 ReactDOM.render(
   <div>
     <Imager />
-    <Terminal />
+    <Info />
   </div>,
   document.getElementById("root")
 );

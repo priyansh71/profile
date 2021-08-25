@@ -33,26 +33,27 @@
   color: whitesmoke;
   font-family: "Nunito";
   background-color: #f5f5f5;
-  color: #011820;
 }
 
 
 .terminal-window {
-  width: 30vw;
+  width: 90vw;
   height: 40vh;
   border-radius: .625rem;
   position: relative;
   top: 10vh;
-  left: 27vw;
-  margin-right: 10px;
-  -webkit-animation: 1s blink step-end 
+  right: 1vw;
+  margin: auto auto;
 }
 
 .terminal-window header {
   background: hsl(210, 35%, 91%);
-  height: 7vh;
+  height: 7px;
   border-radius: .5rem .5rem 0 0;
-  width: 70vw;
+  width: 80vw;
+  display: flex;
+  padding-top: 5px;
+  flex-direction: row;
 }
 
 .terminal-window header .button {
@@ -60,7 +61,6 @@
   height: 3.8px;
   display: inline-block;
   border-radius: .5rem;
-  margin-bottom: 6px;
   margin-right: 1.5px;
 }
 
@@ -85,30 +85,29 @@
   padding: 1.3em;
   box-sizing: border-box;
   position: relative;
-  width: 70vw;
+  width: 80vw;
   font-stretch: extra-expanded;
   overflow: auto;
   height: 60vh;
   border-radius: 0 0 5px 5px;
 }
-.cursor {
-  padding: 0.005vh 1px;
-  margin: 2px;
-  animation-name: blink;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  opacity: 1;}
 
 .terminal-window .gray { color: gray; }
 .terminal-window .green { color: green;}
 
-@keyframes blink {
-  from {
-    background-color: whitesmoke;
-    opacity: 1;
-  }
-  to {
-    background-color: transparent;
-    opacity: 0;
-  }
+.typer{
+  color: aquamarine;
+  height: 20px;
+  padding-top: 10px;
+}
+
+
+.history{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  top: 40%;
+  left: 0px;
 }

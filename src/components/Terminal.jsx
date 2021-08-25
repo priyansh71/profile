@@ -1,22 +1,33 @@
 /** @format */
 
 import React from "react";
-import "../App.css"
+import TypeWriterEffect from 'react-typewriter-effect';
+import "../App.css";
 
-const Terminal = () => {
+const Terminal = (props) => {
   return (
     <div class="terminal-window">
-      <header id="headerbottom">
-      <div class="button red"></div>
-        <div class="button yellow"></div>
-        <div class="button green"></div>
+      <header>
+        <span class="button red"></span>
+        <span class="button yellow"></span>
+        <span class="button green"></span>
       </header>
       <section class="terminal">
         <div class="history"></div>
-        ╭─<span style={{color : "aquamarine"}}>priyansh@felix</span> ~ <br />
-        ╰─$ <span className="cursor"></span>
-        <span class="prompt"></span>
-        <span class="typed-cursor"></span>
+        ╭─<span className="typer">root@felix</span>
+         ~
+        <TypeWriterEffect
+            startDelay={300}
+            cursorColor="white"
+            text={"╰─$ " + props.command}
+            typeSpeed={200}
+            textStyle={{
+              color: '#fefefe',
+              fontWeight: 100,
+              fontSize: '1em',
+              margin : '0.1em 0em',
+        }}    
+          />
       </section>
       <br />
     </div>
