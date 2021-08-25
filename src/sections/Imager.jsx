@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import pi from "./static/pi.jpeg";
+import pi from "../components/static/pi.jpeg";
 import '../App.css';
 import "animate.css";
 
