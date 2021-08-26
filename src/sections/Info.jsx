@@ -9,7 +9,8 @@ const Info = () => {
     return(
         <div className="info">
             <Terminal command="vim Myself.md" />
-            <Vim filename="Myself" />
+            <Terminal command="vim README.md" />
+            <Vim />
         </div>
     )
 }

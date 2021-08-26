@@ -6,7 +6,7 @@ import "../App.css"
 const Vim = (props) => {
 
     let a = [];
-    for( let i = 0 ; i < 10; i++){
+    for( let i = 0 ; i < 9; i++){
         a.push('~');
     }
 
