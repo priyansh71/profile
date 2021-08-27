@@ -7,7 +7,7 @@ const Info = () => {
 
     return(
         <div className="info">
-            <Terminal command="vim Myself.md" filename="Myself.md" />
+            <Terminal command="cat Myself.md" filename="Myself.md" />
         </div>
     )
 }

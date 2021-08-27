@@ -3,78 +3,61 @@
 import React, { useState } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import "../App.css";
-import ArrowForwardIosOutlinedIcon from "@material-ui/icons/ArrowForwardIosOutlined";
-import ArrowBackIosOutlinedIcon from "@material-ui/icons/ArrowBackIosOutlined";
+import FastForwardIcon from "@material-ui/icons/FastForward";
 import Header from "./Header";
 
 const Terminal = (props) => {
-  const [term, setTerm] = useState("block");
-  const [vim, setVim] = useState("none");
+  const [term, setTerm] = useState("none");
+  const [display, setDisplay] = useState("block");
+  const [headerName, setHeaderName] = useState(null);
 
   const handleTerm = () => {
-    setTerm("none");
-    setVim("block");
-  };
-
-  const handleVim = () => {
-    setVim("none");
     setTerm("block");
+    setDisplay("none");
+    setHeaderName(props.filename);
   };
-
-  let a = [];
-  for (let i = 0; i < 6; i++) {
-    a.push("~");
-  }
 
   return (
     <div>
-      <div className="terminal-window" style={{ display: term }}>
-        <Header />
+      <div className="terminal-window">
+        <Header name={headerName} click={handleTerm} />
         <section className="terminal">
           <div className="history"></div>
           ╭─<span className="typer">root@felix</span>
           ~
           <TypeWriterEffect
-            startDelay={300}
-            cursorColor="transparent"
+            startDelay={200}
+            cursorColor="#dedede"
             text={"╰─$ " + props.command}
-            typeSpeed={200}
+            typeSpeed={150}
+            hideCursorAfterText={true}
             textStyle={{
               color: "#fefefe",
               fontWeight: 100,
               fontSize: "1em",
             }}
           />
-          <button className="run" onClick={handleTerm}>
-            <span className="runner">Run</span>
-            <ArrowForwardIosOutlinedIcon
-              fontSize="medium"
-              style={{ color: "white" }}
-            />
+            <button
+            className="animate__animated animate__slower animate__backInUp animate__delay-1s run"
+            onClick={handleTerm}
+            style={{ display: display }}
+          >
+            <FastForwardIcon fontSize="large" style={{ color: "white" }} />
           </button>
-        </section>
-      </div>
 
-      <div className="terminal-window" style={{ display: vim }}>
-        <Header />
-        <section className="terminal">
-          <div className="history">
-            {a.map((item, index) => (
-              <span style={{ color: "white" }} key={index}>
-                {item}
-              </span>
-            ))}
-            <button className="run" onClick={handleVim}>
-              <span className="runner">Back</span>
-              <ArrowBackIosOutlinedIcon
-                fontSize="medium"
-                style={{ color: "white" }}
-              />
-            </button>
-            {props.filename}
+          
+          <div
+            style={{
+              display: term,
+              color: "#fefefe",
+              fontWeight: 100,
+              fontSize: "1em",
+              margin: "20px 10px",
+            }}
+          >
+            Hello there
           </div>
         </section>
-        <br />
       </div>
     </div>
   );
