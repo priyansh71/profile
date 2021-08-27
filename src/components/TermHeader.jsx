@@ -3,7 +3,7 @@
 import React from "react";
 import "../App.css"
 
-const Header = (props) => {
+const TermHeader = (props) => {
 
   return (
       <header>
@@ -16,4 +16,4 @@ const Header = (props) => {
   );
 };
 
-export default Header;
+export default TermHeader;

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import "../App.css";
 import FastForwardIcon from "@material-ui/icons/FastForward";
-import Header from "./Header";
+import TermHeader from "./TermHeader";
 
 const Terminal = (props) => {
   const [term, setTerm] = useState("none");
@@ -20,23 +20,23 @@ const Terminal = (props) => {
   return (
     <div>
       <div className="terminal-window">
-        <Header name={headerName} click={handleTerm} />
+        <TermHeader name={headerName} click={handleTerm} />
         <section className="terminal">
           <div className="history"></div>
           ╭─<span className="typer">root@felix</span>
           ~
           <TypeWriterEffect
             startDelay={200}
-            cursorColor="#dedede"
-            text={"╰─$ " + props.command}
+            cursorColor="transparent"
+            text={"╰─$ " + props.command + "▉"}
             typeSpeed={150}
-            hideCursorAfterText={true}
             textStyle={{
-              color: "#fefefe",
+              color: "#f2f2f2",
               fontWeight: 100,
               fontSize: "1em",
             }}
           />
+          
             <button
             className="animate__animated animate__slower animate__backInUp animate__delay-1s run"
             onClick={handleTerm}
@@ -52,7 +52,7 @@ const Terminal = (props) => {
               color: "#fefefe",
               fontWeight: 100,
               fontSize: "1em",
-              margin: "20px 10px",
+              margin: "10px",
             }}
           >
             Hello there
