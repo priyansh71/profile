@@ -28,7 +28,7 @@
   }
 
 .info {
-  height : 100vh; 
+  height : 80vh; 
   width : 100%;
   font-family: "Inconsolata";
   background-color: rgb(245, 245, 245);
@@ -56,7 +56,7 @@
   background: #E75448;
 }
 
-@media only screen and (min-width : 700px) {
+@media only screen and (min-width : 1000px) {
   .terminal-window section.terminal {
     color: white;
     font-family: "Fira Code", monospace;
@@ -65,7 +65,7 @@
     padding: 1.3em;
     box-sizing: border-box;
     position: relative;
-    width: 50vw;
+    width: 58vw;
     font-stretch: extra-expanded;
     overflow: auto;
     height: 50vh;
@@ -76,7 +76,7 @@
     border-radius: .625rem;
     position: relative;
     top: 17vh;
-    right: -20vw;
+    right: -16vw;
     float: right;
   }
   
@@ -84,7 +84,7 @@
     background: hsl(211, 47%, 91%);
     height: 30px;
     border-radius: 1rem 1rem 0 0;
-    width: 49.7vw;
+    width: 57.7vw;
     display: flex;
     align-items: center;
     padding: 6.5px 2px;
@@ -95,10 +95,10 @@
     font: "Ubuntu Mono";
     font-weight: bold;
     font-size: 1.1em;
-    transform: translateX(14vw);
+    transform: translateX(19vw);
     letter-spacing: 0.2px;
   }
-  .sidebar{
+  .sidebarLg{
     display: flex;
     flex-direction: column;
     position :fixed;
@@ -109,10 +109,12 @@
     background: #011820;
     padding-top: 40px;
  }
-  
+ .sidebarSm{
+  display: none;
+}
 }
 
-@media only screen and (max-width : 700px) {
+@media only screen and (max-width : 1000px) {
   .terminal-window section.terminal {
     color: white;
     font-family: "Fira Code", monospace;
@@ -132,7 +134,7 @@
     border-radius: .625rem;
     position: relative;
     top: 5vh;
-    right: 8vw;
+    right: 3.5vw;
     float: right;
   }
   
@@ -154,10 +156,20 @@
     transform: translateX(16vw);
     letter-spacing: 0.2px;
   }
-  .sidebar{
+  .sidebarLg{
     display: none;
  }
-  
+ .sidebarSm{
+  display: flex;
+  flex-direction: column;
+  position :fixed;
+  width: 12vw;
+  height: 100vh;
+  top:0;
+  left: 0;
+  background: #011820;
+  padding-top: 40px;
+}
 
 }
 .typer{
@@ -187,14 +199,14 @@
  
 .heading{
   font-size: 3em;
-  margin: 30px 2em 30px 0em;
+  margin: 1em 2em 1em 0em;
   position: relative;
   color: #011820;
   float: right;
   letter-spacing: -1px;
 }
 
-.sidebar h1{
+.sidebarLg h1{
   display: block;
   color: white;
   font-family: "Fira Code";
@@ -205,7 +217,7 @@
   margin-bottom: 2em;
 }
 
-.sidebar div{
+.sidebarLg div{
    display: block;
    padding: 1.3em;
    color: rgb(182, 182, 182);
@@ -217,38 +229,48 @@
    margin-right: 3%;
 }
 
-.sidebar div:hover {
+.sidebarLg div:hover {
    color: #fff;
    cursor: pointer;
 }
 
-.sidebar p{
+.sidebarLg p{
   color: rgb(216, 216, 216);
   font-size: 1.17em;
-  margin-top: 1vh;
+  margin-top: 1em;
   transition: 0.5s linear;
   font-family: "Ubuntu Mono";
-  justify-self :start;
   align-self: center;
 }
 
-.sidebar article{
-  color: rgb(165, 165, 165);
+.sidebarSm span{
+  color: rgb(242, 241, 241);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 6vh;
+  margin: 4vh 2vw;
   cursor: pointer;
   transition: 0.5s linear;
 }
 
-.sidebar article:hover{
+.sidebarLg article {
+  color: rgb(211, 209, 209);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+  cursor: pointer;
+  transition: 0.5s linear; 
+}
+
+.sidebarLg article:hover{
   color: white;
   transition: 0.2s;
 }
 
-hr{
+.sidebarLg hr{
   margin-top: 2vh;
   width: 76%;
 }

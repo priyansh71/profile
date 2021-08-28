@@ -3,13 +3,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
+import Education from "./sections/Education";
 import Imager from "./sections/Imager";
-import Info from "./sections/Info";
+import Myself from "./sections/Myself";
 
 ReactDOM.render(
   <div>
     <Imager />
-    <Info />
+    <Myself />
+    <Education />
   </div>,
   document.getElementById("root")
 );
