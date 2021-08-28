@@ -43,6 +43,10 @@
   margin-right: 7px;
 }
 
+.terminal-window li {
+  margin-bottom: 3px;
+}
+
 .green {
   background: #3BB662;
 }
@@ -217,7 +221,7 @@
  
 .heading{
   font-size: 3em;
-  margin: 1em 2em 1em 0em;
+  margin: 1em 1.3em 0.3em 0em;
   position: relative;
   color: #011820;
   float: right;

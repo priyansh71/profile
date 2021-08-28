@@ -9,7 +9,8 @@ import Interests from "./sections/Interests";
 import Imager from "./sections/Imager";
 import Myself from "./sections/Myself";
 import Projects from "./sections/Projects";
-import TechStack from "./sections/TechStack";
+import Learning from "./sections/Learning";
+import Achievments from "./sections/Achivements";
 
 ReactDOM.render(
   <div>
@@ -17,9 +18,11 @@ ReactDOM.render(
     <SidebarSm />
     <SidebarLg   />
     <Myself />
-    <TechStack />
+    <Learning />
     <Projects />
+    <Achievments />
     <Interests />
+
   </div>,
   document.getElementById("root")
 );

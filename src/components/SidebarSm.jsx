@@ -19,7 +19,7 @@ const SidebarSm = () => {
           <InfoIcon fontSize="large" />
         </span>
       </Tooltip>
-      <Tooltip arrow title="TechStack">
+      <Tooltip arrow title="Learning">
         <span>
           <CodeIcon fontSize="large" />
         </span>
@@ -32,15 +32,15 @@ const SidebarSm = () => {
         </span>
       </Tooltip>
 
-      <Tooltip arrow title="Interests">
-        <span>
-          <WbIncandescentIcon fontSize="large" />
-        </span>
-      </Tooltip>
-
       <Tooltip arrow title="Achievments">
         <span>
           <SpellcheckOutlinedIcon fontSize="large" />
+        </span>
+      </Tooltip>
+
+      <Tooltip arrow title="Interests">
+        <span>
+          <WbIncandescentIcon fontSize="large" />
         </span>
       </Tooltip>
 

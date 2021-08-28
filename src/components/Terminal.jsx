@@ -36,16 +36,13 @@ const Terminal = (props) => {
               fontSize: "1em",
             }}
           />
-          
-            <button
-            className="animate__animated animate__slower animate__backInUp animate__delay-1s run"
+          <button
+            className="animate__animated animate__slower animate__backInUp run"
             onClick={handleTerm}
             style={{ display: display }}
           >
             <FastForwardIcon fontSize="large" style={{ color: "white" }} />
           </button>
-
-          
           <div
             style={{
               display: term,
@@ -55,7 +52,15 @@ const Terminal = (props) => {
               margin: "10px",
             }}
           >
-            Hello there
+            {props.title}
+            <br />
+            <br />
+            <ul>
+              <li>{props.item1}</li>
+              <li>{props.item2}</li>
+              <li>{props.item3}</li>
+              {props.item4 ? <li> {props.item4}</li> : null}
+            </ul>
           </div>
         </section>
       </div>

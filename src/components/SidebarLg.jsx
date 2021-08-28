@@ -9,10 +9,10 @@ const SidebarLg = () => {
     <div class="sidebarLg animate__rotateInDownLeft animate__animated animate__slow">
      <h1>╰─$ ls Profile</h1>
       <div>About Me</div>
-      <div>TechStack</div>
+      <div>Learning</div>
       <div>Projects</div>
+      <div>Achievments</div>
       <div>Interests</div>
-      <div>Achievments and Certifications</div>
       <div>Find me at..</div>
       <center>
       <hr className="white" />
