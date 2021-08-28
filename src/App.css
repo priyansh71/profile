@@ -4,12 +4,12 @@
 
 .heighter{
   height : 100vh; 
-  min-width : 100%
+  min-width : 78%;
 }
 
 .name {
-  font-family: "Nunito";
-  font-size: 40px;
+  font-family: "Inconsolata";
+  font-size: 43px;
   color: white;
   position: absolute;
   bottom: 28%;
@@ -98,6 +98,17 @@
     transform: translateX(14vw);
     letter-spacing: 0.2px;
   }
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    position :fixed;
+    width: 22vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    background: #011820;
+    padding-top: 40px;
+ }
   
 }
 
@@ -142,8 +153,11 @@
     font-size: 1.1em;
     transform: translateX(16vw);
     letter-spacing: 0.2px;
-
   }
+  .sidebar{
+    display: none;
+ }
+  
 
 }
 .typer{
@@ -177,4 +191,64 @@
   position: relative;
   color: #011820;
   float: right;
+  letter-spacing: -1px;
+}
+
+.sidebar h1{
+  display: block;
+  color: white;
+  font-family: "Fira Code";
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.sidebar div{
+   display: block;
+   padding: 1.3em;
+   color: rgb(182, 182, 182);
+   font-family: "Fira Code";
+   letter-spacing: 0.3px;
+   font-size: 1.24em;
+   text-align: right;
+   font-weight: 200;
+   margin-right: 3%;
+}
+
+.sidebar div:hover {
+   color: #fff;
+   cursor: pointer;
+}
+
+.sidebar p{
+  color: rgb(216, 216, 216);
+  font-size: 1.17em;
+  margin-top: 1vh;
+  transition: 0.5s linear;
+  font-family: "Ubuntu Mono";
+  justify-self :start;
+  align-self: center;
+}
+
+.sidebar article{
+  color: rgb(165, 165, 165);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6vh;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+
+.sidebar article:hover{
+  color: white;
+  transition: 0.2s;
+}
+
+hr{
+  margin-top: 2vh;
+  width: 76%;
 }
