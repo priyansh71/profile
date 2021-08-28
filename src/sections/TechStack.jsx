@@ -5,14 +5,14 @@ import Terminal from "../components/Terminal";
 import Heading from "../components/Heading";
 
 
-const Info = () => {
+const Skills = () => {
 
     return(
         <div className="info">        
-            <Heading heading="About me" />
-            <Terminal command="cat Myself.md" filename="Myself.md" />
+            <Heading heading="techStack" />
+            <Terminal command="cat techStack.md" filename="techStack.md" />
         </div>
     )
 }
 
-export default Info;
+export default Skills;

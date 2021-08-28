@@ -8,8 +8,8 @@ const Education = () => {
 
     return(
         <div className="info">
-            <Heading heading="Education" />
-            <Terminal command="cat Education.md" filename="Education.md" />
+            <Heading heading="Interests" />
+            <Terminal command="cat Interests.md" filename="Interests.md" />
         </div>
     )
 }
