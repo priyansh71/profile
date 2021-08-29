@@ -9,7 +9,8 @@ import WbIncandescentIcon from "@material-ui/icons/WbIncandescent";
 import SpellcheckOutlinedIcon from "@material-ui/icons/SpellcheckOutlined";
 import EmailOutlinedIcon from "@material-ui/icons/EmailOutlined";
 import Tooltip from "@material-ui/core/Tooltip";
-import AssignmentIcon from '@material-ui/icons/Assignment';
+import AssignmentIcon from "@material-ui/icons/Assignment";
+import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
 
 const SidebarSm = () => {
   return (
@@ -24,7 +25,6 @@ const SidebarSm = () => {
           <CodeIcon fontSize="large" />
         </span>
       </Tooltip>
-
 
       <Tooltip arrow title="Projects">
         <span>
@@ -44,9 +44,21 @@ const SidebarSm = () => {
         </span>
       </Tooltip>
 
-      <Tooltip arrow title="Contact me">
+      <Tooltip arrow title="Certifications">
+        <span>
+          <VerifiedUserIcon fontSize="large" />
+        </span>
+      </Tooltip>
+
+      <Tooltip arrow title="Contact">
         <span>
           <EmailOutlinedIcon fontSize="large" />
+        </span>
+      </Tooltip>
+
+      <Tooltip arrow title="Copyright, Priyansh, 2021.">
+        <span style={{ fontSize: "3em", color: "rgb(216, 216, 216)" }}>
+          &copy;
         </span>
       </Tooltip>
     </div>

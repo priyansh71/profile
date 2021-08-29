@@ -13,6 +13,7 @@ const SidebarLg = () => {
       <div>Projects</div>
       <div>Achievments</div>
       <div>Interests</div>
+      <div>Certifications</div>
       <div>Find me at..</div>
       <center>
       <hr className="white" />

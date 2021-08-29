@@ -6,7 +6,8 @@ const Myself = [
         "interests" : "Apart from the development and coding part, my interests include :-",
         "projects" : "I have worked on:- ",
         "achievments" : "In the academic and learning field, I :-",
-        "certifications" : "I have been certified in :-"
+        "certifications" : "I have been certified in :-",
+        "cryptohack" : "../components/static/crypto.png"
     },
     [
         "BITS Pilani Goa Campus [2020-24], ongoing",
@@ -16,18 +17,18 @@ const Myself = [
     [
         "Backend Web Development using Node.js.",
         "App Development using React Native.",
-        "Cryptography using Python and Rust.",
-        "Web Secuity."
+        "Cryptography using Python.",
+        "Object Oriented Programming using Java."
     ],
     [
-        "Following CtF questions to gain more knowledge in different cybersecurity exploitations.",
+        "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
         "Watching Football and Formula 1 the most whenever I am able to.",
         "Listening to the rock band Linkin Park. I am a huge fan.",
         "I love terminals. Huge fan of CLI over GUI here."
 
     ],
     [
-        "Frontend development projects using static Html and React , utilizing common Css frameworks.",
+        "Frontend development projects using static Html and React , utilizing common CSS frameworks.",
         "Basic backend development using Express , Ejs and MongoDb.",
         "Web scraping and vulnerability testing using popular Python libraries.",
     ],
@@ -36,6 +37,10 @@ const Myself = [
         "scored 355/450 in BITSAT-2020.",
         "achieved a Cumulative Grade Point of 9.68 in my freshman year at BITS Pilani Goa Campus.",
         "achieved a Top-2 weekly rank in CryptoHack after almost 50+ hours of cryptographic exploration on RSA, Diffie-Hellman Key exchange and Ellipse Curve Cryptography."
+    ],
+    [
+        "Introduction to Web Development using MERN stack.",
+        "Essential JavaScript Training"
     ]
 ]
 
