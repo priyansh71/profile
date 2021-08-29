@@ -11,48 +11,88 @@ import EmailOutlinedIcon from "@material-ui/icons/EmailOutlined";
 import Tooltip from "@material-ui/core/Tooltip";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
+import { Link } from "react-scroll";
 
 const SidebarSm = () => {
   return (
-    <div class="sidebarSm animate__rotateInDownLeft animate__animated animate__slow">
+    <div class="sidebarSm animate__rotateInDownLeft animate__animated">
       <Tooltip arrow title="About me" className="tooltip">
         <span>
-          <InfoIcon fontSize="large" />
+          <Link to="Myself" activeClass="active" spy={true} smooth={true}>
+            <InfoIcon fontSize="large" />
+          </Link>
         </span>
       </Tooltip>
       <Tooltip arrow title="Learning">
         <span>
-          <CodeIcon fontSize="large" />
+          <Link
+            to="Learning"
+            activeClass="active-icon"
+            spy={true}
+            smooth={true}
+          >
+            <CodeIcon fontSize="large" />
+          </Link>
         </span>
       </Tooltip>
 
       <Tooltip arrow title="Projects">
         <span>
-          <AssignmentIcon fontSize="large" />
+          <Link
+            to="Projects"
+            activeClass="active-icon"
+            spy={true}
+            smooth={true}
+          >
+            <AssignmentIcon fontSize="large" />
+          </Link>
         </span>
       </Tooltip>
 
       <Tooltip arrow title="Achievments">
         <span>
-          <SpellcheckOutlinedIcon fontSize="large" />
+          <Link
+            to="Achievments"
+            activeClass="active-icon"
+            spy={true}
+            smooth={true}
+          >
+            <SpellcheckOutlinedIcon fontSize="large" />
+          </Link>
         </span>
       </Tooltip>
 
       <Tooltip arrow title="Interests">
         <span>
-          <WbIncandescentIcon fontSize="large" />
+          <Link
+            to="Interests"
+            activeClass="active-icon"
+            spy={true}
+            smooth={true}
+          >
+            <WbIncandescentIcon fontSize="large" />
+          </Link>
         </span>
       </Tooltip>
 
       <Tooltip arrow title="Certifications">
         <span>
-          <VerifiedUserIcon fontSize="large" />
+          <Link
+            to="Certifications"
+            activeClass="active-icon"
+            spy={true}
+            smooth={true}
+          >
+            <VerifiedUserIcon fontSize="large" />
+          </Link>
         </span>
       </Tooltip>
 
       <Tooltip arrow title="Contact">
         <span>
-          <EmailOutlinedIcon fontSize="large" />
+          {/* <Link to="Achievments" spy={true} smooth={true}> */}
+            <EmailOutlinedIcon fontSize="large" />
+          {/* </Link> */}
         </span>
       </Tooltip>
 

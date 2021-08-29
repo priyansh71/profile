@@ -21,7 +21,7 @@ const Terminal = (props) => {
   };
 
   useEffect(() => {
-    setAnimate("animate__animated animate__zoomInLeft");
+    setAnimate("animate__animated animate__slow animate__fadeInRight");
   }, [term]);
 
   return (

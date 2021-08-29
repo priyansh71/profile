@@ -24,6 +24,7 @@ ReactDOM.render(
     <Achievments />
     <Interests />
     <Certifications />
+    <div style={{padding: "90px", width : "100vw"}}></div>
   </div>,
   document.getElementById("root")
 );

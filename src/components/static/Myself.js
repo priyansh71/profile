@@ -7,7 +7,6 @@ const Myself = [
         "projects" : "I have worked on:- ",
         "achievments" : "In the academic and learning field, I :-",
         "certifications" : "I have been certified in :-",
-        "cryptohack" : "../components/static/crypto.png"
     },
     [
         "BITS Pilani Goa Campus [2020-24], ongoing",
@@ -40,7 +39,7 @@ const Myself = [
     ],
     [
         "Introduction to Web Development using MERN stack.",
-        "Essential JavaScript Training"
+        "Essential JavaScript Training."
     ]
 ]
 

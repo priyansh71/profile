@@ -93,7 +93,7 @@
     border-radius: .625rem;
     position: relative;
     top: 17vh;
-    right: -16vw;
+    right: -10vw;
     float: right;
   }
   
@@ -119,12 +119,13 @@
     display: flex;
     flex-direction: column;
     position :fixed;
-    width: 22vw;
+    width: 23vw;
     height: 100vh;
     top:0;
     left: 0;
     background: #011820;
     padding-top: 40px;
+    padding-right: 10px;
  }
  .sidebarSm{
   display: none;
@@ -224,9 +225,8 @@
 }
  
 .heading{
-  font-size: 3em;
-  margin: 0.7em 1.3em 0.3em 0em;
-  position: relative;
+  font-size: 2.5em;
+  margin: 0.6em 1.3em 0em 0em;
   color: #011820;
   float: right;
   letter-spacing: -1px;
@@ -251,8 +251,14 @@
    letter-spacing: 0.3px;
    font-size: 1.24em;
    text-align: right;
-   font-weight: 200;
+   font-weight: 100;
    margin-right: 3%;
+}
+
+.active{
+  color: white;
+  font-weight: 900;
+  transition: 50ms linear;
 }
 
 .sidebarLg div:hover {
@@ -270,7 +276,7 @@
 }
 
 .sidebarSm span{
-  color: rgb(242, 241, 241);
+  color: rgb(227, 227, 227);
   text-align: center;
   display: flex;
   align-items: center;
@@ -278,6 +284,10 @@
   margin: 3.1vh 2vw;
   cursor: pointer;
   transition: 0.5s linear;
+}
+
+.active-icon{
+  color: white;
 }
 
 .sidebarLg article {
