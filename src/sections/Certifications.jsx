@@ -7,21 +7,19 @@ import Terminal from "../components/Terminal";
 import Heading from "../components/Heading";
 import Myself from "../components/static/Myself";
 
-const Education = () => {
+const Certifications = () => {
   return (
     <div className="info">
-      <Heading heading="Interests" />
+      <Heading heading="Certfied" />
       <Terminal
-        command="cat Interests.md"
-        filename="Interests.md"
-        title={Myself[0].interests}
-        item1={Myself[3][0]}
-        item2={Myself[3][1]}
-        item3={Myself[3][2]}
-        item4={Myself[3][3]}
+        command="cat Certs.md"
+        filename="Certifications.md"
+        title={Myself[0].certifications}
+        name1={Myself[6][0]}
+        name2={Myself[6][1]}
       />
     </div>
   );
 };
 
-export default Education;
+export default Certifications;
