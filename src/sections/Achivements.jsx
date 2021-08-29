@@ -9,7 +9,7 @@ import Myself from "../components/static/Myself";
 
 const Achievments = () => {
   return (
-    <div className="info">
+    <div className="info" id="Achievments">
       <Heading heading="Achieved" />
       <Terminal
         command="cat Achievments.md"

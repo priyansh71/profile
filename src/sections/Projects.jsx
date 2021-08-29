@@ -9,7 +9,7 @@ import Myself from "../components/static/Myself";
 const Projects = () => {
 
     return(
-        <div className="info">        
+        <div className="info" id="Projects">        
             <Heading heading="Projects" />
             <Terminal command="cat Projects.md" filename="Projects.md"
              title={Myself[0].projects} 

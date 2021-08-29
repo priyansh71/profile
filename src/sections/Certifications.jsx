@@ -9,8 +9,8 @@ import Myself from "../components/static/Myself";
 
 const Certifications = () => {
   return (
-    <div className="info">
-      <Heading heading="Certfied" />
+    <div className="info" id="Certifications">
+      <Heading heading="Certified" />
       <Terminal
         command="cat Certs.md"
         filename="Certifications.md"

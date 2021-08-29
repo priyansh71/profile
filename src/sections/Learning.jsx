@@ -9,7 +9,7 @@ import Myself from "../components/static/Myself";
 const Learning = () => {
 
     return(
-        <div className="info">        
+        <div className="info" id="Learning">        
             <Heading heading="Learning" />
             <Terminal command="cat Learning.md" filename="learning.md"
             title={Myself[0].ongoing} 
