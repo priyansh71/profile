@@ -34,6 +34,10 @@
   background-color: rgb(245, 245, 245);
 }
 
+.info a{
+  text-decoration: beige;
+  color: rgb(225, 224, 224);
+}
 
 .terminal-window header .button {
   width: 15px;
@@ -221,7 +225,7 @@
  
 .heading{
   font-size: 3em;
-  margin: 1em 1.3em 0.3em 0em;
+  margin: 0.7em 1.3em 0.3em 0em;
   position: relative;
   color: #011820;
   float: right;
@@ -241,7 +245,7 @@
 
 .sidebarLg div{
    display: block;
-   padding: 1.3em;
+   padding: 1em;
    color: rgb(182, 182, 182);
    font-family: "Fira Code";
    letter-spacing: 0.3px;
@@ -258,10 +262,10 @@
 
 .sidebarLg p{
   color: rgb(216, 216, 216);
-  font-size: 1.17em;
-  margin-top: 1em;
+  font-size: 1.23em;
+  margin-top: 1.3em;
   transition: 0.5s linear;
-  font-family: "Ubuntu Mono";
+  font-family: "Nunito";
   align-self: center;
 }
 
@@ -271,7 +275,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4vh 2vw;
+  margin: 3.1vh 2vw;
   cursor: pointer;
   transition: 0.5s linear;
 }

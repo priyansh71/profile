@@ -11,6 +11,7 @@ import Myself from "./sections/Myself";
 import Projects from "./sections/Projects";
 import Learning from "./sections/Learning";
 import Achievments from "./sections/Achivements";
+import Certifications from "./sections/Certifications";
 
 ReactDOM.render(
   <div>
@@ -22,7 +23,7 @@ ReactDOM.render(
     <Projects />
     <Achievments />
     <Interests />
-
+    <Certifications />
   </div>,
   document.getElementById("root")
 );
