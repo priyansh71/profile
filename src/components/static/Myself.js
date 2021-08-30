@@ -16,7 +16,7 @@ const Myself = [
     [
         "Backend Web Development using Node.js.",
         "App Development using React Native.",
-        "Cryptography using Python.",
+        "Modern Cryptography using Python.",
         "Object Oriented Programming using Java."
     ],
     [

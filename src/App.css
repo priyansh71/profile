@@ -7,16 +7,6 @@
   width : 78%;
 }
 
-.name {
-  font-family: "Inconsolata";
-  font-size: 43px;
-  color: white;
-  position: absolute;
-  bottom: 28%;
-  right: 10vw;
-  font-weight: lighter;
-  font-stretch: expanded;
-}
 
 .avatar {
   position: absolute;
@@ -25,14 +15,8 @@
   height: 29vh;
   border-radius: 100%;
   border: 0.9px solid white;
-  }
-
-.info {
-  height : 80vh; 
-  width : 100%;
-  font-family: "Inconsolata";
-  background-color: rgb(245, 245, 245);
 }
+
 
 .info a{
   text-decoration: beige;
@@ -64,7 +48,33 @@
   background: #E75448;
 }
 
-@media only screen and (min-width : 1000px) {
+@media only screen and (min-width : 1100px) {
+  .name {
+    font-family: "Inconsolata";
+    font-size: 43px;
+    color: white;
+    position: absolute;
+    bottom: 28%;
+    right: 10vw;
+    font-weight: lighter;
+    font-stretch: expanded;
+  }
+
+  .info {
+    height : 80vh; 
+    width : 100%;
+    font-family: "Inconsolata";
+    background-color: rgb(245, 245, 245);
+  }
+
+  .heading{
+    font-size: 2.5em;
+    margin: 1em 1.5em 0em 0em;
+    color: #011820;
+    float: right;
+    letter-spacing: -1px;
+  }
+
   .avatar {
     position: absolute;
     top: 27%;
@@ -85,7 +95,7 @@
     width: 55vw;
     font-stretch: extra-expanded;
     overflow: auto;
-    height: 58vh;
+    height: 53vh;
     border-radius: 0 0 25px 25px;
   }
 
@@ -150,56 +160,73 @@
   
 }
 
-@media only screen and (max-width : 1000px) {
+@media only screen and (min-width: 600px) and (max-width : 1100px) {
+.name {
+  font-family: "Inconsolata";
+  font-size: 43px;
+  color: white;
+  position: absolute;
+  bottom: 28%;
+  right: 10vw;
+  font-weight: lighter;
+  font-stretch: expanded;
+}
 
-  .avatar {
-    position: absolute;
-    top: 30%;
-    right: 18vw;
-    height: 20vh;
-    border-radius: 100%;
-    border: 0.9px solid white;
-    }
-
-  .terminal-window section.terminal {
-    color: white;
-    font-family: "Fira Code", monospace;
-    font-size: 2.8vw;
-    background: #011820;
-    padding: 1em;
-    box-sizing: border-box;
-    position: relative;
-    width: 75vw;
-    overflow: auto;
-    height: 55vh;
-    border-radius: 0 0 25px 25px;
+.info {
+  height : 80vh; 
+  width : 100%;
+  font-family: "Inconsolata";
+  background-color: rgb(245, 245, 245);
   }
 
-  .terminal-window {
-    border-radius: .625rem;
-    position: relative;
-    top: 5vh;
-    right: 3.5vw;
-    float: right;
+.avatar {
+  position: absolute;
+  top: 30%;
+  right: 18vw;
+  height: 20vh;
+  border-radius: 100%;
+  border: 0.9px solid white;
   }
+
+.terminal-window section.terminal {
+  color: white;
+  font-family: "Fira Code", monospace;
+  font-size: 2.8vw;
+  background: #011820;
+  padding: 1em;
+  box-sizing: border-box;
+  position: relative;
+  width: 75vw;
+  overflow: auto;
+  height: 50vh;
+  border-radius: 0 0 25px 25px;
+}
+
+.terminal-window {
+  border-radius: .625rem;
+  position: relative;
+  top: 5vh;
+  right: 3.5vw;
+  float: right;
+}
   
-  .terminal-window header {
-    background: hsl(211, 47%, 91%);
-    height: 30px;
-    border-radius: 1rem 1rem 0 0;
-    width: 74.5vw;
-    display: flex;
-    align-items: center;
-    padding: 6.5px 2px;
-    flex-direction: row;
+.terminal-window header {
+  background: hsl(211, 47%, 91%);
+  height: 30px;
+  border-radius: 1rem 1rem 0 0;
+  width: 74.5vw;
+  display: flex;
+  align-items: center;
+  padding: 6.5px 2px;
+  flex-direction: row;
   }
-  .filename{
-    color: black;
-    font: "Ubuntu Mono";
-    font-weight: bold;
-    font-size: 1.1em;
-    transform: translateX(16vw);
-    letter-spacing: 0.2px;
+.filename{
+  color: black;
+  font: "Ubuntu Mono";
+  font-weight: bold;
+  font-size: 1.1em;
+  transform: translateX(16vw);
+  letter-spacing: 0.2px;
   }
   .sidebarLg{
     display: none;
@@ -231,8 +258,122 @@
   justify-content: flex-start;
   margin-top: 12px;
 }
+.heading{
+  font-size: 2.5em;
+  margin: 1em 1.5em 0em 0em;
+  color: #011820;
+  float: right;
+  letter-spacing: -1px;
+}
 
+}
 
+@media screen and (max-width : 600px) {
+
+.name {
+  font-family: "Inconsolata";
+  font-size: 29px;
+  color: white;
+  position: absolute;
+  bottom: 28%;
+  right: 10vw;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+
+.info {
+  height : 78vh; 
+  width : 100%;
+  font-family: "Inconsolata";
+  background-color: rgb(245, 245, 245);
+}
+
+.avatar {
+  position: absolute;
+  top: 30%;
+  right: 18vw;
+  height: 14vh;
+  border-radius: 100%;
+  border: 0.9px solid white;
+}
+  
+.terminal-window section.terminal {
+  color: white;
+  font-family: "Fira Code", monospace;
+  font-size: 3.3vw;
+  background: #011820;
+  margin: auto;
+  padding: 1em;
+  box-sizing: border-box;
+  position: relative;
+  width: 91vw;
+  overflow: auto;
+  height: 45vh;
+  border-radius: 0 0 25px 25px;
+}
+
+.terminal-window {
+  border-radius: .625rem;
+  position: relative;
+  top: 5vh;
+  right: 5vw;
+  float: right;
+  margin: auto;
+}
+    
+.terminal-window header {
+  background: hsl(211, 47%, 91%);
+  height: 30px;
+  border-radius: 1rem 1rem 0 0;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  padding: 6.5px 2px;
+  flex-direction: row;
+}
+
+.filename{
+  color: black;
+  font: "Ubuntu Mono";
+  font-weight: bold;
+  font-size: 1.1em;
+  transform: translateX(16vw);
+  letter-spacing: 0.2px;
+  }
+
+.sidebarLg{
+  display: none;
+}
+.sidebarSm{
+  display: none;
+}
+
+.stacker .tech{
+    font-size: 0.95em;
+    transform: translate(-6px,5px);
+}
+
+.heading{
+  font-size: 2.5em;
+  margin: 30px 20px 0px 20px;
+  color: #011820;
+  letter-spacing: -1px;
+  float: right;
+
+}
+
+.progress {
+  border-radius: 9px;
+  background-color:transparent;
+  width: 26vw;
+  border: 1px solid rgb(213, 213, 213) ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+    
 }
 
 
@@ -259,14 +400,6 @@
   border-width: 0px;
   cursor: pointer;
   margin-right: 30px;
-}
- 
-.heading{
-  font-size: 2.5em;
-  margin: 1em 1.5em 0em 0em;
-  color: #011820;
-  float: right;
-  letter-spacing: -1px;
 }
 
 .sidebarLg h1{
