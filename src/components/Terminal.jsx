@@ -57,7 +57,9 @@ const Terminal = (props) => {
               color: "#fefefe",
               fontWeight: 100,
               fontSize: "1em",
-              margin: "10px",
+              marginTop: "15px",
+              marginLeft: "10px",
+              marginRight : "10px"
             }}
             className={animate}
           >

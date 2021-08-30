@@ -208,7 +208,7 @@
   display: flex;
   flex-direction: column;
   position :fixed;
-  width: 13vw;
+  width: 12.5vw;
   height: 100vh;
   top:0;
   left: 0;
@@ -263,7 +263,7 @@
  
 .heading{
   font-size: 2.5em;
-  margin: 1em 1.3em 0em 0em;
+  margin: 1em 1.5em 0em 0em;
   color: #011820;
   float: right;
   letter-spacing: -1px;

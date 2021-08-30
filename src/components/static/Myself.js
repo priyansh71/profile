@@ -28,8 +28,8 @@ const Myself = [
     ],
     [
         "Frontend development projects using static Html and React , utilizing common CSS frameworks.",
-        "Basic backend development using Express , Ejs and MongoDb.",
-        "Web scraping and vulnerability testing using popular Python libraries.",
+        "Basic backend development using Express, Ejs, MongoDB and Mongoose.",
+        "Web scraping and vulnerability testing using popular Python libraries."
     ],
     [
         "achieved an All India Rank of 3277 amongst 0.2 million eligible candidates in JEE Advanced 2020.",
