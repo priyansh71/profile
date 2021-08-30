@@ -12,6 +12,7 @@ import Projects from "./sections/Projects";
 import Learning from "./sections/Learning";
 import Achievments from "./sections/Achivements";
 import Certifications from "./sections/Certifications";
+import TechStack from "./sections/Techstack";
 
 ReactDOM.render(
   <div>
@@ -20,11 +21,11 @@ ReactDOM.render(
     <SidebarLg   />
     <Myself />
     <Learning />
+    <TechStack />
     <Projects />
     <Achievments />
     <Interests />
     <Certifications />
-    <div style={{padding: "90px", width : "100vw"}}></div>
   </div>,
   document.getElementById("root")
 );

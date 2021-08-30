@@ -40,7 +40,37 @@ const Myself = [
     [
         "Introduction to Web Development using MERN stack.",
         "Essential JavaScript Training."
-    ]
+    ],
+    [
+        [
+            "React" , "88%"
+        ],
+        [
+            "Vanilla JS" , "76%"
+        ],
+        [
+            "CSS and frameworks" , "83%"
+        ],
+        [
+            "Python" , "65%"
+        ],
+        [
+            "Git and GitHub" , "70%"
+        ],
+        [
+            "Express.js" , "74%"
+        ],
+        [
+            "MongoDB" , "66%"
+        ],
+        [
+            "C" , "60%"
+        ],
+        [
+            "React Native" , "50%"
+        ],
+       
+    ]   
 ]
 
 export default Myself;

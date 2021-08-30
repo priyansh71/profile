@@ -11,11 +11,13 @@ import EmailOutlinedIcon from "@material-ui/icons/EmailOutlined";
 import Tooltip from "@material-ui/core/Tooltip";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
+import StarBorderIcon from '@material-ui/icons/StarBorder';
 import { Link } from "react-scroll";
 
 const SidebarSm = () => {
   return (
     <div class="sidebarSm animate__rotateInDownLeft animate__animated">
+
       <Tooltip arrow title="About me" className="tooltip">
         <span>
           <Link to="Myself" activeClass="active" spy={true} smooth={true}>
@@ -23,6 +25,7 @@ const SidebarSm = () => {
           </Link>
         </span>
       </Tooltip>
+
       <Tooltip arrow title="Learning">
         <span>
           <Link
@@ -32,6 +35,19 @@ const SidebarSm = () => {
             smooth={true}
           >
             <CodeIcon fontSize="large" />
+          </Link>
+        </span>
+      </Tooltip>
+
+      <Tooltip arrow title="TechStack">
+        <span>
+          <Link
+            to="TechStack"
+            activeClass="active-icon"
+            spy={true}
+            smooth={true}
+          >
+            <StarBorderIcon fontSize="large" />
           </Link>
         </span>
       </Tooltip>

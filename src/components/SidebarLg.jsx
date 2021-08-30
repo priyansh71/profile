@@ -16,8 +16,14 @@ const SidebarLg = () => {
       </div>
 
       <div>
-        <Link to="Learning" spy={true} smooth={true}>
+        <Link to="Learning" activeClass="active" spy={true} smooth={true}>
           Learning
+        </Link>
+      </div>
+
+      <div>
+        <Link to="TechStack" activeClass="active" spy={true} smooth={true}>
+          TechStack
         </Link>
       </div>
 
@@ -44,6 +50,8 @@ const SidebarLg = () => {
           Certifications
         </Link>
       </div>
+
+      
 
       <div>Find me at..</div>
       <center>

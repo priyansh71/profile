@@ -7,6 +7,7 @@ import FastForwardIcon from "@material-ui/icons/FastForward";
 import TermHeader from "./TermHeader";
 import Renderer from "./Renderer";
 import cryptohack from "./static/cryptohack.png";
+import Stack from "./Stack";
 
 const Terminal = (props) => {
   const [term, setTerm] = useState("none");
@@ -36,7 +37,7 @@ const Terminal = (props) => {
             startDelay={200}
             cursorColor="transparent"
             text={"╰─$ " + props.command + "▉"}
-            typeSpeed={150}
+            typeSpeed={130}
             textStyle={{
               color: "#f2f2f2",
               fontWeight: 100,
@@ -63,7 +64,8 @@ const Terminal = (props) => {
             {props.title}
             <br />
             <br />
-            {props.item1 ? (
+            { !props.techStack ?
+            props.item1 ? (
               <ul>
                 <li>{props.item1}</li>
                 <li>{props.item2}</li>
@@ -77,7 +79,9 @@ const Terminal = (props) => {
               </ul>
             ) : (
               <Renderer name1={props.name1} name2={props.name2} />
-            )}
+            )
+            : <Stack />}
+            
           </div>
         </section>
       </div>
