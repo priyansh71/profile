@@ -357,10 +357,19 @@
   justify-content: space-around;
 }
 
-
-
 .progress-bar {
   height: 7px;
   background-color: rgb(213, 213, 213);
   border-radius: 10px;
+}
+
+.footer{
+  font-size: 1.5em;
+  position: relative;
+  margin: 4em 3em;
+  color: #011820;
+  float: right;
+  width: 67vw;
+  font-family: "Fira Code";
+  letter-spacing: -1px;
 }
