@@ -14,7 +14,7 @@ const Certifications = () => {
       <Terminal
         command="cat Certs.md"
         filename="Certifications.md"
-        title={Myself[0].certifications}
+        title={Myself[0][6][0]}
         name1={Myself[6][0]}
         name2={Myself[6][1]}
       />

@@ -14,7 +14,7 @@ const Info = () => {
             <Terminal
              command="cat Myself.md"
             filename="Myself.md" 
-            title={Myself[0].about + " " + Myself[0].education} 
+            title={Myself[0][0][1]} 
             item1={Myself[1][0]}
             item2={Myself[1][1]}
             item3={Myself[1][2]}

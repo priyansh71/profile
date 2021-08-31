@@ -14,7 +14,7 @@ const Achievments = () => {
       <Terminal
         command="cat Achievments.md"
         filename="Achievments.md"
-        title={Myself[0].achievments}
+        title={Myself[0][4][1]}
         item1={Myself[5][0]}
         item2={Myself[5][1]}
         item3={Myself[5][2]}

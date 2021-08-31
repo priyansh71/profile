@@ -8,25 +8,27 @@ import CodeIcon from "@material-ui/icons/Code";
 import WbIncandescentIcon from "@material-ui/icons/WbIncandescent";
 import SpellcheckOutlinedIcon from "@material-ui/icons/SpellcheckOutlined";
 import EmailOutlinedIcon from "@material-ui/icons/EmailOutlined";
-import Tooltip from "@material-ui/core/Tooltip";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
-import StarBorderIcon from '@material-ui/icons/StarBorder';
+import StarBorderIcon from "@material-ui/icons/StarBorder";
 import { Link } from "react-scroll";
 
 const SidebarSm = () => {
   return (
     <div class="sidebarSm animate__rotateInDownLeft animate__animated">
-
-      <Tooltip arrow title="About me" className="tooltip">
+      <div class="container">
+        <div class="container__content">Myself</div>
+        <div class="container__arrow" />
         <span>
           <Link to="Myself" activeClass="active" spy={true} smooth={true}>
             <InfoIcon fontSize="large" />
           </Link>
         </span>
-      </Tooltip>
+      </div>
 
-      <Tooltip arrow title="Learning">
+      <div class="container">
+        <div class="container__content">Learning</div>
+        <div class="container__arrow" />
         <span>
           <Link
             to="Learning"
@@ -37,9 +39,11 @@ const SidebarSm = () => {
             <CodeIcon fontSize="large" />
           </Link>
         </span>
-      </Tooltip>
+      </div>
 
-      <Tooltip arrow title="TechStack">
+      <div class="container">
+        <div class="container__content">TechStack</div>
+        <div class="container__arrow" />
         <span>
           <Link
             to="TechStack"
@@ -50,9 +54,11 @@ const SidebarSm = () => {
             <StarBorderIcon fontSize="large" />
           </Link>
         </span>
-      </Tooltip>
+      </div>
 
-      <Tooltip arrow title="Projects">
+      <div class="container">
+        <div class="container__content">Projects</div>
+        <div class="container__arrow" />
         <span>
           <Link
             to="Projects"
@@ -63,9 +69,11 @@ const SidebarSm = () => {
             <AssignmentIcon fontSize="large" />
           </Link>
         </span>
-      </Tooltip>
+      </div>
 
-      <Tooltip arrow title="Achievments">
+      <div class="container">
+        <div class="container__content">Achievments</div>
+        <div class="container__arrow" />
         <span>
           <Link
             to="Achievments"
@@ -76,9 +84,11 @@ const SidebarSm = () => {
             <SpellcheckOutlinedIcon fontSize="large" />
           </Link>
         </span>
-      </Tooltip>
+      </div>
 
-      <Tooltip arrow title="Interests">
+      <div class="container">
+        <div class="container__content">Interests</div>
+        <div class="container__arrow" />
         <span>
           <Link
             to="Interests"
@@ -89,9 +99,11 @@ const SidebarSm = () => {
             <WbIncandescentIcon fontSize="large" />
           </Link>
         </span>
-      </Tooltip>
+      </div>
 
-      <Tooltip arrow title="Certifications">
+      <div class="container">
+        <div class="container__content">Certifications</div>
+        <div class="container__arrow" />
         <span>
           <Link
             to="Certifications"
@@ -102,21 +114,23 @@ const SidebarSm = () => {
             <VerifiedUserIcon fontSize="large" />
           </Link>
         </span>
-      </Tooltip>
+      </div>
 
-      <Tooltip arrow title="Contact">
+      <div class="container">
+        <div class="container__content">Contact</div>
+        <div class="container__arrow" />
         <span>
-          {/* <Link to="Achievments" spy={true} smooth={true}> */}
-            <EmailOutlinedIcon fontSize="large" />
-          {/* </Link> */}
+          <EmailOutlinedIcon fontSize="large" />
         </span>
-      </Tooltip>
+      </div>
 
-      <Tooltip arrow title="Copyright, Priyansh, 2021.">
+      <div class="container">
+        <div class="container__content">Copyright, Priyansh, 2021.</div>
+        <div class="container__arrow" />
         <span style={{ fontSize: "3em", color: "rgb(216, 216, 216)" }}>
           &copy;
         </span>
-      </Tooltip>
+      </div>
     </div>
   );
 };
