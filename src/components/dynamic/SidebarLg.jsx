@@ -13,7 +13,7 @@ const SidebarLg = () => {
         Myself[0].map((item , index) => {
           return(
             <div key={index}>
-          <Link to={item[0]} activeClass="active" spy={true} smooth={true}>
+          <Link to={item[0]} activeClass="active" offset={-100} spy={true} smooth={true}>
             {item[0]}
            </Link>
       </div>

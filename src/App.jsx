@@ -9,7 +9,6 @@ import Learning from "./sections/Learning";
 import Achievments from "./sections/Achivements";
 import Certifications from "./sections/Certifications";
 import TechStack from "./sections/Techstack";
-import Footer from "./sections/Footer";
 
 
 const App = () => {
@@ -25,7 +24,9 @@ const App = () => {
     <Achievments />
     <Interests />
     <Certifications />
-    <Footer />
+    <div style={{padding : "2em" , backgroundColor : "rgb(245, 245, 245)"}}>
+
+    </div>
   </div>
   );
 };

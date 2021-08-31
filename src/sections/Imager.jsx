@@ -15,8 +15,9 @@ const Imager = () => {
 
   const style = {
     color: "white",
-    margin: "0.5em",
-    fontSize: "1.9em",
+    marginTop: "0.7em",
+    marginRight: "1.1em",
+    fontSize: "2.2em",
   };
   return (
     <div>

@@ -61,7 +61,7 @@
   }
 
   .info {
-    height: 80vh;
+    height: 78vh;
     width: 100%;
     font-family: "Inconsolata";
     background-color: rgb(245, 245, 245);
@@ -142,15 +142,16 @@
   }
   .stacker .tech {
     font-size: 1em;
-    transform: translateY(5px);
+    transform: translateY(10px);
   }
 
   .progress {
     border-radius: 9px;
     background-color: transparent;
     width: 20vw;
-    border: 1px solid rgb(213, 213, 213);
+    border: 0.9px solid rgb(213, 213, 213);
     display: flex;
+    padding: 0;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
@@ -166,10 +167,6 @@
     float: right;
     top: 15vh;
     right: 1vw;
-  }
-
-  .navicons {
-    display: none;
   }
 }
 
@@ -276,20 +273,6 @@
     color: #011820;
     float: right;
     letter-spacing: -1px;
-  }
-
-  .footer {
-    display: none;
-  }
-
-  .navicons {
-    position: absolute;
-    top: 1vh;
-    right: 1vw;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: row;
   }
 }
 
@@ -406,20 +389,16 @@
     top: 12vh;
     right: 0vw;
   }
+}
 
-  .footer {
-    display: none;
-  }
-
-  .navicons {
-    position: absolute;
-    top: 1vh;
-    right: 1vw;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: row;
-  }
+.navicons {
+  position: absolute;
+  top: 1vh;
+  right: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
 }
 
 .typer {
@@ -527,8 +506,8 @@
 }
 
 .stacker article {
-  transform: translate(0, -40px);
-  margin: 9px -1px;
+  transform: translate(0, -50px);
+  margin: 8px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -539,14 +518,6 @@
   height: 7px;
   background-color: rgb(213, 213, 213);
   border-radius: 10px;
-}
-
-.footer {
-  height: 38vh;
-  width: 100%;
-  font-family: "Inconsolata";
-  background-color: rgb(245, 245, 245);
-  overflow-x: hidden;
 }
 
 .container {

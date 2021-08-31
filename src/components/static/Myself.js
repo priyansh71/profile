@@ -65,14 +65,14 @@ const Myself = [
   ],
   [
     ["React", "88%"],
-    ["Vanilla JS", "76%"],
     ["CSS and frameworks", "83%"],
-    ["Python", "65%"],
-    ["Git and GitHub", "70%"],
+    ["Vanilla JS", "76%"],
     ["Express.js", "74%"],
+    ["Git and GitHub", "70%"],
     ["MongoDB", "66%"],
+    ["Python", "65%"],
     ["C", "60%"],
-    ["React Native", "50%"],
+    ["React Native", "50%"]
   ],
 ];
 
