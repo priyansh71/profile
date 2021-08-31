@@ -1,10 +1,9 @@
 /** @format */
 
 import React from "react";
-import "../App.css";
 import "animate.css";
-import Terminal from "../components/Terminal";
-import Heading from "../components/Heading";
+import Terminal from "../components/dynamic/Terminal";
+import Heading from "../components/dynamic/Heading";
 import Myself from "../components/static/Myself";
 
 const Certifications = () => {

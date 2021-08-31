@@ -48,7 +48,7 @@
   background: #E75448;
 }
 
-@media only screen and (min-width : 1100px) {
+@media only screen and (min-width : 1000px) {
   .name {
     font-family: "Inconsolata";
     font-size: 43px;
@@ -95,7 +95,7 @@
     width: 55vw;
     font-stretch: extra-expanded;
     overflow: auto;
-    height: 53vh;
+    height: 50vh;
     border-radius: 0 0 25px 25px;
   }
 
@@ -103,7 +103,7 @@
     border-radius: .625rem;
     position: relative;
     top: 17vh;
-    right: -10vw;
+    right: -14vw;
     float: right;
   }
   
@@ -157,10 +157,24 @@
     margin-top: 10px;
   }
   
+  .icons{
+    height: fit-content;
+    width: fit-content;
+    margin: 1em;
+    display: flex;
+    position: relative;
+    float: right;
+    top: 15vh;
+    right: 1vw;
+  }
+
+  .navicons{
+    display: none;
+  }
   
 }
 
-@media only screen and (min-width: 600px) and (max-width : 1100px) {
+@media only screen and (min-width: 600px) and (max-width : 1000px) {
 .name {
   font-family: "Inconsolata";
   font-size: 43px;
@@ -265,6 +279,20 @@
   letter-spacing: -1px;
 }
 
+.footer{
+  display: none;
+}
+
+.navicons {
+  position: absolute;
+  top: 1vh;
+  right: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
 }
 
 @media screen and (max-width : 600px) {
@@ -281,7 +309,7 @@
 }
 
 .info {
-  height : 78vh; 
+  height : 70vh; 
   width : 100%;
   font-family: "Inconsolata";
   background-color: rgb(245, 245, 245);
@@ -353,7 +381,7 @@
 }
 
 .heading{
-  font-size: 2.5em;
+  font-size: 2em;
   margin: 30px 20px 0px 20px;
   color: #011820;
   letter-spacing: -1px;
@@ -372,7 +400,30 @@
   justify-content: flex-start;
   margin-top: 12px;
 }
-    
+.icons{
+  height: fit-content;
+  width: fit-content;
+  margin: 1em;
+  display: flex;
+  position: relative;
+  float: right;
+  top: 12vh;
+  right: 0vw;
+}
+
+.footer{
+  display: none;
+}
+
+.navicons {
+  position: absolute;
+  top: 1vh;
+  right: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
 }
 
 
@@ -414,7 +465,7 @@
 
 .sidebarLg div{
    display: block;
-   padding: 0.88em;
+   padding: 0.85em 0.6em;
    color: rgb(182, 182, 182);
    font-family: "Fira Code";
    letter-spacing: 0.3px;
@@ -496,14 +547,11 @@
 }
 
 .footer{
-  font-size: 1.5em;
-  position: relative;
-  margin: 4em 3em;
-  color: #011820;
-  float: right;
-  width: 67vw;
-  font-family: "Fira Code";
-  letter-spacing: -1px;
+  height : 38vh; 
+  width : 100%;
+  font-family: "Inconsolata";
+  background-color: rgb(245, 245, 245);
+  overflow-x: hidden;
 }
 
 .container {
@@ -520,9 +568,9 @@
   opacity: 0;
   pointer-events: none;
   border: 8px solid transparent;
-  border-top-color: #dfdfdf;
+  border-top-color: #f0f0f0;
   bottom: 80%;
-  left: 63%;
+  left: 80%;
   position: absolute;
   transform: translate(-50%, 8px);
   height: 0;
@@ -533,13 +581,16 @@
 .container__content {
   font-family: "Inconsolata";
   opacity: 0;
+  text-decoration: none;
   pointer-events: none;
-  background-color: #dfdfdf;
+  background-color: #f0f0f0;
   border-radius: 2px;
   bottom: 100%;
-  left: 90%;
+  color: #0E1117;
+  left: 100%;
   position: absolute;
   transform: translate(-50%, 8px);
   padding: 10px;
   z-index: 10;
 }
+
