@@ -1,12 +1,13 @@
+/** @format */
+
 * {
   margin: 0px;
 }
 
-.heighter{
-  height : 100vh; 
-  width : 78%;
+.heighter {
+  height: 100vh;
+  width: 78%;
 }
-
 
 .avatar {
   position: absolute;
@@ -17,8 +18,7 @@
   border: 0.9px solid white;
 }
 
-
-.info a{
+.info a {
   text-decoration: beige;
   color: rgb(225, 224, 224);
 }
@@ -36,7 +36,7 @@
 }
 
 .green {
-  background: #3BB662;
+  background: #3bb662;
 }
 
 .yellow {
@@ -45,10 +45,10 @@
 
 .red {
   margin-left: 1.2rem;
-  background: #E75448;
+  background: #e75448;
 }
 
-@media only screen and (min-width : 1000px) {
+@media only screen and (min-width: 1000px) {
   .name {
     font-family: "Inconsolata";
     font-size: 43px;
@@ -61,13 +61,13 @@
   }
 
   .info {
-    height : 80vh; 
-    width : 100%;
+    height: 80vh;
+    width: 100%;
     font-family: "Inconsolata";
     background-color: rgb(245, 245, 245);
   }
 
-  .heading{
+  .heading {
     font-size: 2.5em;
     margin: 1em 1.5em 0em 0em;
     color: #011820;
@@ -82,7 +82,7 @@
     height: 29vh;
     border-radius: 100%;
     border: 0.9px solid white;
-    }
+  }
 
   .terminal-window section.terminal {
     color: white;
@@ -100,13 +100,13 @@
   }
 
   .terminal-window {
-    border-radius: .625rem;
+    border-radius: 0.625rem;
     position: relative;
     top: 17vh;
     right: -14vw;
     float: right;
   }
-  
+
   .terminal-window header {
     background: hsl(211, 47%, 91%);
     height: 30px;
@@ -117,7 +117,7 @@
     padding: 6.5px 2px;
     flex-direction: row;
   }
-  .filename{
+  .filename {
     color: black;
     font: "Ubuntu Mono";
     font-weight: bold;
@@ -125,39 +125,39 @@
     transform: translateX(19vw);
     letter-spacing: 0.2px;
   }
-  .sidebarLg{
+  .sidebarLg {
     display: flex;
     flex-direction: column;
-    position :fixed;
+    position: fixed;
     width: 23vw;
     height: 100vh;
-    top:0;
+    top: 0;
     left: 0;
-    background: #0E1117;
+    background: #0e1117;
     padding-top: 40px;
     padding-right: 10px;
   }
-  .sidebarSm{
-  display: none;
+  .sidebarSm {
+    display: none;
   }
-  .stacker .tech{
+  .stacker .tech {
     font-size: 1em;
     transform: translateY(5px);
   }
 
   .progress {
     border-radius: 9px;
-    background-color:transparent;
+    background-color: transparent;
     width: 20vw;
-    border: 1px solid rgb(213, 213, 213) ;
+    border: 1px solid rgb(213, 213, 213);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     margin-top: 10px;
   }
-  
-  .icons{
+
+  .icons {
     height: fit-content;
     width: fit-content;
     margin: 1em;
@@ -168,272 +168,267 @@
     right: 1vw;
   }
 
-  .navicons{
+  .navicons {
     display: none;
   }
-  
 }
 
-@media only screen and (min-width: 600px) and (max-width : 1000px) {
-.name {
-  font-family: "Inconsolata";
-  font-size: 43px;
-  color: white;
-  position: absolute;
-  bottom: 28%;
-  right: 10vw;
-  font-weight: lighter;
-  font-stretch: expanded;
-}
-
-.info {
-  height : 80vh; 
-  width : 100%;
-  font-family: "Inconsolata";
-  background-color: rgb(245, 245, 245);
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .name {
+    font-family: "Inconsolata";
+    font-size: 43px;
+    color: white;
+    position: absolute;
+    bottom: 28%;
+    right: 10vw;
+    font-weight: lighter;
+    font-stretch: expanded;
   }
 
-.avatar {
-  position: absolute;
-  top: 30%;
-  right: 18vw;
-  height: 20vh;
-  border-radius: 100%;
-  border: 0.9px solid white;
+  .info {
+    height: 80vh;
+    width: 100%;
+    font-family: "Inconsolata";
+    background-color: rgb(245, 245, 245);
   }
 
-.terminal-window section.terminal {
-  color: white;
-  font-family: "Fira Code", monospace;
-  font-size: 2.8vw;
-  background: #011820;
-  padding: 1em;
-  box-sizing: border-box;
-  position: relative;
-  width: 75vw;
-  overflow: auto;
-  height: 50vh;
-  border-radius: 0 0 25px 25px;
-}
+  .avatar {
+    position: absolute;
+    top: 30%;
+    right: 18vw;
+    height: 20vh;
+    border-radius: 100%;
+    border: 0.9px solid white;
+  }
 
-.terminal-window {
-  border-radius: .625rem;
-  position: relative;
-  top: 5vh;
-  right: 3.5vw;
-  float: right;
-}
-  
-.terminal-window header {
-  background: hsl(211, 47%, 91%);
-  height: 30px;
-  border-radius: 1rem 1rem 0 0;
-  width: 74.5vw;
-  display: flex;
-  align-items: center;
-  padding: 6.5px 2px;
-  flex-direction: row;
+  .terminal-window section.terminal {
+    color: white;
+    font-family: "Fira Code", monospace;
+    font-size: 2.8vw;
+    background: #011820;
+    padding: 1em;
+    box-sizing: border-box;
+    position: relative;
+    width: 75vw;
+    overflow: auto;
+    height: 50vh;
+    border-radius: 0 0 25px 25px;
   }
-.filename{
-  color: black;
-  font: "Ubuntu Mono";
-  font-weight: bold;
-  font-size: 1.1em;
-  transform: translateX(16vw);
-  letter-spacing: 0.2px;
+
+  .terminal-window {
+    border-radius: 0.625rem;
+    position: relative;
+    top: 5vh;
+    right: 3.5vw;
+    float: right;
   }
-  .sidebarLg{
+
+  .terminal-window header {
+    background: hsl(211, 47%, 91%);
+    height: 30px;
+    border-radius: 1rem 1rem 0 0;
+    width: 74.5vw;
+    display: flex;
+    align-items: center;
+    padding: 6.5px 2px;
+    flex-direction: row;
+  }
+  .filename {
+    color: black;
+    font: "Ubuntu Mono";
+    font-weight: bold;
+    font-size: 1.1em;
+    transform: translateX(16vw);
+    letter-spacing: 0.2px;
+  }
+  .sidebarLg {
     display: none;
- }
- .sidebarSm{
-  display: flex;
-  flex-direction: column;
-  position :fixed;
-  width: 10vw;
-  height: 100vh;
-  top:0;
-  left: 0;
-  background: #0E1117;
-  padding-top: 40px;
-}
-.stacker .tech{
-  font-size: 0.95em;
-  transform: translate(-6px,5px);
-}
-.progress {
-  border-radius: 9px;
-  background-color:transparent;
-  width: 26vw;
-  border: 1px solid rgb(213, 213, 213) ;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 12px;
-}
-.heading{
-  font-size: 2.5em;
-  margin: 1em 1.5em 0em 0em;
-  color: #011820;
-  float: right;
-  letter-spacing: -1px;
-}
-
-.footer{
-  display: none;
-}
-
-.navicons {
-  position: absolute;
-  top: 1vh;
-  right: 1vw;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: row;
-}
-
-}
-
-@media screen and (max-width : 600px) {
-
-.name {
-  font-family: "Inconsolata";
-  font-size: 29px;
-  color: white;
-  position: absolute;
-  bottom: 28%;
-  right: 10vw;
-  font-weight: bold;
-  font-stretch: expanded;
-}
-
-.info {
-  height : 70vh; 
-  width : 100%;
-  font-family: "Inconsolata";
-  background-color: rgb(245, 245, 245);
-}
-
-.avatar {
-  position: absolute;
-  top: 30%;
-  right: 18vw;
-  height: 14vh;
-  border-radius: 100%;
-  border: 0.9px solid white;
-}
-  
-.terminal-window section.terminal {
-  color: white;
-  font-family: "Fira Code", monospace;
-  font-size: 3.3vw;
-  background: #011820;
-  margin: auto;
-  padding: 1em;
-  box-sizing: border-box;
-  position: relative;
-  width: 91vw;
-  overflow: auto;
-  height: 45vh;
-  border-radius: 0 0 25px 25px;
-}
-
-.terminal-window {
-  border-radius: .625rem;
-  position: relative;
-  top: 5vh;
-  right: 5vw;
-  float: right;
-  margin: auto;
-}
-    
-.terminal-window header {
-  background: hsl(211, 47%, 91%);
-  height: 30px;
-  border-radius: 1rem 1rem 0 0;
-  width: 90vw;
-  display: flex;
-  align-items: center;
-  padding: 6.5px 2px;
-  flex-direction: row;
-}
-
-.filename{
-  color: black;
-  font: "Ubuntu Mono";
-  font-weight: bold;
-  font-size: 1.1em;
-  transform: translateX(16vw);
-  letter-spacing: 0.2px;
   }
-
-.sidebarLg{
-  display: none;
-}
-.sidebarSm{
-  display: none;
-}
-
-.stacker .tech{
+  .sidebarSm {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 10vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #0e1117;
+    padding-top: 40px;
+  }
+  .stacker .tech {
     font-size: 0.95em;
-    transform: translate(-6px,5px);
+    transform: translate(-6px, 5px);
+  }
+  .progress {
+    border-radius: 9px;
+    background-color: transparent;
+    width: 26vw;
+    border: 1px solid rgb(213, 213, 213);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 12px;
+  }
+  .heading {
+    font-size: 2.5em;
+    margin: 1em 1.5em 0em 0em;
+    color: #011820;
+    float: right;
+    letter-spacing: -1px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .navicons {
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
 }
 
-.heading{
-  font-size: 2em;
-  margin: 30px 20px 0px 20px;
-  color: #011820;
-  letter-spacing: -1px;
-  float: right;
+@media screen and (max-width: 600px) {
+  .name {
+    font-family: "Inconsolata";
+    font-size: 29px;
+    color: white;
+    position: absolute;
+    bottom: 28%;
+    right: 10vw;
+    font-weight: bold;
+    font-stretch: expanded;
+  }
 
+  .info {
+    height: 70vh;
+    width: 100%;
+    font-family: "Inconsolata";
+    background-color: rgb(245, 245, 245);
+  }
+
+  .avatar {
+    position: absolute;
+    top: 30%;
+    right: 18vw;
+    height: 14vh;
+    border-radius: 100%;
+    border: 0.9px solid white;
+  }
+
+  .terminal-window section.terminal {
+    color: white;
+    font-family: "Fira Code", monospace;
+    font-size: 3.3vw;
+    background: #011820;
+    margin: auto;
+    padding: 1em;
+    box-sizing: border-box;
+    position: relative;
+    width: 91vw;
+    overflow: auto;
+    height: 45vh;
+    border-radius: 0 0 25px 25px;
+  }
+
+  .terminal-window {
+    border-radius: 0.625rem;
+    position: relative;
+    top: 5vh;
+    right: 5vw;
+    float: right;
+    margin: auto;
+  }
+
+  .terminal-window header {
+    background: hsl(211, 47%, 91%);
+    height: 30px;
+    border-radius: 1rem 1rem 0 0;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    padding: 6.5px 2px;
+    flex-direction: row;
+  }
+
+  .filename {
+    color: black;
+    font: "Ubuntu Mono";
+    font-weight: bold;
+    font-size: 1.1em;
+    transform: translateX(16vw);
+    letter-spacing: 0.2px;
+  }
+
+  .sidebarLg {
+    display: none;
+  }
+  .sidebarSm {
+    display: none;
+  }
+
+  .stacker .tech {
+    font-size: 0.95em;
+    transform: translate(-6px, 5px);
+  }
+
+  .heading {
+    font-size: 2em;
+    margin: 30px 20px 0px 20px;
+    color: #011820;
+    letter-spacing: -1px;
+    float: right;
+  }
+
+  .progress {
+    border-radius: 9px;
+    background-color: transparent;
+    width: 26vw;
+    border: 1px solid rgb(213, 213, 213);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 12px;
+  }
+  .icons {
+    height: fit-content;
+    width: fit-content;
+    margin: 1em;
+    display: flex;
+    position: relative;
+    float: right;
+    top: 12vh;
+    right: 0vw;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .navicons {
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
 }
 
-.progress {
-  border-radius: 9px;
-  background-color:transparent;
-  width: 26vw;
-  border: 1px solid rgb(213, 213, 213) ;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 12px;
-}
-.icons{
-  height: fit-content;
-  width: fit-content;
-  margin: 1em;
-  display: flex;
-  position: relative;
-  float: right;
-  top: 12vh;
-  right: 0vw;
-}
-
-.footer{
-  display: none;
-}
-
-.navicons {
-  position: absolute;
-  top: 1vh;
-  right: 1vw;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: row;
-}
-}
-
-
-.typer{
+.typer {
   color: aquamarine;
   height: 20px;
   padding-top: 10px;
 }
 
-.history{
+.history {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -443,7 +438,7 @@
   left: 0%;
 }
 
-.run{
+.run {
   position: relative;
   float: right;
   background: #011820;
@@ -452,7 +447,7 @@
   margin-right: 30px;
 }
 
-.sidebarLg h1{
+.sidebarLg h1 {
   display: block;
   color: white;
   font-family: "Fira Code";
@@ -463,30 +458,30 @@
   margin-bottom: 2em;
 }
 
-.sidebarLg div{
-   display: block;
-   padding: 0.85em 0.6em;
-   color: rgb(182, 182, 182);
-   font-family: "Fira Code";
-   letter-spacing: 0.3px;
-   font-size: 1.24em;
-   text-align: right;
-   font-weight: 100;
-   margin-right: 3%;
+.sidebarLg div {
+  display: block;
+  padding: 0.85em 0.6em;
+  color: rgb(182, 182, 182);
+  font-family: "Fira Code";
+  letter-spacing: 0.3px;
+  font-size: 1.24em;
+  text-align: right;
+  font-weight: 100;
+  margin-right: 3%;
 }
 
-.active{
+.active {
   color: white;
   font-weight: 900;
   transition: 50ms linear;
 }
 
 .sidebarLg div:hover {
-   color: #fff;
-   cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
-.sidebarLg p{
+.sidebarLg p {
   color: rgb(216, 216, 216);
   font-size: 1.23em;
   margin-top: 1.3em;
@@ -495,7 +490,7 @@
   align-self: center;
 }
 
-.sidebarSm span{
+.sidebarSm span {
   color: rgb(152, 152, 152);
   text-align: center;
   display: flex;
@@ -506,7 +501,7 @@
   transition: 0.5s linear;
 }
 
-.active-icon{
+.active-icon {
   color: white;
 }
 
@@ -518,21 +513,21 @@
   justify-content: center;
   margin-top: 2vh;
   cursor: pointer;
-  transition: 0.5s linear; 
+  transition: 0.5s linear;
 }
 
-.sidebarLg article:hover{
+.sidebarLg article:hover {
   color: white;
   transition: 0.2s;
 }
 
-.sidebarLg hr{
+.sidebarLg hr {
   margin-top: 2vh;
   width: 76%;
 }
 
 .stacker article {
-  transform: translate(0,-40px);
+  transform: translate(0, -40px);
   margin: 9px -1px;
   display: flex;
   flex-direction: row;
@@ -546,9 +541,9 @@
   border-radius: 10px;
 }
 
-.footer{
-  height : 38vh; 
-  width : 100%;
+.footer {
+  height: 38vh;
+  width: 100%;
   font-family: "Inconsolata";
   background-color: rgb(245, 245, 245);
   overflow-x: hidden;
@@ -586,11 +581,10 @@
   background-color: #f0f0f0;
   border-radius: 2px;
   bottom: 100%;
-  color: #0E1117;
+  color: #0e1117;
   left: 100%;
   position: absolute;
   transform: translate(-50%, 8px);
   padding: 10px;
   z-index: 10;
 }
-
