@@ -2,11 +2,10 @@
 
 import React, { useState, useEffect } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
-import "../App.css";
 import FastForwardIcon from "@material-ui/icons/FastForward";
 import TermHeader from "./TermHeader";
 import Renderer from "./Renderer";
-import cryptohack from "./static/cryptohack.png";
+import cryptohack from "../static/cryptohack.png";
 import Stack from "./Stack";
 
 const Terminal = (props) => {

@@ -1,13 +1,11 @@
 /** @format */
 
 import React from "react";
-import "../App.css";
 import "animate.css";
 import InfoIcon from "@material-ui/icons/Info";
 import CodeIcon from "@material-ui/icons/Code";
 import WbIncandescentIcon from "@material-ui/icons/WbIncandescent";
 import SpellcheckOutlinedIcon from "@material-ui/icons/SpellcheckOutlined";
-import EmailOutlinedIcon from "@material-ui/icons/EmailOutlined";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
@@ -15,10 +13,10 @@ import { Link } from "react-scroll";
 
 const SidebarSm = () => {
   return (
-    <div class="sidebarSm animate__rotateInDownLeft animate__animated">
-      <div class="container">
-        <div class="container__content">Myself</div>
-        <div class="container__arrow" />
+    <div className="sidebarSm animate__rotateInDownLeft animate__animated">
+      <div className="container">
+        <div className="container__content">Myself</div>
+        <div className="container__arrow" />
         <span>
           <Link to="Myself" activeClass="active" spy={true} smooth={true}>
             <InfoIcon fontSize="large" />
@@ -26,9 +24,9 @@ const SidebarSm = () => {
         </span>
       </div>
 
-      <div class="container">
-        <div class="container__content">Learning</div>
-        <div class="container__arrow" />
+      <div className="container">
+        <div className="container__content">Learning</div>
+        <div className="container__arrow" />
         <span>
           <Link
             to="Learning"
@@ -41,9 +39,9 @@ const SidebarSm = () => {
         </span>
       </div>
 
-      <div class="container">
-        <div class="container__content">TechStack</div>
-        <div class="container__arrow" />
+      <div className="container">
+        <div className="container__content">TechStack</div>
+        <div className="container__arrow" />
         <span>
           <Link
             to="TechStack"
@@ -56,9 +54,9 @@ const SidebarSm = () => {
         </span>
       </div>
 
-      <div class="container">
-        <div class="container__content">Projects</div>
-        <div class="container__arrow" />
+      <div className="container">
+        <div className="container__content">Projects</div>
+        <div className="container__arrow" />
         <span>
           <Link
             to="Projects"
@@ -71,9 +69,9 @@ const SidebarSm = () => {
         </span>
       </div>
 
-      <div class="container">
-        <div class="container__content">Achievments</div>
-        <div class="container__arrow" />
+      <div className="container">
+        <div className="container__content">Achievments</div>
+        <div className="container__arrow" />
         <span>
           <Link
             to="Achievments"
@@ -86,9 +84,9 @@ const SidebarSm = () => {
         </span>
       </div>
 
-      <div class="container">
-        <div class="container__content">Interests</div>
-        <div class="container__arrow" />
+      <div className="container">
+        <div className="container__content">Interests</div>
+        <div className="container__arrow" />
         <span>
           <Link
             to="Interests"
@@ -101,9 +99,9 @@ const SidebarSm = () => {
         </span>
       </div>
 
-      <div class="container">
-        <div class="container__content">Certifications</div>
-        <div class="container__arrow" />
+      <div className="container">
+        <div className="container__content">Certifications</div>
+        <div className="container__arrow" />
         <span>
           <Link
             to="Certifications"
@@ -116,17 +114,9 @@ const SidebarSm = () => {
         </span>
       </div>
 
-      <div class="container">
-        <div class="container__content">Contact</div>
-        <div class="container__arrow" />
-        <span>
-          <EmailOutlinedIcon fontSize="large" />
-        </span>
-      </div>
-
-      <div class="container">
-        <div class="container__content">Copyright, Priyansh, 2021.</div>
-        <div class="container__arrow" />
+      <div className="container">
+        <div className="container__content">Copyright, Priyansh, 2021.</div>
+        <div className="container__arrow" />
         <span style={{ fontSize: "3em", color: "rgb(216, 216, 216)" }}>
           &copy;
         </span>

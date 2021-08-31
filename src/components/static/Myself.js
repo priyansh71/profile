@@ -29,7 +29,7 @@ const Myself = [
     [
       "Certifications", 
       "I have been certified in :-"
-    ],
+    ]
   ],
   [
     "BITS Pilani Goa Campus [2020-24], ongoing",

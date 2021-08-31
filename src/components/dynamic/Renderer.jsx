@@ -1,6 +1,6 @@
 import React from 'react';
-import jS from "./static/jS.pdf"
-import webD from "./static/webD.pdf"
+import jS from "../static/jS.pdf"
+import webD from "../static/webD.pdf"
 
 
 const Renderer = (props) => {

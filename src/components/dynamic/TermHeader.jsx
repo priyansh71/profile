@@ -1,7 +1,6 @@
 /** @format */
 
 import React from "react";
-import "../App.css"
 
 const TermHeader = (props) => {
 
