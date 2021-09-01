@@ -15,7 +15,7 @@ const SidebarSm = () => {
   return (
     <div className="sidebarSm animate__rotateInDownLeft animate__animated">
       <div className="container">
-        <div className="container__content">Myself</div>
+        <div className="container__content">About Me</div>
         <div className="container__arrow" />
         <span>
           <Link to="Myself" activeClass="active" spy={true} smooth={true}>

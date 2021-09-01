@@ -9,15 +9,6 @@
   width: 78%;
 }
 
-.avatar {
-  position: absolute;
-  top: 27%;
-  right: 12vw;
-  height: 29vh;
-  border-radius: 100%;
-  border: 0.9px solid white;
-}
-
 .info a {
   text-decoration: beige;
   color: rgb(225, 224, 224);
@@ -79,15 +70,15 @@
     position: absolute;
     top: 27%;
     right: 12vw;
-    height: 29vh;
+    height: 24vh;
     border-radius: 100%;
-    border: 0.9px solid white;
+    border: 1.5px solid white;
   }
 
   .terminal-window section.terminal {
     color: white;
     font-family: "Fira Code", monospace;
-    font-size: 1.3vw;
+    font-size: 1.37vw;
     background: #011820;
     padding: 1.3em;
     box-sizing: border-box;
@@ -170,10 +161,10 @@
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1000px) {
+@media only screen and (min-width: 650px) and (max-width: 1000px) {
   .name {
-    font-family: "Inconsolata";
-    font-size: 43px;
+    font-family: "Ubuntu Mono";
+    font-size: 40px;
     color: white;
     position: absolute;
     bottom: 28%;
@@ -192,16 +183,16 @@
   .avatar {
     position: absolute;
     top: 30%;
-    right: 18vw;
-    height: 20vh;
+    right: 10vw;
+    height: 23vh;
     border-radius: 100%;
-    border: 0.9px solid white;
+    border: 1.5px solid white;
   }
 
   .terminal-window section.terminal {
     color: white;
     font-family: "Fira Code", monospace;
-    font-size: 2.8vw;
+    font-size: 2.2vw;
     background: #011820;
     padding: 1em;
     box-sizing: border-box;
@@ -250,7 +241,7 @@
     top: 0;
     left: 0;
     background: #0e1117;
-    padding-top: 40px;
+    padding-top: 4.5em;
   }
   .stacker .tech {
     font-size: 0.95em;
@@ -276,16 +267,16 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .name {
-    font-family: "Inconsolata";
+    font-family: "Ubuntu Mono";
     font-size: 29px;
     color: white;
     position: absolute;
     bottom: 28%;
-    right: 10vw;
-    font-weight: bold;
-    font-stretch: expanded;
+    right: 7vw;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
   }
 
   .info {
@@ -297,9 +288,9 @@
 
   .avatar {
     position: absolute;
-    top: 30%;
+    top: 38%;
     right: 18vw;
-    height: 14vh;
+    height: 18vh;
     border-radius: 100%;
     border: 0.9px solid white;
   }
@@ -507,7 +498,7 @@
 }
 
 .stacker article {
-  transform: translate(0, -50px);
+  transform: translate(0, -60px);
   margin: 8px;
   display: flex;
   flex-direction: row;

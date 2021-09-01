@@ -1,10 +1,8 @@
-/** @format */
-
 const Myself = [
   [
     [
-      "Myself",
-      "Hola, I am Priyansh Vyas from Bikaner, Rajasthan, currently a IInd year student pursuing my Engineering degree in Computer Science. I  have pursued my education from the following institutions :-",
+      "About Me",
+      "Hola, I am Priyansh Vyas from Bikaner, Rajasthan, currently a IInd year student pursuing my Engineering degree in Computer Science. I have pursued my education from the following institutions :-",
     ],
     [
       "Learning",
@@ -46,7 +44,7 @@ const Myself = [
     "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
     "Watching Football and Formula 1 the most whenever I am able to.",
     "Listening to the rock band Linkin Park. I am a huge fan.",
-    "I love terminals. Huge fan of CLI over GUI here.",
+    "I love terminals. :)",
   ],
   [
     "Frontend development projects using static Html and React , utilizing common CSS frameworks.",

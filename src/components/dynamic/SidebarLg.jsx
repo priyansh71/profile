@@ -41,7 +41,7 @@ const SidebarLg = () => {
       >
         &copy;
       </article>
-      <p>Priyansh Vyas, 2021.</p>
+      <p>Coded by Priyansh.</p>
     </div>
   );
 };

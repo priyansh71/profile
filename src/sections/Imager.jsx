@@ -33,7 +33,7 @@ const Imager = () => {
       </Parallax>
       <div className="navicons">
         <a
-          href="https://github.com/priyansh71"
+          href="https://github.com/priyansh71/profile"
           target="_blank"
           rel="noreferrer"
         >
