@@ -61,7 +61,7 @@ const Myself = [
   ],
   [
     "Introduction to Web Development using MERN stack.",
-    "Essential JavaScript Training.",
+    "JavaScript Essential Training.",
   ],
   [
     ["React", "88%"],

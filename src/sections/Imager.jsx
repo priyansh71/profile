@@ -22,7 +22,7 @@ const Imager = () => {
   return (
     <div>
       <Parallax blur={0} bgImage={url} bgImageAlt="the tech" strength={200}>
-        <div className="heighter">
+        <div className="heighter" id="image">
           <img
             className="avatar animate__zoomIn animate__animated animate__slow"
             alt="Priyansh"

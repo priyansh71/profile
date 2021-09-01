@@ -8,19 +8,26 @@ import Myself from "../static/Myself";
 const SidebarLg = () => {
   return (
     <div className="sidebarLg animate__rotateInDownLeft animate__animated animate__slow">
-      <h1>╰─$ ls Profile</h1>
-      {
-        Myself[0].map((item , index) => {
-          return(
-            <div key={index}>
-          <Link to={item[0]} activeClass="active" offset={-100} spy={true} smooth={true}>
-            {item[0]}
-           </Link>
-      </div>
-
-          )
-        })
-      }
+      <h1>
+        <Link to="image" spy={true} smooth={true}>
+          ╰─$ ls Profile
+        </Link>
+      </h1>
+      {Myself[0].map((item, index) => {
+        return (
+          <div key={index}>
+            <Link
+              to={item[0]}
+              activeClass="active"
+              offset={-100}
+              spy={true}
+              smooth={true}
+            >
+              {item[0]}
+            </Link>
+          </div>
+        );
+      })}
       <center>
         <hr className="white" />
       </center>

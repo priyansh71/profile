@@ -430,11 +430,12 @@
   display: block;
   color: white;
   font-family: "Fira Code";
-  letter-spacing: 2px;
+  letter-spacing: 1.8px;
   font-weight: 400;
   font-size: 23px;
   text-align: center;
   margin-bottom: 2em;
+  cursor: pointer;
 }
 
 .sidebarLg div {
