@@ -6,7 +6,7 @@ const Myself = [
     ],
     [
       "Learning",
-      "I am currently working on adding the following technologies to my techStack :-",
+      "I am currently working on learning :-",
     ],
     [
       "TechStack", 
@@ -35,10 +35,10 @@ const Myself = [
     "Bikaner Boys' School [2008-18]",
   ],
   [
-    "Backend Web Development using Node.js.",
     "App Development using React Native.",
-    "Modern Cryptography using Python.",
+    "Modern Cryptography.",
     "Object Oriented Programming using Java.",
+    "Frontend frameworks and libraries like Vue, Next.js."
   ],
   [
     "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
@@ -47,9 +47,9 @@ const Myself = [
     "I love terminals. :)",
   ],
   [
-    "Frontend development projects using static Html and React , utilizing common CSS frameworks.",
-    "Basic backend development using Express, Ejs, MongoDB and Mongoose.",
-    "Web scraping and vulnerability testing using popular Python libraries.",
+    "Frontend development projects using Html and React , utilizing component and styling frameworks like Bootstrap, TailwindCss, ChakraUI, MaterialUI and BulmaCss.",
+    "Basic backend web development using Express, Ejs, MongoDB and Mongoose.",
+    "Web scraping and vulnerability testing using popular Python libraries like BeautifulSoup, Selenium and Requests.",
   ],
   [
     "achieved an All India Rank of 3277 amongst 0.2 million eligible candidates in JEE Advanced 2020.",
@@ -65,10 +65,9 @@ const Myself = [
     ["React", "88%"],
     ["CSS and frameworks", "83%"],
     ["Vanilla JS", "76%"],
-    ["Express.js", "74%"],
-    ["Git and GitHub", "70%"],
-    ["MongoDB", "66%"],
-    ["Python", "65%"],
+    ["Express.js", "70%"],
+    ["Git and GitHub", "68%"],
+    ["Python", "67%"],
     ["C", "60%"],
     ["React Native", "50%"]
   ],

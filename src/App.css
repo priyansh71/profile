@@ -46,9 +46,10 @@
     color: white;
     position: absolute;
     bottom: 28%;
-    right: 10vw;
+    right: 8vw;
     font-weight: lighter;
     font-stretch: expanded;
+    transition: 0.6s linear;
   }
 
   .info {
@@ -69,10 +70,11 @@
   .avatar {
     position: absolute;
     top: 27%;
-    right: 12vw;
+    right: 8vw;
     height: 24vh;
     border-radius: 100%;
     border: 1.5px solid white;
+    transition: 0.6s linear;
   }
 
   .terminal-window section.terminal {
@@ -163,7 +165,7 @@
 
 @media only screen and (min-width: 650px) and (max-width: 1000px) {
   .name {
-    font-family: "Ubuntu Mono";
+    font-family: "Inconsolata";
     font-size: 40px;
     color: white;
     position: absolute;
@@ -171,6 +173,7 @@
     right: 10vw;
     font-weight: lighter;
     font-stretch: expanded;
+    transition: 0.6s linear;
   }
 
   .info {
@@ -187,6 +190,7 @@
     height: 23vh;
     border-radius: 100%;
     border: 1.5px solid white;
+    transition: 0.6s linear;
   }
 
   .terminal-window section.terminal {
@@ -269,14 +273,15 @@
 
 @media screen and (max-width: 650px) {
   .name {
-    font-family: "Ubuntu Mono";
+    font-family: "Inconsolata";
     font-size: 29px;
     color: white;
     position: absolute;
     bottom: 28%;
-    right: 7vw;
+    right: 10vw;
     font-weight: lighter;
     letter-spacing: 0.5px;
+    transition: 0.6s linear;
   }
 
   .info {
@@ -289,10 +294,11 @@
   .avatar {
     position: absolute;
     top: 38%;
-    right: 18vw;
+    right: 15vw;
     height: 18vh;
     border-radius: 100%;
     border: 0.9px solid white;
+    transition: 0.6s linear;
   }
 
   .terminal-window section.terminal {
@@ -462,7 +468,7 @@
 }
 
 .sidebarSm span {
-  color: rgb(152, 152, 152);
+  color: rgb(210,210,210);
   text-align: center;
   display: flex;
   align-items: center;
@@ -530,7 +536,7 @@
   bottom: 80%;
   left: 80%;
   position: absolute;
-  transform: translate(-50%, 8px);
+  transform: translate(-10%, 8px);
   height: 0;
   width: 0;
   z-index: 30;

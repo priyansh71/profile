@@ -8,7 +8,7 @@ import Myself from "../components/static/Myself";
 const Info = () => {
 
     return(
-        <div className="info" id="Myself">        
+        <div className="info" id="About Me">        
             <Heading heading="About me" />
             <Terminal
              command="cat Myself.md"

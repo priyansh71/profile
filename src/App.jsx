@@ -9,7 +9,6 @@ import Learning from "./sections/Learning";
 import Achievments from "./sections/Achivements";
 import Certifications from "./sections/Certifications";
 import TechStack from "./sections/Techstack";
-
 const App = () => {
   return (
     <div>
@@ -23,9 +22,8 @@ const App = () => {
     <Achievments />
     <Interests />
     <Certifications />
-    <div style={{padding : "3.2em", backgroundColor : "rgb(245, 245, 245)"}}>
-    </div>
-  </div>
+    <div style={{padding : "3.3em", backgroundColor : "rgb(245, 245, 245)"}}>
+</div> </div>
   );
 };
 

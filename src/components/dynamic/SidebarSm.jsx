@@ -18,7 +18,7 @@ const SidebarSm = () => {
         <div className="container__content">About Me</div>
         <div className="container__arrow" />
         <span>
-          <Link to="Myself" activeClass="active" spy={true} smooth={true}>
+          <Link to="About Me" activeClass="active" spy={true} smooth={true}>
             <InfoIcon fontSize="large" />
           </Link>
         </span>
@@ -115,8 +115,6 @@ const SidebarSm = () => {
       </div>
 
       <div className="container">
-        <div className="container__content">Copyright, Priyansh, 2021.</div>
-        <div className="container__arrow" />
         <span style={{ fontSize: "3em", color: "rgb(216, 216, 216)" }}>
           &copy;
         </span>
