@@ -79,7 +79,7 @@ const Terminal = (props) => {
                 ) : null}
               </ul>
             ) : (
-              <Renderer name1={props.name1} name2={props.name2} />
+              <Renderer name1={props.name1} name2={props.name2} name3={props.name3} />
             )
             : <Stack />}
             
