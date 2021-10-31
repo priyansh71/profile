@@ -27,6 +27,10 @@ const Myself = [
     [
       "Certifications", 
       "I have been certified in :-"
+    ],
+    [
+      "Experience",
+      "I have been a part of :-"
     ]
   ],
   [
@@ -35,10 +39,10 @@ const Myself = [
     "Bikaner Boys' School [2008-18]",
   ],
   [
-    "App Development using React Native.",
-    "Modern Cryptography.",
+    "Development using React Native and Svelte.",
+    "Modern Cryptography utilizing Python.",
     "Object Oriented Programming using Java.",
-    "Frontend frameworks and libraries like Vue, Next.js."
+    "Backend frameworks like Django and Flask."
   ],
   [
     "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
@@ -47,9 +51,10 @@ const Myself = [
     "I love terminals. :)",
   ],
   [
-    "Frontend development projects using Html and React , utilizing component and styling frameworks like Bootstrap, TailwindCss, ChakraUI, MaterialUI and BulmaCss.",
-    "Basic backend web development using Express, Ejs, MongoDB and Mongoose.",
+    "Frontend development projects with React , utilizing component and styling frameworks like Bootstrap, TailwindCss, ChakraUI, MaterialUI and BulmaCss.",
+    "Basic backend web development using NodeJs and Django.",
     "Web scraping and vulnerability testing using popular Python libraries like BeautifulSoup, Selenium and Requests.",
+
   ],
   [
     "achieved an All India Rank of 3277 amongst 0.2 million eligible candidates in JEE Advanced 2020.",
@@ -63,14 +68,19 @@ const Myself = [
     "Hands-on Cybersecurity using Python."
   ],
   [
+    "AUGSD Software Team, BITS Goa. [October 2021, ongoing]",
+    "Junior Dev at Developer's Soceity, BITS Goa. [January 2021, ongoing]",
+    "BITSKrieg, BITS Goa. [January 2021, ongoing]",
+  ],
+  [
     ["React", "88%"],
     ["CSS and frameworks", "83%"],
     ["Vanilla JS", "76%"],
     ["Express.js", "70%"],
     ["Git and GitHub", "68%"],
     ["Python", "67%"],
-    ["C", "60%"],
-    ["React Native", "50%"]
+    ["Django", "50%"],
+    ["React Native", "50%"],
   ],
 ];
 

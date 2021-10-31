@@ -7,7 +7,7 @@ import Myself from "../static/Myself";
 const Stack = () => {
   return (
     <div className="stacker">
-      {Myself[7].map((item, index) => {
+      {Myself[8].map((item, index) => {
 
         return (
           <article key={index}>

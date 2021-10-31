@@ -9,6 +9,7 @@ import SpellcheckOutlinedIcon from "@material-ui/icons/SpellcheckOutlined";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
 import StarBorderIcon from "@material-ui/icons/StarBorder";
+import BookmarkIcon from '@material-ui/icons/Bookmark';
 import { Link } from "react-scroll";
 
 const SidebarSm = () => {
@@ -110,6 +111,21 @@ const SidebarSm = () => {
             smooth={true}
           >
             <VerifiedUserIcon fontSize="large" />
+          </Link>
+        </span>
+      </div>
+
+      <div className="container">
+        <div className="container__content">Experience</div>
+        <div className="container__arrow" />
+        <span>
+          <Link
+            to="Experience"
+            activeClass="active-icon"
+            spy={true}
+            smooth={true}
+          >
+            <BookmarkIcon fontSize="large" />
           </Link>
         </span>
       </div>
