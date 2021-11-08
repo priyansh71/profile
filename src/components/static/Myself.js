@@ -51,7 +51,8 @@ const Myself = [
     "I love terminals. :)",
   ],
   [
-    "Frontend development projects with React , utilizing component and styling frameworks like Bootstrap, TailwindCss, ChakraUI, MaterialUI and BulmaCss.",
+    "Frontend development projects with React and Ejs.",
+    "Working with component and styling frameworks like Bootstrap, TailwindCss, ChakraUI, MaterialUI and BulmaCss.",
     "Basic backend web development using NodeJs and Django.",
     "Web scraping and vulnerability testing using popular Python libraries like BeautifulSoup, Selenium and Requests.",
 
@@ -68,9 +69,10 @@ const Myself = [
     "Hands-on Cybersecurity using Python."
   ],
   [
+    "Senior Developer at DevSoc, BITS Goa. [November 2021, ongoing]",
     "AUGSD Software Team, BITS Goa. [October 2021, ongoing]",
-    "Junior Dev at Developer's Soceity, BITS Goa. [January 2021, ongoing]",
-    "BITSKrieg, BITS Goa. [January 2021, ongoing]",
+    "Junior Developer at DevSoc, BITS Goa. [January 2021, November 2021]",
+    "Crew Member at BITSKrieg, BITS Goa. [January 2021, ongoing]",
   ],
   [
     ["React", "88%"],

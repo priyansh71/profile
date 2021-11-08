@@ -17,6 +17,7 @@ const Achievments = () => {
         item1={Myself[7][0]}
         item2={Myself[7][1]}
         item3={Myself[7][2]}
+        item4={Myself[7][3]}
       />
     </div>
   );
