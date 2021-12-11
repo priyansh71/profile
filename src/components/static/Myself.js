@@ -66,7 +66,8 @@ const Myself = [
   [
     "Introduction to Web Development using MERN stack.",
     "JavaScript Essential Training.",
-    "Hands-on Cybersecurity using Python."
+    "Hands-on Cybersecurity using Python.",
+    "BugBusting : AWS BugBust re:Invent Challenge-2021."
   ],
   [
     "Senior Developer at DevSoc, BITS Goa. [November 2021, ongoing]",
