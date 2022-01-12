@@ -39,20 +39,20 @@ const Myself = [
     "Bikaner Boys' School [2008-18]",
   ],
   [
-    "Development using React Native and Svelte.",
-    "Modern Cryptography utilizing Python.",
-    "Object Oriented Programming using Java.",
+    "Development using React Native and NextJs.",
+    "Blockchain Development and working with the Web3 API.",
+    "Data Structures and Algorithms.",
     "Backend frameworks like Django and Flask."
   ],
   [
     "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
     "Watching Football and Formula 1 the most whenever I am able to.",
     "Listening to the rock band Linkin Park. I am a huge fan.",
-    "I love terminals. :)",
+    "Reading articles and blogs about cryptocurrencies, blockchains and their future.",
   ],
   [
-    "Frontend development projects with React and Ejs.",
-    "Working with component and styling frameworks like Bootstrap, TailwindCss, ChakraUI, MaterialUI and BulmaCss.",
+    "Frontend development projects with React and EJS.",
+    "Working with the different component and CSS frameworks like ChakraUI, MaterialUI, TailwindCSS and Bootstrap. ",
     "Basic backend web development using NodeJs and Django.",
     "Web scraping and vulnerability testing using popular Python libraries like BeautifulSoup, Selenium and Requests.",
 
