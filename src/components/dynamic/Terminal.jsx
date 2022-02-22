@@ -1,5 +1,3 @@
-/** @format */
-
 import React, { useState, useEffect } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import FastForwardIcon from "@material-ui/icons/FastForward";

@@ -39,22 +39,22 @@ const Myself = [
     "Bikaner Boys' School [2008-18]",
   ],
   [
-    "Development using React Native and NextJs.",
-    "Blockchain Development and working with the Web3 API.",
+    "Development using NextJs.",
+    "Solidity to work in the Ethereum ecosystem.",
     "Data Structures and Algorithms.",
-    "Backend frameworks like Django and Flask."
+    "The Django backend framework."
   ],
   [
     "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
     "Watching Football and Formula 1 the most whenever I am able to.",
     "Listening to the rock band Linkin Park. I am a huge fan.",
-    "Reading articles and blogs about cryptocurrencies, blockchains and their future.",
+    "Reading articles and blogs about Web3.0 , blockchains and their future.",
   ],
   [
-    "Frontend development projects with React and EJS.",
-    "Working with the different component and CSS frameworks like ChakraUI, MaterialUI, TailwindCSS and Bootstrap. ",
+    "Frontend development projects with Three.Js, React, EJS and NextJs.",
+    "Working with the different component/CSS frameworks like ChakraUI, TailwindCSS and Bootstrap. ",
     "Basic backend web development using NodeJs and Django.",
-    "Web scraping and vulnerability testing using popular Python libraries like BeautifulSoup, Selenium and Requests.",
+    "Web scraping and vulnerability testing using popular Python libraries like BeautifulSoup and Selenium.",
 
   ],
   [
@@ -73,16 +73,16 @@ const Myself = [
     "Senior Developer at DevSoc, BITS Goa. [November 2021, ongoing]",
     "AUGSD Software Team, BITS Goa. [October 2021, ongoing]",
     "Junior Developer at DevSoc, BITS Goa. [January 2021, November 2021]",
-    "Crew Member at BITSKrieg, BITS Goa. [January 2021, ongoing]",
+    "Core Member at BITSKrieg, BITS Goa. [January 2021, ongoing]",
   ],
   [
     ["React", "88%"],
-    ["CSS and frameworks", "83%"],
     ["Vanilla JS", "76%"],
-    ["Express.js", "70%"],
+    ["Express JS", "70%"],
     ["Git and GitHub", "68%"],
-    ["Python", "67%"],
-    ["Django", "50%"],
+    ["CSS and frameworks", "65%"],
+    ["Python", "63%"],
+    ["Django", "57%"],
     ["React Native", "50%"],
   ],
 ];
