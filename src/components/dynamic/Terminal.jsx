@@ -19,7 +19,7 @@ const Terminal = (props) => {
   };
 
   useEffect(() => {
-    setAnimate("animate__animated animate__slow animate__fadeInRight");
+    setAnimate("animate__animated animate__slow animate__zoomIn");
   }, [term]);
 
   return (
@@ -53,7 +53,7 @@ const Terminal = (props) => {
               display: term,
               color: "#fefefe",
               fontWeight: 100,
-              fontSize: "1em",
+              fontSize: "0.98em",
               marginTop: "15px",
               marginLeft: "10px",
               marginRight : "10px"

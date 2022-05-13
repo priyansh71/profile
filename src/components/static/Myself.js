@@ -18,11 +18,11 @@ const Myself = [
     ],
     [
       "Achievments",
-      "In the academic and learning field, I :-"
+      "In the academic field, I :-"
     ],
     [
       "Interests",
-      "Apart from the development and coding part, my interests include :-",
+      "Apart from the development part, my interests include :-",
     ],
     [
       "Certifications", 
@@ -30,7 +30,7 @@ const Myself = [
     ],
     [
       "Experience",
-      "I have been a part of :-"
+      "My experience :-"
     ]
   ],
   [
@@ -40,7 +40,7 @@ const Myself = [
   ],
   [
     "Development using NextJs.",
-    "Solidity to work in the Ethereum ecosystem.",
+    "Hardhat, DeFi and Smart Contracts using Solidity",
     "Data Structures and Algorithms.",
     "The Django backend framework."
   ],
@@ -48,7 +48,7 @@ const Myself = [
     "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
     "Watching Football and Formula 1 the most whenever I am able to.",
     "Listening to the rock band Linkin Park. I am a huge fan.",
-    "Reading articles and blogs about Web3.0 , blockchains and their future.",
+    "Reading articles and working with tutorials to build on the Ethereum blockchain.",
   ],
   [
     "Frontend development projects with Three.Js, React, EJS and NextJs.",
@@ -71,7 +71,7 @@ const Myself = [
   ],
   [
     "Senior Developer at DevSoc, BITS Goa. [November 2021, ongoing]",
-    "AUGSD Software Team, BITS Goa. [October 2021, ongoing]",
+    "AUGSD Software Team Member, BITS Goa. [October 2021, ongoing]",
     "Junior Developer at DevSoc, BITS Goa. [January 2021, November 2021]",
     "Core Member at BITSKrieg, BITS Goa. [January 2021, ongoing]",
   ],
@@ -79,11 +79,11 @@ const Myself = [
     ["React", "88%"],
     ["Vanilla JS", "76%"],
     ["Express JS", "70%"],
-    ["Git and GitHub", "68%"],
-    ["CSS and frameworks", "65%"],
+    ["Version Control", "68%"],
+    ["CSS and Designing", "65%"],
     ["Python", "63%"],
     ["Django", "57%"],
-    ["React Native", "50%"],
+    ["Solidity", "50%"],
   ],
 ];
 
