@@ -69,7 +69,7 @@ const Terminal = (props) => {
                 <li>{props.item1}</li>
                 <li>{props.item2}</li>
                 <li>{props.item3}</li>
-                {props.item4 ? <li> {props.item4}</li> : null}
+                <li> {props.item4}</li>
                 {props.img ? (
                     <a href={cryptohack} rel="noreferrer" target="_blank">
                       {props.img}

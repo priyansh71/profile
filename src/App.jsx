@@ -10,22 +10,24 @@ import Achievments from "./sections/Achivements";
 import Certifications from "./sections/Certifications";
 import TechStack from "./sections/Techstack";
 import Experience from "./sections/Experience";
+
+
 const App = () => {
   return (
     <div>
-    <Imager />
-    <SidebarSm />
-    <SidebarLg   />
-    <Myself />
-    <Learning />
-    <TechStack />
-    <Projects />
-    <Achievments />
-    <Interests />
-    <Certifications />
-    <Experience />
-    <div style={{padding : "3.3em", backgroundColor : "rgb(245, 245, 245)"}}>
-</div> </div>
+      <Imager />
+      <SidebarSm />
+      <SidebarLg   />
+      <Myself />
+      <Learning />
+      <TechStack />
+      <Projects />
+      <Achievments />
+      <Interests />
+      <Certifications />
+      <Experience />
+      <div style={{padding : "3.3em", backgroundColor : "rgb(245, 245, 245)"}}></div> 
+    </div>
   );
 };
 

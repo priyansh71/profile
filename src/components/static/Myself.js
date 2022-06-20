@@ -36,26 +36,26 @@ const Myself = [
   [
     "BITS Pilani Goa Campus [2020-24], ongoing",
     "Resonance Eduventures [2018-20]",
-    "Bikaner Boys' School [2008-18]",
+    "Delhi Public School, Bikaner [2017-18]",
+    "Bikaner Boys' School [2008-2016]",
   ],
   [
-    "Development using NextJs.",
-    "Hardhat, DeFi and Smart Contracts using Solidity",
-    "Data Structures and Algorithms.",
+    "Working with Extra Trees Regression to perform outsample predictions for Polar Temperature.",
+    "Full-Stack Development using NextJs.",
+    "Exploring Hardhat, De-Fi and Smart Contracts using Solidity",
     "The Django backend framework."
   ],
   [
     "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
     "Watching Football and Formula 1 the most whenever I am able to.",
     "Listening to the rock band Linkin Park. I am a huge fan.",
-    "Reading articles and working with tutorials to build on the Ethereum blockchain.",
+    "Reading documentations and articles to build on the Ethereum blockchain.",
   ],
   [
-    "Frontend development projects with Three.Js, React, EJS and NextJs.",
+    "Full-stack development with React, EJS, NextJs for Frontend and NodeJS, Django for Backend.",
     "Working with the different component/CSS frameworks like ChakraUI, TailwindCSS and Bootstrap. ",
-    "Basic backend web development using NodeJs and Django.",
-    "Web scraping and vulnerability testing using popular Python libraries like BeautifulSoup and Selenium.",
-
+    "Time series forecasting of Polar Temperature using SARIMA and Extra Trees Regression models.",
+    "Web scraping and vulnerability testing using BeautifulSoup and Selenium.",
   ],
   [
     "achieved an All India Rank of 3277 amongst 0.2 million eligible candidates in JEE Advanced 2020.",
@@ -70,19 +70,20 @@ const Myself = [
     "BugBusting : AWS BugBust re:Invent Challenge-2021."
   ],
   [
-    "Senior Developer at DevSoc, BITS Goa. [November 2021, ongoing]",
+    "Data Science Research Intern, National Center of Polar and Ocean Research, India. [May 2022, ongoing]",
     "AUGSD Software Team Member, BITS Goa. [October 2021, ongoing]",
-    "Junior Developer at DevSoc, BITS Goa. [January 2021, November 2021]",
-    "Core Member at BITSKrieg, BITS Goa. [January 2021, ongoing]",
+    "Senior Developer at DevSoc, BITS Goa. [November 2021, June 2022]",
+    "Core Member at BITSKrieg, BITS Goa. [January 2021, May 2022]",
   ],
   [
-    ["React", "88%"],
+    ["React", "89%"],
     ["Vanilla JS", "76%"],
-    ["Express JS", "70%"],
-    ["Version Control", "68%"],
-    ["CSS and Designing", "65%"],
-    ["Python", "63%"],
-    ["Django", "57%"],
+    ["Express JS", "73%"],
+    ["Node JS", "69%"],
+    ["Version Control", "64%"],
+    ["CSS and Designing", "62%"],
+    ["Python", "60%"],
+    ["Django", "54%"],
     ["Solidity", "50%"],
   ],
 ];
