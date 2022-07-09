@@ -6,7 +6,7 @@ const Myself = [
     ],
     [
       "Learning",
-      "I am currently working on learning :-",
+      "I am currently :",
     ],
     [
       "TechStack", 
@@ -14,23 +14,23 @@ const Myself = [
     ],
     [
       "Projects",
-      "I have worked on:- "
+      ""
     ],
     [
       "Achievments",
-      "In the academic field, I :-"
+      ""
     ],
     [
       "Interests",
-      "Apart from the development part, my interests include :-",
+      "",
     ],
     [
       "Certifications", 
-      "I have been certified in :-"
+      ""
     ],
     [
       "Experience",
-      "My experience :-"
+      ""
     ]
   ],
   [
@@ -40,20 +40,22 @@ const Myself = [
     "Bikaner Boys' School [2008-2016]",
   ],
   [
+    "Mastering my Rust and Solidity skills to work on creating programs residing on the blockchain.",
+    "Development using NextJs and Django.",
     "Working with Extra Trees Regression to perform outsample predictions for Polar Temperature.",
-    "Full-Stack Development using NextJs.",
-    "Exploring Hardhat, De-Fi and Smart Contracts using Solidity",
-    "The Django backend framework."
+    "Data Structures and Algorithms."
   ],
   [
-    "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
-    "Watching Football and Formula 1 the most whenever I am able to.",
+    "Watching Football and Formula 1 the most whenever I cam.",
+    "I love Star Wars. Hope that says a lot",
     "Listening to the rock band Linkin Park. I am a huge fan.",
-    "Reading documentations and articles to build on the Ethereum blockchain.",
+    "Reading documentations and articles to buidling.",
+    "Solving CtF questions to gain more knowledge in different cybersecurity exploitations.",
   ],
   [
-    "Full-stack development with React, EJS, NextJs for Frontend and NodeJS, Django for Backend.",
-    "Working with the different component/CSS frameworks like ChakraUI, TailwindCSS and Bootstrap. ",
+    "Buidling on the Ethereum and Solana blockchains.",
+    "Full-stack development with React, EJS, NextJS for frontend and NodeJS, Django for backend.",
+    "Working with the different component/CSS frameworks like ChakraUI, NeoPop-Web and Bootstrap.",
     "Time series forecasting of Polar Temperature using SARIMA and Extra Trees Regression models.",
     "Web scraping and vulnerability testing using BeautifulSoup and Selenium.",
   ],
@@ -67,7 +69,8 @@ const Myself = [
     "Introduction to Web Development using MERN stack.",
     "JavaScript Essential Training.",
     "Hands-on Cybersecurity using Python.",
-    "BugBusting : AWS BugBust re:Invent Challenge-2021."
+    "BugBusting : AWS BugBust re:Invent Challenge-2021.",
+    "Mentor : Probability and Statistics, Academic Assistance Program.",
   ],
   [
     "Data Science Research Intern, National Center of Polar and Ocean Research, India. [May 2022, ongoing]",

@@ -53,7 +53,7 @@ const Terminal = (props) => {
               display: term,
               color: "#fefefe",
               fontWeight: 100,
-              fontSize: "0.98em",
+              fontSize: "0.9em",
               marginTop: "15px",
               marginLeft: "10px",
               marginRight : "10px"
@@ -61,7 +61,7 @@ const Terminal = (props) => {
             className={animate}
           >
             {props.title}
-            <br />
+            {props.title ?  <br /> : null}
             <br />
             { !props.techStack ?
             props.item1 ? (
@@ -70,6 +70,7 @@ const Terminal = (props) => {
                 <li>{props.item2}</li>
                 <li>{props.item3}</li>
                 <li> {props.item4}</li>
+                {props.item5 ? <li>{props.item5}</li> : null}
                 {props.img ? (
                     <a href={cryptohack} rel="noreferrer" target="_blank">
                       {props.img}
@@ -77,7 +78,7 @@ const Terminal = (props) => {
                 ) : null}
               </ul>
             ) : (
-              <Renderer name1={props.name1} name2={props.name2} name3={props.name3} name4={props.name4} />
+              <Renderer name1={props.name1} name2={props.name2} name3={props.name3} name4={props.name4} name5={props.name5} />
             )
             : <Stack />}
             

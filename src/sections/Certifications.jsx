@@ -18,6 +18,7 @@ const Certifications = () => {
         name2={Myself[6][1]}
         name3={Myself[6][2]}
         name4={Myself[6][3]}
+        name5={Myself[6][4]}
       />
     </div>
   );

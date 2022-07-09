@@ -16,6 +16,7 @@ const Projects = () => {
             item2={Myself[4][1]}
             item3={Myself[4][2]}
             item4={Myself[4][3]}
+            item5={Myself[4][4]}
             />
         </div>
     )

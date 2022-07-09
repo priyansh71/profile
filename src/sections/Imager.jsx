@@ -9,7 +9,6 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
 const Imager = () => {
   const url =
-  // "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2938&q=80";
   "https://images.unsplash.com/photo-1542382257-80dedb725088?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
   const style = {
     color: "white",
@@ -45,7 +44,7 @@ const Imager = () => {
           <LinkedInIcon style={style} />
         </a>
         <a
-          href="mailto:f20201388@goa.bits-pilani.ac.in"
+          href="mailto:priyansh710@outlook.com"
           target="_blank"
           rel="noreferrer"
         >

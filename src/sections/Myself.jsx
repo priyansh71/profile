@@ -17,6 +17,7 @@ const Info = () => {
             item1={Myself[1][0]}
             item2={Myself[1][1]}
             item3={Myself[1][2]}
+            item4={Myself[1][3]}
             />
         </div>
     )

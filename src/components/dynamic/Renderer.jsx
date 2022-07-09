@@ -3,6 +3,7 @@ import jS from "../static/jS.pdf"
 import webD from "../static/webD.pdf"
 import cybersec from "../static/cybersec.pdf"
 import bugBust from "../static/bugBust.pdf"
+import pns from "../static/p&s.pdf"
 
 
 const Renderer = (props) => {
@@ -12,6 +13,7 @@ const Renderer = (props) => {
       <li><a href={jS} rel="noreferrer" target = "_blank">{props.name2}</a></li>
       <li><a href={cybersec} rel="noreferrer" target = "_blank">{props.name3}</a></li>
       <li><a href={bugBust} rel="noreferrer" target = "_blank">{props.name4}</a></li>
+      <li><a href={pns} rel="noreferrer" target = "_blank">{props.name5}</a></li>
     </ul>
     );
   }

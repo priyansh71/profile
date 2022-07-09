@@ -18,6 +18,7 @@ const Education = () => {
         item2={Myself[3][1]}
         item3={Myself[3][2]}
         item4={Myself[3][3]}
+        item5={Myself[3][4]}
       />
     </div>
   );
