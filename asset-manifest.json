@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.f7a47efc.chunk.css",
-    "main.js": "/profile/static/js/main.33396d31.chunk.js",
-    "main.js.map": "/profile/static/js/main.33396d31.chunk.js.map",
+    "main.js": "/profile/static/js/main.825db060.chunk.js",
+    "main.js.map": "/profile/static/js/main.825db060.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.ec65c720.js",
     "runtime-main.js.map": "/profile/static/js/runtime-main.ec65c720.js.map",
     "static/css/2.a1596f27.chunk.css": "/profile/static/css/2.a1596f27.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/cybersec.dc01c4fb.pdf": "/profile/static/media/cybersec.dc01c4fb.pdf",
     "static/media/jS.024ef287.pdf": "/profile/static/media/jS.024ef287.pdf",
     "static/media/myself.023e7046.jpg": "/profile/static/media/myself.023e7046.jpg",
+    "static/media/p&s.63f8de7f.pdf": "/profile/static/media/p&s.63f8de7f.pdf",
     "static/media/webD.466334c4.pdf": "/profile/static/media/webD.466334c4.pdf"
   },
   "entrypoints": [
@@ -24,6 +25,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.54f0b4d9.chunk.js",
     "static/css/main.f7a47efc.chunk.css",
-    "static/js/main.33396d31.chunk.js"
+    "static/js/main.825db060.chunk.js"
   ]
 }
