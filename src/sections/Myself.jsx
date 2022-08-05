@@ -1,26 +1,24 @@
 import React from "react";
 import "animate.css";
-import Terminal from "../components/dynamic/Terminal";
-import Heading from "../components/dynamic/Heading";
-import Myself from "../components/static/Myself";
-
+import Terminal from "../components/Terminal";
+import Heading from "../components/Heading";
+import Myself from "../assets/Myself";
 
 const Info = () => {
-
-    return(
-        <div className="info" id="About Me">        
-            <Heading heading="About me" />
-            <Terminal
-             command="cat Myself.md"
-            filename="Myself.md" 
-            title={Myself[0][0][1]} 
+   return (
+      <div className="info" id="About Me">
+         <Heading heading="About me" />
+         <Terminal
+            command="cat Myself.md"
+            filename="Myself.md"
+            title={Myself[0][0][1]}
             item1={Myself[1][0]}
             item2={Myself[1][1]}
             item3={Myself[1][2]}
             item4={Myself[1][3]}
-            />
-        </div>
-    )
-}
+         />
+      </div>
+   );
+};
 
 export default Info;
