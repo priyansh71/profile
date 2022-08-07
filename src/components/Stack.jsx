@@ -1,6 +1,6 @@
 import React from "react";
 import "animate.css";
-import Myself from "../assets/My.json";
+import Myself from "../assets/Myself.json";
 
 const Stack = () => {
    return (

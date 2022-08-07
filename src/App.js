@@ -22,7 +22,7 @@ const App = () => {
 
          <div
             style={{
-               paddingTop: "3.3em",
+               paddingTop: "5em",
                backgroundColor: "rgb(245, 245, 245)",
             }}
          ></div>
