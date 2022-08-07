@@ -1,11 +1,11 @@
 import React from "react";
 import "animate.css";
-import Myself from "../assets/Myself";
+import Myself from "../assets/My.json";
 
 const Stack = () => {
    return (
       <div className="stacker">
-         {Myself[8].map((item, index) => {
+         {Myself.TechStack.map((item, index) => {
             return (
                <article key={index}>
                   <div className="tech">{item[0]}</div>

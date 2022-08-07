@@ -1,7 +1,7 @@
 import React from "react";
 import "animate.css";
 import { Link } from "react-scroll";
-import Myself from "../assets/Myself";
+import Myself from "../assets/My.json";
 
 const SidebarLg = () => {
    return (
@@ -11,17 +11,17 @@ const SidebarLg = () => {
                ╰─$ ls Profile
             </Link>
          </h1>
-         {Myself[0].map((item, index) => {
+         {Object.keys(Myself).map((item, index) => {
             return (
                <div key={index}>
                   <Link
-                     to={item[0]}
+                     to={item}
                      activeClass="active"
                      offset={-100}
                      spy={true}
                      smooth={true}
                   >
-                     {item[0]}
+                     {item}
                   </Link>
                </div>
             );
@@ -34,7 +34,6 @@ const SidebarLg = () => {
                fontSize: "3em",
                textAlign: "center",
                color: "rgb(216, 216, 216)",
-               marginTop: "0.4em",
             }}
          >
             &copy;

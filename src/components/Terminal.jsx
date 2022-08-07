@@ -2,11 +2,9 @@ import React, { useState, useEffect } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import FastForwardIcon from "@mui/icons-material/FastForward";
 import TermHeader from "./TermHeader";
-import Renderer from "./Renderer";
-import cryptohack from "../assets/cryptohack.png";
 import Stack from "./Stack";
 
-const Terminal = (props) => {
+const Terminal = ({ title, techStack, items, filename, command }) => {
    const [term, setTerm] = useState("none");
    const [display, setDisplay] = useState("block");
    const [headerName, setHeaderName] = useState(null);
@@ -15,7 +13,7 @@ const Terminal = (props) => {
    const handleTerm = () => {
       setTerm("block");
       setDisplay("none");
-      setHeaderName(props.filename);
+      setHeaderName(filename);
    };
 
    useEffect(() => {
@@ -33,7 +31,7 @@ const Terminal = (props) => {
                <TypeWriterEffect
                   startDelay={200}
                   cursorColor="transparent"
-                  text={"╰─$ " + props.command + "▉"}
+                  text={"╰─$ " + command + "▉"}
                   typeSpeed={130}
                   textStyle={{
                      color: "#f2f2f2",
@@ -56,43 +54,19 @@ const Terminal = (props) => {
                      display: term,
                      color: "#fefefe",
                      fontWeight: 100,
-                     fontSize: "0.9em",
-                     marginTop: "15px",
+                     fontSize: "0.95em",
+                     marginTop: "40px",
                      marginLeft: "10px",
                      marginRight: "10px",
                   }}
                   className={animate}
                >
-                  {props.title}
-                  {props.title ? <br /> : null}
-                  <br />
-                  {!props.techStack ? (
-                     props.item1 ? (
-                        <ul>
-                           <li>{props.item1}</li>
-                           <li>{props.item2}</li>
-                           <li>{props.item3}</li>
-                           <li> {props.item4}</li>
-                           {props.item5 ? <li>{props.item5}</li> : null}
-                           {props.img ? (
-                              <a
-                                 href={cryptohack}
-                                 rel="noreferrer"
-                                 target="_blank"
-                              >
-                                 {props.img}
-                              </a>
-                           ) : null}
-                        </ul>
-                     ) : (
-                        <Renderer
-                           name1={props.name1}
-                           name2={props.name2}
-                           name3={props.name3}
-                           name4={props.name4}
-                           name5={props.name5}
-                        />
-                     )
+                  {!techStack ? (
+                     <ul>
+                        {items.map((item, index) => {
+                           return <li key={index}>{item}</li>;
+                        })}
+                     </ul>
                   ) : (
                      <Stack />
                   )}

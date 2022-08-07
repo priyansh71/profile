@@ -1,0 +1,66 @@
+{
+   "Myself": [
+      "Hola, I am Priyansh Vyas from Bikaner, Rajasthan.",
+      "I am currently a pre-final year student, pursuing my engineering in Computer Science.",
+      "I love development, and am mostly focused around everything-Web.",
+      "If you ever encounter the name 'felix', that would be me.",
+      "Want more information, you can visit my LinkedIn, GitHub or contact me via E-mail."
+   ],
+   "Education": [
+      "BITS Pilani Goa Campus [2020-24], ongoing",
+      "Jesus and Mary School, Bikaner [2018-20]",
+      "Delhi Public School, Bikaner [2017-18]",
+      "Bikaner Boys' School [2008-17]",
+      "Dayanand Public School [2005-08]"
+   ],
+   "TechStack": [
+      ["React", "92%"],
+      ["Vanilla JS", "80%"],
+      ["Node JS", "74%"],
+      ["Version Control", "70%"],
+      ["Solidity", "68%"],
+      ["CSS and Designing", "66%"],
+      ["Python", "64%"],
+      ["Rust", "62%"],
+      ["Django", "58%"]
+   ],
+   "Experience": [
+      "AUGSD Software Team Member, BITS Goa. [October 2021, ongoing]",
+      "Data Science Intern, National Center for Polar and Ocean Research. [May 2022, July 2022]",
+      "Senior Developer at DevSoc, BITS Goa. [November 2021, June 2022]",
+      "Core Member at BITSKrieg, BITS Goa. [January 2021, May 2022]"
+   ],
+   "Projects": [
+      "Built an npm-package named 'candy-machine-assistant' to ease connecting and sending transactions to Solana NFT accounts.",
+      "Full-stack development with React, NextJS for frontend, NodeJS, Django for backend and Solidity, Rust-lang for programs hosted on the blockchain.",
+      "Working with component and CSS frameworks, mostly ChakraUI.",
+      "Web scraping and vulnerability testing using BeautifulSoup and Selenium.",
+      "Time series forecasting of Polar Temperature using SARIMA and Extra Trees Regression models."
+   ],
+   "Learning": [
+      "Building decentralized applications on Solana and Polygon blockchains.",
+      "Working on improving my Rust-lang skills by working with the Anchor framework, and solving some programming problems.",
+      "To build production projects using the Django REST framework.",
+      "I also spend some time improving my Data Structures and Algorithms skills, still rusty at it although."
+   ],
+   "Achievments": [
+      "I achieved an All India Rank of 3277 amongst 0.2 million eligible candidates in JEE Advanced 2020.",
+      "Scored 355/450 in BITSAT-2020.",
+      "Maintained a Cumulative Grade Point of 9.68 in my freshman year at BITS Pilani Goa Campus.",
+      "Accomplished a Top-2 weekly rank in CryptoHack after almost 50+ hours of cryptographic exploration on RSA, Diffie-Hellman Key exchange and Elliptic Curve Cryptography."
+   ],
+   "Certifications": [
+      "Introduction to Web Development using MERN stack.",
+      "JavaScript Essential Training.",
+      "Hands-on Cybersecurity using Python.",
+      "BugBusting : AWS BugBust re:Invent Challenge-2021.",
+      "Instructor for Web Development : Taught Advanced JavaScript and React.",
+      "Mentor : Probability and Statistics, Academic Assistance Program."
+   ],
+   "Interests": [
+      "I love spending my time watching Football and Formula 1 on weekends.",
+      "Fanboy of Star Wars and DC. Hope that says something that won't make you judge me.",
+      "Listen to the rock band Linkin Park. I have always been a huge fan.",
+      "Reading documentation and articles regarding buidling on the Decentralized Web, specially related to ZKP and the Solana blockchain."
+   ]
+}

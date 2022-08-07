@@ -2,7 +2,7 @@ import React from "react";
 import "animate.css";
 
 const Heading = (props) => {
-   return <header className="heading"># {props.heading}</header>;
+   return <span className="heading"># {props.heading}</span>;
 };
 
 export default Heading;

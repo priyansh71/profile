@@ -1,15 +1,8 @@
 import React from "react";
 import SidebarLg from "./components/SidebarLg";
 import SidebarSm from "./components/SidebarSm";
-import Interests from "./sections/Interests";
-import Imager from "./sections/Imager";
-import Myself from "./sections/Myself";
-import Projects from "./sections/Projects";
-import Learning from "./sections/Learning";
-import Achievments from "./sections/Achivements";
-import Certifications from "./sections/Certifications";
-import TechStack from "./sections/Techstack";
-import Experience from "./sections/Experience";
+import Imager from "./components/Imager";
+import Main from "./Main";
 
 const App = () => {
    return (
@@ -17,16 +10,21 @@ const App = () => {
          <Imager />
          <SidebarSm />
          <SidebarLg />
-         <Myself />
-         <Learning />
-         <TechStack />
-         <Projects />
-         <Achievments />
-         <Interests />
-         <Certifications />
-         <Experience />
+         <Main title="Myself" />
+         <Main title="Education" />
+         <Main title="TechStack" />
+         <Main title="Experience" />
+         <Main title="Projects" />
+         <Main title="Learning" />
+         <Main title="Achievments" />
+         <Main title="Certifications" />
+         <Main title="Interests" />
+
          <div
-            style={{ padding: "3.3em", backgroundColor: "rgb(245, 245, 245)" }}
+            style={{
+               paddingTop: "3.3em",
+               backgroundColor: "rgb(245, 245, 245)",
+            }}
          ></div>
       </div>
    );

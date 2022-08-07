@@ -9,36 +9,32 @@ import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
 import { Link } from "react-scroll";
+import { Book, CastForEducation } from "@mui/icons-material";
 
 const SidebarSm = () => {
    return (
       <div className="sidebarSm animate__rotateInDownLeft animate__animated">
          <div className="container">
-            <div className="container__content">About Me</div>
+            <div className="container__content">Myself</div>
             <div className="container__arrow" />
             <span>
-               <Link
-                  to="About Me"
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-               >
+               <Link to="Myself" activeClass="active" spy={true} smooth={true}>
                   <InfoIcon fontSize="large" />
                </Link>
             </span>
          </div>
 
          <div className="container">
-            <div className="container__content">Learning</div>
+            <div className="container__content">Education</div>
             <div className="container__arrow" />
             <span>
                <Link
-                  to="Learning"
-                  activeClass="active-icon"
+                  to="Education"
+                  activeClass="active"
                   spy={true}
                   smooth={true}
                >
-                  <CodeIcon fontSize="large" />
+                  <Book fontSize="large" />
                </Link>
             </span>
          </div>
@@ -59,6 +55,21 @@ const SidebarSm = () => {
          </div>
 
          <div className="container">
+            <div className="container__content">Experience</div>
+            <div className="container__arrow" />
+            <span>
+               <Link
+                  to="Experience"
+                  activeClass="active-icon"
+                  spy={true}
+                  smooth={true}
+               >
+                  <BookmarkIcon fontSize="large" />
+               </Link>
+            </span>
+         </div>
+
+         <div className="container">
             <div className="container__content">Projects</div>
             <div className="container__arrow" />
             <span>
@@ -69,6 +80,21 @@ const SidebarSm = () => {
                   smooth={true}
                >
                   <AssignmentIcon fontSize="large" />
+               </Link>
+            </span>
+         </div>
+
+         <div className="container">
+            <div className="container__content">Learning</div>
+            <div className="container__arrow" />
+            <span>
+               <Link
+                  to="Learning"
+                  activeClass="active-icon"
+                  spy={true}
+                  smooth={true}
+               >
+                  <CodeIcon fontSize="large" />
                </Link>
             </span>
          </div>
@@ -89,21 +115,6 @@ const SidebarSm = () => {
          </div>
 
          <div className="container">
-            <div className="container__content">Interests</div>
-            <div className="container__arrow" />
-            <span>
-               <Link
-                  to="Interests"
-                  activeClass="active-icon"
-                  spy={true}
-                  smooth={true}
-               >
-                  <WbIncandescentIcon fontSize="large" />
-               </Link>
-            </span>
-         </div>
-
-         <div className="container">
             <div className="container__content">Certifications</div>
             <div className="container__arrow" />
             <span>
@@ -119,16 +130,16 @@ const SidebarSm = () => {
          </div>
 
          <div className="container">
-            <div className="container__content">Experience</div>
+            <div className="container__content">Interests</div>
             <div className="container__arrow" />
             <span>
                <Link
-                  to="Experience"
+                  to="Interests"
                   activeClass="active-icon"
                   spy={true}
                   smooth={true}
                >
-                  <BookmarkIcon fontSize="large" />
+                  <WbIncandescentIcon fontSize="large" />
                </Link>
             </span>
          </div>
