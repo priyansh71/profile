@@ -54,9 +54,9 @@ const Imager = () => {
                href="https://www.lensfrens.xyz/priyansh.lens"
                target="_blank"
                rel="noreferrer"
-               >
-                  <img src={lens} alt="lens" style={style} />
-               </a>
+            >
+               <img src={lens} alt="lens" style={style} />
+            </a>
          </div>{" "}
       </div>
    );

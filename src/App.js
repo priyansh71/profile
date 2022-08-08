@@ -3,6 +3,7 @@ import SidebarLg from "./components/SidebarLg";
 import SidebarSm from "./components/SidebarSm";
 import Imager from "./components/Imager";
 import Main from "./Main";
+import Myself from "./assets/Myself.json";
 
 const App = () => {
    return (
@@ -10,15 +11,9 @@ const App = () => {
          <Imager />
          <SidebarSm />
          <SidebarLg />
-         <Main title="Myself" />
-         <Main title="Education" />
-         <Main title="TechStack" />
-         <Main title="Experience" />
-         <Main title="Projects" />
-         <Main title="Learning" />
-         <Main title="Achievments" />
-         <Main title="Certifications" />
-         <Main title="Interests" />
+         {Object.getOwnPropertyNames(Myself).map((key) => {
+            return <Main key={key} title={key} />;
+         })}
 
          <div
             style={{

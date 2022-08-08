@@ -11,7 +11,7 @@ li::selection {
    color: #011820 !important;
 }
 
-.return{
+.return {
    transform: rotateX(180deg) !important;
    margin-bottom: -3px;
 }
@@ -57,7 +57,7 @@ li::selection {
 }
 
 @media only screen and (min-width: 1000px) {
-   .return{
+   .return {
       font-size: 3em !important;
    }
    .name {
@@ -184,7 +184,7 @@ li::selection {
 }
 
 @media only screen and (min-width: 650px) and (max-width: 1000px) {
-   .return{
+   .return {
       font-size: 2.5em !important;
    }
    .name {
@@ -295,7 +295,7 @@ li::selection {
 }
 
 @media screen and (max-width: 650px) {
-   .return{
+   .return {
       font-size: 2.2em !important;
    }
    .name {
