@@ -439,13 +439,6 @@ li::selection {
    border-radius: 10px;
    cursor: pointer;
    margin-right: 20%;
-   padding : 0 20px;
-   border: 0.9px solid #fefefe;
-}
-
-.run:hover{
-   transform: scale(1.1) !important;
-
 }
 
 .sidebarLg h1 {

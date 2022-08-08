@@ -5,15 +5,16 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import background from "../assets/background.jpeg";
+import lens from "../assets/lens.svg";
 import "../App.css";
 import "animate.css";
 
 const Imager = () => {
    const style = {
       color: "white",
-      marginTop: "0.7em",
+      marginTop: "0.6em",
       marginRight: "1.1em",
-      fontSize: "2.2em",
+      fontSize: "2.3em",
    };
    return (
       <div>
@@ -49,6 +50,13 @@ const Imager = () => {
             >
                <MailOutlineIcon style={style} />
             </a>
+            <a
+               href="https://www.lensfrens.xyz/priyansh.lens"
+               target="_blank"
+               rel="noreferrer"
+               >
+                  <img src={lens} alt="lens" style={style} />
+               </a>
          </div>{" "}
       </div>
    );
