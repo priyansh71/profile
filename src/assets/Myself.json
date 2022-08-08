@@ -1,6 +1,6 @@
 {
    "Myself": [
-      "Hola, I am Priyansh Vyas, aged 20 and I reside in Bikaner, Rajasthan.",
+      "Hola, I am Priyansh Vyas, residing in Bikaner, Rajasthan.",
       "I am currently a Computer Science pre-final year student, pursuing my engineering from the BITS Pilani University ",
       "I love development, and am mostly focused around everything-Web.",
       "If you ever encounter the nickname 'felix', that would be me.",
@@ -40,14 +40,14 @@
    ],
    "Learning": [
       "Building decentralized applications on Solana and Polygon blockchains.",
-      "Working on improving my Rust-lang skills by working with the Anchor framework, and solving some programming problems.",
-      "To build production projects using the Django REST framework.",
+      "Working on improving my Rust-lang skills using with the Anchor framework and solving some programming problems.",
+      "To build production applications using the Django REST framework.",
       "I also try to spend some time improving my Data Structures and Algorithms skills."
    ],
    "Achievments": [
       "I achieved an All India Rank of 3277 amongst 0.2 million eligible candidates in JEE Advanced 2020.",
       "Scored 355/450 in BITSAT-2020.",
-      "Maintained a Cumulative Grade Point of 9.68 in my freshman year at BITS Pilani Goa Campus.",
+      "Maintained a CGPA of 9.68 in my freshman year at BITS Pilani Goa Campus which led to getting awarded three consecutive Merit-based scholarships.",
       "Accomplished a Top-2 weekly rank in CryptoHack after almost 50+ hours of cryptographic exploration on RSA, Diffie-Hellman Key exchange and Elliptic Curve Cryptography."
    ],
    "Certifications": [

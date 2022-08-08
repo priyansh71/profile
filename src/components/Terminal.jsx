@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
-import FastForwardIcon from "@mui/icons-material/FastForward";
 import TermHeader from "./TermHeader";
 import Stack from "./Stack";
+import { PlayArrow, TurnLeft } from "@mui/icons-material";
 
-const Terminal = ({ title, techStack, items, filename, command }) => {
+const Terminal = ({ techStack, items, filename, command }) => {
    const [term, setTerm] = useState("none");
    const [display, setDisplay] = useState("block");
    const [headerName, setHeaderName] = useState(null);
@@ -31,7 +31,7 @@ const Terminal = ({ title, techStack, items, filename, command }) => {
                <TypeWriterEffect
                   startDelay={200}
                   cursorColor="transparent"
-                  text={"╰─$ " + command + "▉"}
+                  text={"╰─$ " + command + "_"}
                   typeSpeed={130}
                   textStyle={{
                      color: "#f2f2f2",
@@ -44,9 +44,10 @@ const Terminal = ({ title, techStack, items, filename, command }) => {
                   onClick={handleTerm}
                   style={{ display: display }}
                >
-                  <FastForwardIcon
+                  <TurnLeft
                      fontSize="large"
-                     style={{ color: "white" }}
+                     className="return"
+                     style={{ color: "#f2f2f2" }}
                   />
                </button>
                <div
@@ -55,7 +56,7 @@ const Terminal = ({ title, techStack, items, filename, command }) => {
                      color: "#fefefe",
                      fontWeight: 100,
                      fontSize: "0.95em",
-                     marginTop: "40px",
+                     marginTop: techStack ? "44px" : "20px",
                      marginLeft: "10px",
                      marginRight: "10px",
                   }}
