@@ -13,8 +13,8 @@ const Imager = () => {
    const style = {
       color: "white",
       marginTop: "0.6em",
-      marginRight: "1.1em",
-      fontSize: "2.3em",
+      marginRight: "1em",
+      fontSize: "2.2em",
    };
    return (
       <div>

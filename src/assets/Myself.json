@@ -30,10 +30,10 @@
       "Core Member at BITSKrieg, BITS Goa. [January 2021, May 2022]"
    ],
    "Projects": [
-      "Developed a Typescript based npm-package named 'candy-machine-assistant' to ease connecting to the Metaplex Candy Machine and sending transactions to Metaplex NFT Mint Accounts on Solana.",
-      "Helped build and maintain full-stack production applications like Transcript-Gradesheet Portal and Cours-Feedback Software for AUGSD, BITS Goa.",
+      "Developed a Typescript based npm-package named 'candy-machine-assistant' to ease connecting to the Metaplex Candy Machine and sending transactions to NFT Mint Accounts on Solana.",
+      "Helped build and maintain full-stack production applications like Transcript-Gradesheet Portal and Course-Feedback Software for AUGSD, BITS Goa.",
       "Full-stack Web2 and Web3 development projects made using Django/NodeJS for backend, React/NextJS for frontend and Solidity/Rust for programs residing on the blockchain.",
-      "Worked with component libraries like ChakraUI, MUI, Neo-Pop Web and CSS frameworks like TailwindCSS, Bootstrap and BulmaCSS",
+      "Worked with component libraries like ChakraUI, MUI, Neo-Pop Web and CSS frameworks like TailwindCSS, Bootstrap and BulmaCSS.",
       "Web scraping and vulnerability testing of SQLi and XSS using BeautifulSoup and Selenium with Python.",
       "Time-Series forecasting of Polar Temperature using the Seasonal Autoregressive Integrated Moving Average Model (SARIMA) and Extra Trees Regression."
    ],
@@ -61,6 +61,6 @@
       "I love spending my time watching Football and Formula 1 on weekends.",
       "Fanboying over Star Wars, Batman and Green Arrow. Hope that wouldn't make you judge me.",
       "Listening to the rock band Linkin Park. I have always been a huge fan.",
-      "Reading documentation and articles regarding buidling on the decentralized Web, specially related to ZKP and specifications of the Solana blockchain."
+      "Reading documentation and articles regarding buidling on the decentralized Web, specially related to ZKP and the Solana blockchain."
    ]
 }
