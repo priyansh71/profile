@@ -2,7 +2,7 @@
    "Myself": [
       "Hola, I am Priyansh Vyas, residing in Bikaner, Rajasthan. You would find me at many places by the nick 'felix'.",
       "I am currently a Computer Science pre-final year student, pursuing my engineering from the BITS Pilani University.",
-      "I love development, and am mostly focused around web, be it development, security or its protocols.",
+      "I love building stuff, and am mostly focused around web, be it's development, security or protocols.",
       "Want more details? You can connect with me via LinkedIn, GitHub or find me at @priyansh.lens."
    ],
    "Education": [
@@ -30,6 +30,7 @@
       "Core Member at BITSKrieg, BITS Goa. [January 2021, May 2022]"
    ],
    "Projects": [
+      "Building @niftyclick on the Solana Mobile Stack, for simplifying the NFT minting process for photographers and artists.",
       "Developed a Typescript based npm-package named 'candy-machine-assistant' to ease connecting to the Metaplex Candy Machine and sending transactions to NFT Mint Accounts on Solana.",
       "Helped build and maintain full-stack production applications like Transcript-Gradesheet Portal and Course-Feedback Software for AUGSD, BITS Goa.",
       "Full-stack Web2 and Web3 development projects made using Django/NodeJS for backend, React/NextJS for frontend and Solidity/Rust for programs residing on the blockchain.",
@@ -38,9 +39,9 @@
       "Time-Series forecasting of Polar Temperature using the Seasonal Autoregressive Integrated Moving Average Model (SARIMA) and Extra Trees Regression."
    ],
    "Learning": [
-      "Building decentralized applications on Solana and Polygon blockchains.",
-      "Working on improving my Rust-lang skills using with the Anchor framework and solving some programming problems.",
-      "To build production applications using the Django REST framework.",
+      "Learning to master the Anchor-framework for writing Solana programs, along with understanding Seahorse-lang for simplifying the same proces.",
+      "Building on Polygon, while trying to explore Zero-Knowledge architecture and building of SNARKs on the sideline.",
+      "Working on improving my Rust-lang skills from time to time and solving programming problems in the same whenever possible.",
       "I also try to spend some time improving my Data Structures and Algorithms skills."
    ],
    "Achievments": [
@@ -58,6 +59,7 @@
       "Mentor for Probability and Statistics Course : Academic Assistance Program, BITS Goa."
    ],
    "Interests": [
+      "When bored, I visit solana.stackexchange to answer/get answers to my core/code related doubts of the ecosystem.",
       "I love spending my time watching Football and Formula 1 on weekends.",
       "Fanboying over Star Wars, Batman and Green Arrow. Hope that wouldn't make you judge me.",
       "Listening to the rock band Linkin Park. I have always been a huge fan.",
