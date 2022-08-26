@@ -17,13 +17,14 @@
       ["Vanilla JS", "80%"],
       ["Node JS", "74%"],
       ["Version Control", "70%"],
-      ["Solidity", "68%"],
+      ["Solidity", "69%"],
+      ["Rust", "67%"],
       ["CSS and Designing", "66%"],
       ["Python", "64%"],
-      ["Rust", "62%"],
       ["Django", "58%"]
    ],
    "Experience": [
+      "SuperteamDAO Member, [August 2022, ongoing]",
       "AUGSD Software Team Member, BITS Goa. [October 2021, ongoing]",
       "Data Science Intern, National Center for Polar and Ocean Research. [May 2022, July 2022]",
       "Senior Developer at DevSoc, BITS Goa. [November 2021, June 2022]",
@@ -31,6 +32,7 @@
    ],
    "Projects": [
       "Building @niftyclick on the Solana Mobile Stack, for simplifying the NFT minting process for photographers and artists.",
+      "Hacking @deaudit on Polygon, a decentralized auditing platform which turns the complex auditing process into a prediciton marketplace.",
       "Developed a Typescript based npm-package named 'candy-machine-assistant' to ease connecting to the Metaplex Candy Machine and sending transactions to NFT Mint Accounts on Solana.",
       "Helped build and maintain full-stack production applications like Transcript-Gradesheet Portal and Course-Feedback Software for AUGSD, BITS Goa.",
       "Full-stack Web2 and Web3 development projects made using Django/NodeJS for backend, React/NextJS for frontend and Solidity/Rust for programs residing on the blockchain.",
@@ -39,13 +41,13 @@
       "Time-Series forecasting of Polar Temperature using the Seasonal Autoregressive Integrated Moving Average Model (SARIMA) and Extra Trees Regression."
    ],
    "Learning": [
-      "Learning to master the Anchor-framework for writing Solana programs, along with understanding Seahorse-lang for simplifying the same proces.",
+      "Learning to master the Anchor-framework for writing Solana programs, along with understanding Seahorse-lang for simplifying the same process.",
       "Building on Polygon, while trying to explore Zero-Knowledge architecture and building of SNARKs on the sideline.",
       "Working on improving my Rust-lang skills from time to time and solving programming problems in the same whenever possible.",
       "I also try to spend some time improving my Data Structures and Algorithms skills."
    ],
    "Achievments": [
-      "I achieved an All India Rank of 3277 amongst 0.2 million eligible candidates in JEE Advanced 2020.",
+      "I achieved an All India Rank of 3277 amongst 200K million eligible candidates in JEE Advanced 2020.",
       "Scored 355/450 in BITSAT-2020.",
       "Maintained a CGPA of 9.68 in my freshman year at BITS Pilani Goa Campus which led to getting awarded three consecutive Merit-based scholarships.",
       "Accomplished a Top-2 weekly rank in CryptoHack after almost 50+ hours of cryptographic exploration on RSA, Diffie-Hellman Key exchange and Elliptic Curve Cryptography."
@@ -61,7 +63,7 @@
    "Interests": [
       "When bored, I visit solana.stackexchange to answer/get answers to my core/code related doubts of the ecosystem.",
       "I love spending my time watching Football and Formula 1 on weekends.",
-      "Fanboying over Star Wars, Batman and Green Arrow. Hope that wouldn't make you judge me.",
+      "Fanboying over Star Wars, Batman and the Green Arrow. Hope that wouldn't make you judge me.",
       "Listening to the rock band Linkin Park. I have always been a huge fan.",
       "Reading documentation and articles regarding buidling on the decentralized Web, specially related to ZKP and the Solana blockchain."
    ]
