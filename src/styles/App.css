@@ -1,3 +1,8 @@
+:root {
+   --black: #000;
+   --heading-color: #fff;
+}
+
 * {
    margin: 0px;
 }
@@ -8,7 +13,7 @@ ul > li {
 
 li::selection {
    background-color: rgba(240, 239, 239, 0.85) !important;
-   color: #011820 !important;
+   color: var(--black) !important;
 }
 
 .return {
@@ -77,32 +82,29 @@ li::selection {
       height: 78vh;
       overflow: hidden;
       font-family: "Didact Gothic";
-      background-color: rgb(245, 245, 245);
    }
 
    .heading {
-      font-size: 2.5em;
+      font-size: 2.9em;
       margin: 1em 1.5em 0em 0em;
-      color: #011820;
+      color: var(--heading-color);
       float: right;
       letter-spacing: -1px;
    }
 
    .avatar {
       position: absolute;
-      top: 27%;
+      top: 30%;
       right: 8vw;
-      height: 24vh;
-      border-radius: 100%;
-      border: 1.5px solid white;
-      transition: 0.6s linear;
+      height: 30vh;
+      filter: grayscale(90%);
    }
 
    .terminal-window section.terminal {
       color: white;
       font-family: "Fira Code", monospace;
       font-size: 1.37vw;
-      background: #011820;
+      background: var(--black);
       padding: 1.3em;
       box-sizing: border-box;
       position: relative;
@@ -146,7 +148,7 @@ li::selection {
       height: 100vh;
       top: 0;
       left: 0;
-      background: #0e1117;
+      background: var(--black);
       padding-top: 40px;
       padding-right: 10px;
    }
@@ -184,6 +186,10 @@ li::selection {
 }
 
 @media only screen and (min-width: 650px) and (max-width: 1000px) {
+   .allen {
+      width: 72vw !important;
+      left: 20vw !important;
+   }
    .return {
       font-size: 2.5em !important;
    }
@@ -203,7 +209,6 @@ li::selection {
       height: 80vh;
       width: 100%;
       font-family: "Didact Gothic";
-      background-color: rgb(245, 245, 245);
    }
 
    .avatar {
@@ -220,7 +225,7 @@ li::selection {
       color: white;
       font-family: "Fira Code", monospace;
       font-size: 2.2vw;
-      background: #011820;
+      background: var(--black);
       padding: 1em;
       box-sizing: border-box;
       position: relative;
@@ -267,7 +272,7 @@ li::selection {
       height: 100vh;
       top: 0;
       left: 0;
-      background: #0e1117;
+      background: var(--black);
       padding-top: 1.5em;
    }
    .stacker .tech {
@@ -288,13 +293,17 @@ li::selection {
    .heading {
       font-size: 2.5em;
       margin: 1em 4em 0em 0em;
-      color: #011820;
+      color: var(--heading-color);
       float: right;
       letter-spacing: -1px;
    }
 }
 
 @media screen and (max-width: 650px) {
+   .allen {
+      display: none !important;
+   }
+
    .return {
       font-size: 2.2em !important;
    }
@@ -314,7 +323,6 @@ li::selection {
       height: 70vh;
       width: 100%;
       font-family: "Didact Gothic";
-      background-color: rgb(245, 245, 245);
    }
 
    .avatar {
@@ -331,7 +339,7 @@ li::selection {
       color: white;
       font-family: "Fira Code", monospace;
       font-size: 3.3vw;
-      background: #011820;
+      background: var(--black);
       margin: auto;
       padding: 1em;
       box-sizing: border-box;
@@ -386,7 +394,7 @@ li::selection {
    .heading {
       font-size: 2em;
       margin: 30px 20px 0px 20px;
-      color: #011820;
+      color: var(--heading-color);
       letter-spacing: -1px;
       float: right;
    }
@@ -443,7 +451,7 @@ li::selection {
 .run {
    position: relative;
    float: right;
-   background: #011820;
+   background: var(--black);
    border-radius: 10px;
    cursor: pointer;
    margin-right: 20%;
@@ -577,7 +585,7 @@ li::selection {
    background-color: #f0f0f0;
    border-radius: 2px;
    bottom: 100%;
-   color: #0e1117;
+   color: var(--black);
    left: 100%;
    position: absolute;
    transform: translate(-50%, 8px);

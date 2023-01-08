@@ -4,9 +4,9 @@ import myself from "../assets/myself.jpg";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import background from "../assets/background.jpeg";
-import lens from "../assets/lens.svg";
-import "../App.css";
+import background from "../assets/background.jpg";
+import spotify from "../assets/spotify.svg";
+import "../styles/App.css";
 import "animate.css";
 
 const Imager = () => {
@@ -51,11 +51,11 @@ const Imager = () => {
                <MailOutlineIcon style={style} />
             </a>
             <a
-               href="https://www.lensfrens.xyz/priyansh.lens"
+               href="https://open.spotify.com/user/31p63gpkkyycyxyujobxyhki6pc4"
                target="_blank"
                rel="noreferrer"
             >
-               <img src={lens} alt="lens" style={style} />
+               <img src={spotify} alt="spotify" style={style} />
             </a>
          </div>{" "}
       </div>

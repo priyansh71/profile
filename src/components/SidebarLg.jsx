@@ -29,15 +29,23 @@ const SidebarLg = () => {
          <center>
             <hr className="white" />
          </center>
-         <article
-            style={{
-               fontSize: "3em",
-               textAlign: "center",
-               color: "rgb(216, 216, 216)",
-            }}
+         <Link
+            to="allen"
+            activeClass="active"
+            offset={-100}
+            spy={true}
+            smooth={true}
          >
-            &copy;
-         </article>
+            <article
+               style={{
+                  fontSize: "3em",
+                  textAlign: "center",
+                  color: "rgb(216, 216, 216)",
+               }}
+            >
+               &copy;
+            </article>
+         </Link>
          <p>Coded by Priyansh.</p>
       </div>
    );
