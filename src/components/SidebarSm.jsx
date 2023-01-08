@@ -145,9 +145,17 @@ const SidebarSm = () => {
          </div>
 
          <div className="container">
+            <Link
+                  to="allen"
+                  activeClass="active-icon"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+               >
             <span style={{ fontSize: "3em", color: "rgb(216, 216, 216)" }}>
                &copy;
             </span>
+            </Link>
          </div>
       </div>
    );

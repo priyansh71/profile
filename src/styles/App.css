@@ -65,7 +65,7 @@ li::selection {
    .return {
       font-size: 3em !important;
    }
-   .name {
+   .username {
       font-family: "Didact Gothic";
       font-size: 55px;
       color: #fff;
@@ -188,12 +188,11 @@ li::selection {
 @media only screen and (min-width: 650px) and (max-width: 1000px) {
    .allen {
       width: 72vw !important;
-      left: 20vw !important;
    }
    .return {
       font-size: 2.5em !important;
    }
-   .name {
+   .username {
       font-family: "Didact Gothic";
       font-size: 50px;
       color: #fff;
@@ -215,10 +214,8 @@ li::selection {
       position: absolute;
       top: 30%;
       right: 10vw;
-      height: 23vh;
-      border-radius: 100%;
-      border: 1.5px solid white;
-      transition: 0.6s linear;
+      height: 29vh;
+      filter: grayscale(90%);
    }
 
    .terminal-window section.terminal {
@@ -300,16 +297,20 @@ li::selection {
 }
 
 @media screen and (max-width: 650px) {
-   .allen {
-      display: none !important;
-   }
+      .allen {
+         width: 40vw !important;
+         position: relative !important;
+         top: 0 !important;
+         left: 8vw !important;
+         zoom : 0.89 !important;
+      }
 
    .return {
       font-size: 2.2em !important;
    }
-   .name {
+   .username {
       font-family: "Didact Gothic";
-      font-size: 29px;
+      font-size: 35px;
       color: #fff;
       position: absolute;
       bottom: 28%;
@@ -328,11 +329,9 @@ li::selection {
    .avatar {
       position: absolute;
       top: 38%;
-      right: 15vw;
-      height: 18vh;
-      border-radius: 100%;
-      border: 0.9px solid white;
-      transition: 0.6s linear;
+      filter: grayscale(90%);
+      right: 12vw;
+      height: 25vh;
    }
 
    .terminal-window section.terminal {

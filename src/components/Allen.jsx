@@ -1,31 +1,44 @@
 import React, { useEffect } from "react";
 import Heading from "./Heading";
+import "../styles/allen.scss";
 
-const title = "Paul Allen's Card";
 const Allen = () => {
-   // run a scruipt using useEffect
-   useEffect(() => {
-      const script = document.createElement("script");
-      script.src = "https://cpwebassets.codepen.io/assets/embed/ei.js";
-      script.async = true;
-      document.body.appendChild(script);
-      return () => {
-         document.body.removeChild(script);
-      };
-   }, []);
+
    return (
-      <>
-         <Heading heading={title} />
+      <div style={{
+         fontFamily: "Didact Gothic",
+      }}>
+         <Heading heading={"Paul Allen's Card"} />
          <div style={{ padding: "4em" }}></div>
 
-         <p
+         <div  className="allen">
+            <div className="card tk-eskapade">
+               <div className="top">
+                  <div className="phone">+91.992.987.6698</div>
+                  <div className="top-right">
+                     <div className="firm">Computer Science</div>
+                     <div className="department">Undergraduate</div>
+                  </div>
+               </div>
+               <div className="middle">
+                  <div className="name">P<span>riyansh</span> Vyas</div>
+                  <div className="title">Web3 Developer</div>
+               </div>
+               <div className="bottom">
+                  <div className="address">AH9 302, BITS Pilani Goa Campus, 403726.</div>
+               </div>
+               <a className="watermark" href="https://priyansh71.github.io/profile/" title="By Priyansh" target="_blank"><span></span>felix</a>
+            </div>
+         </div>
+
+         {/* <p
             className="codepen"
             data-height="450"
             data-default-tab="result"
             data-slug-hash="JjvgEpz"
             data-user="priyansh71"
-         ></p>
-      </>
+         ></p> */}
+      </div>
    );
 };
 

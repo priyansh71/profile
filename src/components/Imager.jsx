@@ -25,7 +25,7 @@ const Imager = () => {
                   alt="Priyansh"
                   src={myself}
                />
-               <h1 className="name">Priyansh Vyas</h1>
+               <h1 className="username">Priyansh Vyas</h1>
             </div>
          </Parallax>
          <div className="navicons">

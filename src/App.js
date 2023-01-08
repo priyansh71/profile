@@ -21,18 +21,7 @@ const App = () => {
                return <Main key={key} title={key} />;
             })}
 
-            <div
-               className="allen"
-               style={{
-                  margin: "3em 0 2em 0",
-                  width: "55vw",
-                  position: "relative",
-                  left: "40vw",
-                  top: "50%",
-               }}
-            >
-               <Allen />
-            </div>
+            <Allen />
          </Parallax>
       </div>
    );
