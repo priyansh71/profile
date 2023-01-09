@@ -27,17 +27,9 @@ const Allen = () => {
                <div className="bottom">
                   <div className="address">AH9 302, BITS Pilani Goa Campus, 403726.</div>
                </div>
-               <a className="watermark" href="https://priyansh71.github.io/profile/" title="By Priyansh" target="_blank"><span></span>felix</a>
+               <a className="watermark" href="https://codepen.io/johnslipper/pen/zYzBJa" title="Credits : John Slipper" target="_blank"><span></span>felix</a>
             </div>
          </div>
-
-         {/* <p
-            className="codepen"
-            data-height="450"
-            data-default-tab="result"
-            data-slug-hash="JjvgEpz"
-            data-user="priyansh71"
-         ></p> */}
       </div>
    );
 };
