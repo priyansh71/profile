@@ -24,7 +24,8 @@
       "react-parallax": "^3.5.1",
       "react-scroll": "^1.8.9",
       "react-typewriter-effect": "^1.1.0",
-      "sass": "^1.57.1"
+      "sass": "^1.57.1",
+      "sharp": "^0.31.3"
    },
    "devDependencies": {
       "prettier": "^2.8.3"

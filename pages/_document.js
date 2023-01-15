@@ -11,7 +11,7 @@ export default function Document() {
             <link
                rel="preconnect"
                href="https://fonts.gstatic.com"
-               crossOrigin
+               crossOrigin="true"
             />
             <link
                href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Kaisei+Decol&family=Nunito&family=Ubuntu+Mono&family=Balthazar&family=Didact+Gothic&display=swap"
