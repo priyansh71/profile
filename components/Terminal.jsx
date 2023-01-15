@@ -7,7 +7,7 @@ import { TurnLeft } from "@mui/icons-material";
 const Terminal = ({ techStack, items, filename, command }) => {
    const [term, setTerm] = useState("none");
    const [display, setDisplay] = useState("block");
-   const [headerName, setHeaderName] = useState(null);
+   const [headerName, setHeaderName] = useState("Terminal");
    const [animate, setAnimate] = useState(null);
 
    const handleTerm = () => {

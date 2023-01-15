@@ -39,12 +39,14 @@ li::selection {
 }
 
 .terminal-window {
-   header .button {
+   header {
+      .button {
       width: 15px;
       height: 15px;
       display: inline-block;
       border-radius: 3.8rem;
       margin-right: 7px;
+   }
    }
 
    li {
@@ -140,7 +142,6 @@ li::selection {
 
    .filename {
       color: black;
-      font: "Ubuntu Mono";
       font-weight: bold;
       font-size: 1.1em;
       transform: translateX(19vw);
@@ -262,7 +263,6 @@ li::selection {
 
    .filename {
       color: black;
-      font: "Ubuntu Mono";
       font-weight: bold;
       font-size: 1.1em;
       transform: translateX(16vw);
@@ -385,7 +385,7 @@ li::selection {
 
    .filename {
       color: black;
-      font: "Ubuntu Mono";
+      
       font-weight: bold;
       font-size: 1.1em;
       transform: translateX(16vw);

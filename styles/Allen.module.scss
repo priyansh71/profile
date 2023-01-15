@@ -4,7 +4,7 @@
    -webkit-perspective: 600px;
    perspective: 600px;
    position: relative;
-   left: 25vw;
+   left: 7vw;
    margin-bottom: 5em;
 }
 
@@ -48,7 +48,6 @@
    }
 }
 
-// Middle row
 .middle {
    display: flex;
    flex-flow: column;
@@ -67,7 +66,6 @@
    }
 }
 
-// Bottom row
 .bottom {
    display: flex;
    flex-flow: column;
