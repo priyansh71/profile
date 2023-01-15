@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import TermHeader from "./TermHeader";
 import Stack from "./Stack";
-import { PlayArrow, TurnLeft } from "@mui/icons-material";
+import { TurnLeft } from "@mui/icons-material";
 
 const Terminal = ({ techStack, items, filename, command }) => {
    const [term, setTerm] = useState("none");
@@ -26,7 +26,7 @@ const Terminal = ({ techStack, items, filename, command }) => {
             <TermHeader name={headerName} click={handleTerm} />
             <section className="terminal">
                <div className="history"></div>
-               ╭─<span className="typer">root@felix</span>
+               ╭─<span className="typer">priyansh@felix</span>
                ~
                <TypeWriterEffect
                   startDelay={200}

@@ -1,8 +1,11 @@
 import React from "react";
 import "animate.css";
-import Terminal from "./components/Terminal";
-import Heading from "./components/Heading";
-import Myself from "./assets/Myself.json";
+import dynamic from "next/dynamic";
+import Heading from "./Heading";
+import Myself from "../assets/Myself.json";
+const Terminal = dynamic(() => import("@/components/Terminal"), {
+   ssr: false,
+});
 
 const Main = ({ title }) => {
    return (

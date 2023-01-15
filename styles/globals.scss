@@ -31,21 +31,25 @@ li::selection {
    padding: 0px;
 }
 
-.info a {
-   text-decoration: beige;
-   color: rgb(225, 224, 224);
+.info {
+   a {
+      text-decoration: beige;
+      color: rgb(225, 224, 224);
+   }
 }
 
-.terminal-window header .button {
-   width: 15px;
-   height: 15px;
-   display: inline-block;
-   border-radius: 3.8rem;
-   margin-right: 7px;
-}
+.terminal-window {
+   header .button {
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      border-radius: 3.8rem;
+      margin-right: 7px;
+   }
 
-.terminal-window li {
-   margin-bottom: 3px;
+   li {
+      margin-bottom: 3px;
+   }
 }
 
 .green {
@@ -96,23 +100,9 @@ li::selection {
       position: absolute;
       top: 30%;
       right: 8vw;
+      width: auto;
       height: 30vh;
-      filter: grayscale(90%);
-   }
-
-   .terminal-window section.terminal {
-      color: white;
-      font-family: "Fira Code", monospace;
-      font-size: 1.37vw;
-      background: var(--black);
-      padding: 1.3em;
-      box-sizing: border-box;
-      position: relative;
-      width: 55vw;
-      font-stretch: extra-expanded;
-      overflow: auto;
-      height: 50vh;
-      border-radius: 0 0 25px 25px;
+      filter: grayscale(50%);
    }
 
    .terminal-window {
@@ -120,18 +110,34 @@ li::selection {
       position: relative;
       top: 10vw;
       left: 40vw;
+
+      section.terminal {
+         color: white;
+         font-family: "Fira Code", monospace;
+         font-size: 1.37vw;
+         background: var(--black);
+         padding: 1.3em;
+         box-sizing: border-box;
+         position: relative;
+         width: 55vw;
+         font-stretch: extra-expanded;
+         overflow: auto;
+         height: 53vh;
+         border-radius: 0 0 25px 25px;
+      }
+
+      header {
+         background: hsl(211, 47%, 91%);
+         height: 30px;
+         border-radius: 1rem 1rem 0 0;
+         width: 54.7vw;
+         display: flex;
+         align-items: center;
+         padding: 6.5px 2px;
+         flex-direction: row;
+      }
    }
 
-   .terminal-window header {
-      background: hsl(211, 47%, 91%);
-      height: 30px;
-      border-radius: 1rem 1rem 0 0;
-      width: 54.7vw;
-      display: flex;
-      align-items: center;
-      padding: 6.5px 2px;
-      flex-direction: row;
-   }
    .filename {
       color: black;
       font: "Ubuntu Mono";
@@ -155,9 +161,11 @@ li::selection {
    .sidebarSm {
       display: none;
    }
-   .stacker .tech {
-      font-size: 1em;
-      transform: translateY(10px);
+   .stacker {
+      .tech {
+         font-size: 1em;
+         transform: translateY(10px);
+      }
    }
 
    .progress {
@@ -214,22 +222,9 @@ li::selection {
       position: absolute;
       top: 30%;
       right: 10vw;
+      width: auto;
       height: 29vh;
-      filter: grayscale(90%);
-   }
-
-   .terminal-window section.terminal {
-      color: white;
-      font-family: "Fira Code", monospace;
-      font-size: 2.2vw;
-      background: var(--black);
-      padding: 1em;
-      box-sizing: border-box;
-      position: relative;
-      width: 75vw;
-      overflow: auto;
-      height: 50vh;
-      border-radius: 0 0 25px 25px;
+      filter: grayscale(50%);
    }
 
    .terminal-window {
@@ -238,18 +233,33 @@ li::selection {
       top: 5vh;
       right: 3.5vw;
       float: right;
+
+      section.terminal {
+         color: white;
+         font-family: "Fira Code", monospace;
+         font-size: 2.2vw;
+         background: var(--black);
+         padding: 1em;
+         box-sizing: border-box;
+         position: relative;
+         width: 75vw;
+         overflow: auto;
+         height: 53vh;
+         border-radius: 0 0 25px 25px;
+      }
+
+      header {
+         background: hsl(211, 47%, 91%);
+         height: 30px;
+         border-radius: 1rem 1rem 0 0;
+         width: 74.5vw;
+         display: flex;
+         align-items: center;
+         padding: 6.5px 2px;
+         flex-direction: row;
+      }
    }
 
-   .terminal-window header {
-      background: hsl(211, 47%, 91%);
-      height: 30px;
-      border-radius: 1rem 1rem 0 0;
-      width: 74.5vw;
-      display: flex;
-      align-items: center;
-      padding: 6.5px 2px;
-      flex-direction: row;
-   }
    .filename {
       color: black;
       font: "Ubuntu Mono";
@@ -272,10 +282,13 @@ li::selection {
       background: var(--black);
       padding-top: 1.5em;
    }
-   .stacker .tech {
-      font-size: 0.95em;
-      transform: translate(-6px, 5px);
+   .stacker {
+      .tech {
+         font-size: 0.95em;
+         transform: translate(-6px, 5px);
+      }
    }
+
    .progress {
       border-radius: 9px;
       background-color: transparent;
@@ -297,13 +310,13 @@ li::selection {
 }
 
 @media screen and (max-width: 650px) {
-      .allen {
-         width: 40vw !important;
-         position: relative !important;
-         top: 0 !important;
-         left: 8vw !important;
-         zoom : 0.89 !important;
-      }
+   .allen {
+      width: 40vw !important;
+      position: relative !important;
+      top: 0 !important;
+      left: 8vw !important;
+      zoom: 0.89 !important;
+   }
 
    .return {
       font-size: 2.2em !important;
@@ -329,24 +342,10 @@ li::selection {
    .avatar {
       position: absolute;
       top: 38%;
-      filter: grayscale(90%);
+      filter: grayscale(50%);
       right: 12vw;
+      width: auto;
       height: 25vh;
-   }
-
-   .terminal-window section.terminal {
-      color: white;
-      font-family: "Fira Code", monospace;
-      font-size: 3.3vw;
-      background: var(--black);
-      margin: auto;
-      padding: 1em;
-      box-sizing: border-box;
-      position: relative;
-      width: 91vw;
-      overflow: auto;
-      height: 45vh;
-      border-radius: 0 0 25px 25px;
    }
 
    .terminal-window {
@@ -356,17 +355,32 @@ li::selection {
       right: 5vw;
       float: right;
       margin: auto;
-   }
 
-   .terminal-window header {
-      background: hsl(211, 47%, 91%);
-      height: 30px;
-      border-radius: 1rem 1rem 0 0;
-      width: 90vw;
-      display: flex;
-      align-items: center;
-      padding: 6.5px 2px;
-      flex-direction: row;
+      section.terminal {
+         color: white;
+         font-family: "Fira Code", monospace;
+         font-size: 3.3vw;
+         background: var(--black);
+         margin: auto;
+         padding: 1em;
+         box-sizing: border-box;
+         position: relative;
+         width: 91vw;
+         overflow: auto;
+         height: 45vh;
+         border-radius: 0 0 25px 25px;
+      }
+
+      header {
+         background: hsl(211, 47%, 91%);
+         height: 30px;
+         border-radius: 1rem 1rem 0 0;
+         width: 90vw;
+         display: flex;
+         align-items: center;
+         padding: 6.5px 2px;
+         flex-direction: row;
+      }
    }
 
    .filename {
@@ -385,9 +399,11 @@ li::selection {
       display: none;
    }
 
-   .stacker .tech {
-      font-size: 0.95em;
-      transform: translate(-6px, 5px);
+   .stacker {
+      .tech {
+         font-size: 0.95em;
+         transform: translate(-6px, 5px);
+      }
    }
 
    .heading {
@@ -457,93 +473,99 @@ li::selection {
    border-width: 0;
 }
 
-.sidebarLg h1 {
-   display: block;
-   color: white;
-   font-family: "Fira Code";
-   letter-spacing: 1.8px;
-   font-weight: 400;
-   font-size: 23px;
-   text-align: center;
-   margin-bottom: 0.8em;
-   cursor: pointer;
+.sidebarLg {
+   h1 {
+      display: block;
+      color: white;
+      font-family: "Fira Code";
+      letter-spacing: 1.8px;
+      font-weight: 400;
+      font-size: 23px;
+      text-align: center;
+      margin-bottom: 0.8em;
+      cursor: pointer;
+   }
+
+   p {
+      color: rgb(216, 216, 216);
+      font-size: 1.23em;
+      margin-top: 0.5em;
+      transition: 0.5s linear;
+      font-family: "Nunito";
+      align-self: center;
+   }
+
+   .active {
+      color: white;
+      font-weight: 900;
+      transition: 50ms linear;
+   }
+
+   div {
+      display: block;
+      padding: 0.85em 0.6em;
+      color: rgb(182, 182, 182);
+      font-family: "Fira Code";
+      letter-spacing: 0.3px;
+      font-size: 1.24em;
+      text-align: right;
+      font-weight: 100;
+      margin-right: 3%;
+
+      &:hover {
+         color: #fff;
+         cursor: pointer;
+      }
+   }
+
+   hr {
+      width: 76%;
+      margin-top: 2vh;
+   }
+
+   article {
+      color: rgb(211, 209, 209);
+      text-align: center;
+      display: flex;
+      margin-top: 1.2vh;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0.5s linear;
+
+      &:hover {
+         color: white;
+         transition: 0.2s;
+      }
+   }
 }
 
-.sidebarLg div {
-   display: block;
-   padding: 0.85em 0.6em;
-   color: rgb(182, 182, 182);
-   font-family: "Fira Code";
-   letter-spacing: 0.3px;
-   font-size: 1.24em;
-   text-align: right;
-   font-weight: 100;
-   margin-right: 3%;
-}
-
-.active {
-   color: white;
-   font-weight: 900;
-   transition: 50ms linear;
-}
-
-.sidebarLg div:hover {
-   color: #fff;
-   cursor: pointer;
-}
-
-.sidebarLg p {
-   color: rgb(216, 216, 216);
-   font-size: 1.23em;
-   margin-top: 0.5em;
-   transition: 0.5s linear;
-   font-family: "Nunito";
-   align-self: center;
-}
-
-.sidebarSm span {
-   color: rgb(210, 210, 210);
-   text-align: center;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: 2.1vh 3vw;
-   cursor: pointer;
-   transition: 0.5s linear;
+.sidebarSm {
+   span {
+      color: rgb(210, 210, 210);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 2.1vh 3vw;
+      cursor: pointer;
+      transition: 0.5s linear;
+   }
 }
 
 .active-icon {
    color: white;
 }
 
-.sidebarLg article {
-   color: rgb(211, 209, 209);
-   text-align: center;
-   display: flex;
-   margin-top: 1.2vh;
-   align-items: center;
-   justify-content: center;
-   cursor: pointer;
-   transition: 0.5s linear;
-}
-
-.sidebarLg article:hover {
-   color: white;
-   transition: 0.2s;
-}
-
-.sidebarLg hr {
-   width: 76%;
-   margin-top: 2vh;
-}
-
-.stacker article {
-   transform: translate(0, -40px);
-   margin: 8px;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-around;
+.stacker {
+   article {
+      transform: translate(0, -40px);
+      margin: 8px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+   }
 }
 
 .progress-bar {
@@ -554,40 +576,42 @@ li::selection {
 
 .container {
    position: relative;
-}
 
-.container:hover .container__arrow,
-.container:hover .container__content {
-   opacity: 1;
-   pointer-events: initial;
-}
+   &__arrow {
+      opacity: 0;
+      pointer-events: none;
+      border: 8px solid transparent;
+      border-top-color: #f0f0f0;
+      bottom: 80%;
+      left: 80%;
+      position: absolute;
+      transform: translate(-10%, 8px);
+      height: 0;
+      width: 0;
+      z-index: 30;
+   }
 
-.container__arrow {
-   opacity: 0;
-   pointer-events: none;
-   border: 8px solid transparent;
-   border-top-color: #f0f0f0;
-   bottom: 80%;
-   left: 80%;
-   position: absolute;
-   transform: translate(-10%, 8px);
-   height: 0;
-   width: 0;
-   z-index: 30;
-}
+   &__content {
+      font-family: "Didact Gothic";
+      opacity: 0;
+      text-decoration: none;
+      pointer-events: none;
+      background-color: #f0f0f0;
+      border-radius: 2px;
+      bottom: 100%;
+      color: var(--black);
+      left: 100%;
+      position: absolute;
+      transform: translate(-50%, 8px);
+      padding: 10px;
+      z-index: 10;
+   }
 
-.container__content {
-   font-family: "Didact Gothic";
-   opacity: 0;
-   text-decoration: none;
-   pointer-events: none;
-   background-color: #f0f0f0;
-   border-radius: 2px;
-   bottom: 100%;
-   color: var(--black);
-   left: 100%;
-   position: absolute;
-   transform: translate(-50%, 8px);
-   padding: 10px;
-   z-index: 10;
+   &:hover {
+      &__arrow,
+      &__content {
+         opacity: 1;
+         pointer-events: initial;
+      }
+   }
 }

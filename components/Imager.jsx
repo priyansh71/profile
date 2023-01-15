@@ -1,13 +1,13 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import myself from "../assets/myself.jpg";
+import myself from "@/assets/myself.jpg";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import background from "../assets/background.jpg";
+import background from "@/assets/background.jpg";
 import spotify from "../assets/spotify.svg";
-import "../styles/App.css";
 import "animate.css";
+import Image from "next/image";
 
 const Imager = () => {
    const style = {
@@ -16,11 +16,16 @@ const Imager = () => {
       marginRight: "1em",
       fontSize: "2.2em",
    };
+
    return (
       <div>
-         <Parallax bgImage={background} bgImageAlt="the tech" strength={300}>
+         <Parallax
+            bgImage={background.src}
+            bgImageAlt="the tech"
+            strength={300}
+         >
             <div className="heighter" id="image">
-               <img
+               <Image
                   className="avatar animate__zoomIn animate__animated animate__slow"
                   alt="Priyansh"
                   src={myself}
@@ -55,9 +60,9 @@ const Imager = () => {
                target="_blank"
                rel="noreferrer"
             >
-               <img src={spotify} alt="spotify" style={style} />
+               <Image src={spotify} alt="spotify" style={style} />
             </a>
-         </div>{" "}
+         </div>
       </div>
    );
 };

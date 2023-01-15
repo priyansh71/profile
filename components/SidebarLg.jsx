@@ -30,7 +30,7 @@ const SidebarLg = () => {
             <hr className="white" />
          </center>
          <Link
-            to="allen"
+            to="bateman"
             activeClass="active"
             offset={-100}
             spy={true}

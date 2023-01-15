@@ -9,7 +9,7 @@ import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
 import { Link } from "react-scroll";
-import { Book, CastForEducation } from "@mui/icons-material";
+import { Book } from "@mui/icons-material";
 
 const SidebarSm = () => {
    return (
@@ -146,15 +146,15 @@ const SidebarSm = () => {
 
          <div className="container">
             <Link
-                  to="allen"
-                  activeClass="active-icon"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-               >
-            <span style={{ fontSize: "3em", color: "rgb(216, 216, 216)" }}>
-               &copy;
-            </span>
+               to="bateman"
+               activeClass="active-icon"
+               spy={true}
+               smooth={true}
+               offset={-70}
+            >
+               <span style={{ fontSize: "3em", color: "rgb(216, 216, 216)" }}>
+                  &copy;
+               </span>
             </Link>
          </div>
       </div>

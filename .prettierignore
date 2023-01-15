@@ -15,4 +15,4 @@ next.config.js
 
 .env.development.local
 .env
-.prettierrc%
+.prettierrc
