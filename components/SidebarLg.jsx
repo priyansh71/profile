@@ -1,4 +1,3 @@
-import React from "react";
 import "animate.css";
 import { Link } from "react-scroll";
 import Myself from "../assets/Myself.json";

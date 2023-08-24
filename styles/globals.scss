@@ -21,16 +21,6 @@ li::selection {
    margin-bottom: -3px;
 }
 
-.heighter {
-   height: 100vh;
-   background-attachment: scroll;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   margin: 0 auto;
-   padding: 0px;
-}
-
 .info {
    a {
       text-decoration: beige;
@@ -41,12 +31,12 @@ li::selection {
 .terminal-window {
    header {
       .button {
-      width: 15px;
-      height: 15px;
-      display: inline-block;
-      border-radius: 3.8rem;
-      margin-right: 7px;
-   }
+         width: 15px;
+         height: 15px;
+         display: inline-block;
+         border-radius: 3.8rem;
+         margin-right: 7px;
+      }
    }
 
    li {
@@ -104,7 +94,8 @@ li::selection {
       right: 8vw;
       width: auto;
       height: 30vh;
-      filter: grayscale(50%);
+      border-radius: 100%;
+      filter: grayscale(10%);
    }
 
    .terminal-window {
@@ -385,7 +376,7 @@ li::selection {
 
    .filename {
       color: black;
-      
+
       font-weight: bold;
       font-size: 1.1em;
       transform: translateX(16vw);

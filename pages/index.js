@@ -1,13 +1,13 @@
+import Head from "next/head";
+import chandelier from "@/assets/chandelier.jpg";
+import Myself from "@/assets/Myself.json";
 import { Inter } from "@next/font/google";
 import { Parallax } from "react-parallax";
-import Imager from "@/components/Imager";
-import SidebarSm from "@/components/SidebarSm";
-import SidebarLg from "@/components/SidebarLg";
-import Main from "@/components/Main";
 import Allen from "@/components/Allen";
-import Myself from "@/assets/Myself.json";
-import chandelier from "@/assets/chandelier.jpg";
-import Head from "next/head";
+import Imager from "@/components/Imager";
+import Main from "@/components/Main";
+import SidebarLg from "@/components/SidebarLg";
+import SidebarSm from "@/components/SidebarSm";
 
 export default function Home() {
    return (

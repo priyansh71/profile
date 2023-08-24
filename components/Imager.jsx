@@ -1,11 +1,11 @@
 import React from "react";
-import { Parallax } from "react-parallax";
-import myself from "@/assets/myself.jpg";
+import background from "@/assets/background.jpeg";
+import myself from "@/assets/myself.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import background from "@/assets/background.jpg";
-import spotify from "../assets/spotify.svg";
+import { Parallax } from "react-parallax";
+import leetcode from "../assets/leetcode.svg";
 import "animate.css";
 import Image from "next/image";
 
@@ -18,21 +18,27 @@ const Imager = () => {
    };
 
    return (
-      <div>
-         <Parallax
-            bgImage={background.src}
-            bgImageAlt="the tech"
-            strength={300}
-         >
-            <div className="heighter" id="image">
-               <Image
-                  className="avatar animate__zoomIn animate__animated animate__slow"
-                  alt="Priyansh"
-                  src={myself}
-               />
-               <h1 className="username">Priyansh Vyas</h1>
-            </div>
-         </Parallax>
+      <div
+         style={{
+            marginBottom : "-5px"
+         }}
+      >
+         <Image
+            src={background}
+            alt="the tech"
+            style={{
+               width: "100%",
+               height: "100vh",
+            }}
+         />
+         <div id="image">
+            <Image
+               className="avatar animate__zoomIn animate__animated animate__slow"
+               alt="Priyansh"
+               src={myself}
+            />
+            <h1 className="username">Priyansh Vyas</h1>
+         </div>
          <div className="navicons">
             <a
                href="https://github.com/priyansh71"
@@ -56,11 +62,18 @@ const Imager = () => {
                <MailOutlineIcon style={style} />
             </a>
             <a
-               href="https://open.spotify.com/user/31p63gpkkyycyxyujobxyhki6pc4"
+               href="https://leetcode.com/priyansh71/"
                target="_blank"
                rel="noreferrer"
             >
-               <Image src={spotify} alt="spotify" style={style} />
+               <Image
+                  src={leetcode}
+                  alt="leetcode"
+                  style={{
+                     ...style,
+                     scale: "1.3",
+                  }}
+               />
             </a>
          </div>
       </div>

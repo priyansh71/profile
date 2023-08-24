@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import TypeWriterEffect from "react-typewriter-effect";
-import TermHeader from "./TermHeader";
-import Stack from "./Stack";
+import { useEffect, useState } from "react";
 import { TurnLeft } from "@mui/icons-material";
+import TypeWriterEffect from "react-typewriter-effect";
+import Stack from "./Stack";
+import TermHeader from "./TermHeader";
 
 const Terminal = ({ techStack, items, filename, command }) => {
    const [term, setTerm] = useState("none");

@@ -1,9 +1,9 @@
 {
    "Myself": [
-      "Hola, I am Priyansh Vyas, residing in Bikaner, Rajasthan. You would find me at many places by the nick 'felix'.",
-      "I am currently a Computer Science pre-final year student, pursuing my engineering from the BITS Pilani University.",
-      "I love building stuff, and am mostly focused around web, be it's development, decentralization or it's protocols.",
-      "You can connect with me via LinkedIn, GitHub or even find me at Spotify lol."
+      "Hola, I am Priyansh Vyas, residing in Bikaner, Rajasthan.",
+      "I am currently a Computer Science final year student, pursuing my Bachelor's degree from the BITS Pilani University.",
+      "I love building stuff. Especially related to the Web.",
+      "You can connect with me via LinkedIn, GitHub or even find me on Leetcode lol."
    ],
    "Education": [
       "BITS Pilani Goa Campus [2020-24], ongoing",
@@ -16,24 +16,25 @@
       ["React", "92%"],
       ["Vanilla JS", "80%"],
       ["Node JS", "74%"],
+      ["Flask", "73%"],
       ["Version Control", "70%"],
-      ["Solidity", "69%"],
+      ["C++", "69%"],
       ["Rust", "67%"],
       ["CSS and Designing", "66%"],
-      ["Python", "64%"],
-      ["Django", "58%"]
+      ["Python", "64%"]
    ],
    "Experience": [
-      "SuperteamDAO Member, [August 2022, ongoing]",
+      "SDE Intern, Publicis Sapient. [May 2023, June 2023]",
+      "SuperteamDAO Contributor. [August 2022, ongoing]",
       "AUGSD Software Team Member, BITS Goa. [October 2021, July 2022]",
       "Data Science Intern, National Center for Polar and Ocean Research. [May 2022, July 2022]",
       "Senior Developer at DevSoc, BITS Goa. [November 2021, June 2022]",
       "Core Member at BITSKrieg, BITS Goa. [January 2021, May 2022]"
    ],
    "Projects": [
+      "Worked on building a Financial Investment AI chatbot for Goldman Sachs using LLM support.",
       "Building @niftyclick on the Solana Mobile Stack, for simplifying the NFT minting process for photographers and artists.",
       "Hacking @deaudit on Polygon, a decentralized auditing platform which turns the complex auditing process into a prediciton marketplace.",
-      "Developed a Typescript based npm-package named 'candy-machine-assistant' to ease connecting to the Metaplex Candy Machine and sending transactions to NFT Mint Accounts on Solana.",
       "Helped build and maintain full-stack production applications like Transcript-Gradesheet Portal and Course-Feedback Software for AUGSD, BITS Goa.",
       "Full-stack Web2 and Web3 development projects made using Django/NodeJS for backend, React/NextJS for frontend and Solidity/Rust for programs residing on the blockchain.",
       "Worked with component libraries like ChakraUI, MUI, Neo-Pop Web and CSS frameworks like TailwindCSS, Bootstrap and BulmaCSS.",
@@ -41,15 +42,15 @@
       "Time-Series forecasting of Polar Temperature using the Seasonal Autoregressive Integrated Moving Average Model (SARIMA) and Extra Trees Regression."
    ],
    "Learning": [
+      "Whenever time permits, I like to dive into exploring DevOps tools.",
       "Working with Flutter and Dart for building cross-platform mobile applications.",
-      "Learning to master the Anchor-framework for writing Solana programs, along with understanding Seahorse-lang for simplifying the same process.",
-      "Building on Polygon, while trying to explore Zero-Knowledge architecture.",
+      "Learning to master the Anchor-framework for writing Solana programs.",
       "Working on improving my Rust-lang skills from time to time and solving programming problems in the same whenever possible.",
       "I also try to spend some time improving my core Computer Science skills."
    ],
    "Achievments": [
       "Won $8500 for our Polygon-based project DeAudit in the BUIDL IT Hackathon and IPFS Grants for continuing to build our product in the domain.",
-      "Recieved $6000 for project NiftyClick from SuperteamDAO through the Solana India Foundation as an Instagrant.",
+      "Recieved $6000 for the project NiftyClick from SuperteamDAO through the Solana India Foundation as an Instagrant.",
       "I achieved an All India Rank of 3277 amongst 200K million eligible candidates in JEE Advanced 2020.",
       "Scored 355/450 in BITSAT-2020.",
       "Maintained a CGPA of 9.68 in my freshman year at BITS Pilani Goa Campus which led to getting awarded three consecutive Merit-based scholarships.",

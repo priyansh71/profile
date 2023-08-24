@@ -1,15 +1,14 @@
-import React from "react";
 import "animate.css";
-import InfoIcon from "@mui/icons-material/Info";
-import CodeIcon from "@mui/icons-material/Code";
-import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
-import SpellcheckOutlined from "@mui/icons-material/SpellcheckOutlined";
-import AssignmentIcon from "@mui/icons-material/Assessment";
-import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
-import StarBorderIcon from "@mui/icons-material/StarBorder";
-import BookmarkIcon from "@mui/icons-material/Bookmark";
-import { Link } from "react-scroll";
 import { Book } from "@mui/icons-material";
+import AssignmentIcon from "@mui/icons-material/Assessment";
+import BookmarkIcon from "@mui/icons-material/Bookmark";
+import CodeIcon from "@mui/icons-material/Code";
+import InfoIcon from "@mui/icons-material/Info";
+import SpellcheckOutlined from "@mui/icons-material/SpellcheckOutlined";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
+import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
+import WbIncandescentIcon from "@mui/icons-material/WbIncandescent";
+import { Link } from "react-scroll";
 
 const SidebarSm = () => {
    return (

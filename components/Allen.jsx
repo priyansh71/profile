@@ -1,6 +1,5 @@
-import React from "react";
-import Heading from "./Heading";
 import styles from "@/styles/Allen.module.scss";
+import Heading from "./Heading";
 
 const Allen = () => {
    return (
@@ -26,11 +25,11 @@ const Allen = () => {
                   <div className={styles.name}>
                      P<span>riyansh</span> Vyas
                   </div>
-                  <div className={styles.title}>Web3 Developer</div>
+                  <div className={styles.title}>Full-Stack Developer</div>
                </div>
                <div className={styles.bottom}>
                   <div className={styles.address}>
-                     AH9 302, BITS Pilani Goa Campus, 403726.
+                     AH1 336, BITS Pilani Goa Campus, 403726.
                   </div>
                </div>
                <a
