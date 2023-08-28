@@ -64,7 +64,7 @@ li::selection {
    .username {
       font-family: "Didact Gothic";
       font-size: 55px;
-      color: #fff;
+      color: fade-out(white, 0.15);
       position: absolute;
       font-weight: lighter;
       bottom: 28%;
@@ -85,7 +85,6 @@ li::selection {
       margin: 1em 1.5em 0em 0em;
       color: var(--heading-color);
       float: right;
-      letter-spacing: -1px;
    }
 
    .avatar {
@@ -216,7 +215,8 @@ li::selection {
       right: 10vw;
       width: auto;
       height: 29vh;
-      filter: grayscale(50%);
+      border-radius: 100%;
+      filter: grayscale(10%);
    }
 
    .terminal-window {
@@ -296,7 +296,6 @@ li::selection {
       margin: 1em 4em 0em 0em;
       color: var(--heading-color);
       float: right;
-      letter-spacing: -1px;
    }
 }
 
@@ -333,10 +332,11 @@ li::selection {
    .avatar {
       position: absolute;
       top: 38%;
-      filter: grayscale(50%);
+      filter: grayscale(10%);
       right: 12vw;
       width: auto;
       height: 25vh;
+      border-radius: 100%;
    }
 
    .terminal-window {
@@ -401,7 +401,6 @@ li::selection {
       font-size: 2em;
       margin: 30px 20px 0px 20px;
       color: var(--heading-color);
-      letter-spacing: -1px;
       float: right;
    }
 

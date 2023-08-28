@@ -1,17 +1,17 @@
 import React from "react";
-import background from "@/assets/background.jpeg";
+import background from "@/assets/background.jpg";
 import myself from "@/assets/myself.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import { Parallax } from "react-parallax";
 import leetcode from "../assets/leetcode.svg";
 import "animate.css";
 import Image from "next/image";
+import { Article, PictureAsPdf } from "@mui/icons-material";
 
 const Imager = () => {
    const style = {
-      color: "white",
+      color: "black",
       marginTop: "0.6em",
       marginRight: "1em",
       fontSize: "2.2em",
@@ -20,7 +20,7 @@ const Imager = () => {
    return (
       <div
          style={{
-            marginBottom : "-5px"
+            marginBottom: "-5px",
          }}
       >
          <Image
@@ -60,6 +60,13 @@ const Imager = () => {
                rel="noreferrer"
             >
                <MailOutlineIcon style={style} />
+            </a>
+            <a
+               href="https://drive.google.com/file/d/1gkZX7HfxWX14wOAtYG8P3frRxzXRZBqo/view?usp=drive_link"
+               target="_blank"
+               rel="noreferrer"
+            >
+               <Article style={style} />
             </a>
             <a
                href="https://leetcode.com/priyansh71/"

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import chandelier from "@/assets/chandelier.jpg";
 import Myself from "@/assets/Myself.json";
 import { Inter } from "@next/font/google";
