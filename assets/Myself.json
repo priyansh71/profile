@@ -1,9 +1,9 @@
 {
    "Myself": [
-      "Hola, I am Priyansh Vyas, residing in Bikaner, Rajasthan.",
+      "Voild, I am Priyansh Vyas, residing in Bikaner, Rajasthan.",
       "I am currently a Computer Science final year student, pursuing my Bachelor's degree from the BITS Pilani University.",
       "I love building stuff. Especially related to the Web.",
-      "You can connect with me via LinkedIn, GitHub or even find me on Leetcode lol."
+      "You can connect with me via LinkedIn, GitHub or even find me on Leetcode LOL."
    ],
    "Education": [
       "BITS Pilani Goa Campus [2020-24], ongoing",
@@ -32,20 +32,17 @@
       "Core Member at BITSKrieg, BITS Goa. [January 2021, May 2022]"
    ],
    "Projects": [
-      "Worked on building a Financial Investment AI chatbot for Goldman Sachs using LLM support.",
       "Built @niftyclick on the Solana Mobile Stack, for simplifying the NFT minting process for photographers and artists.",
       "Hacked @deaudit on Polygon, a decentralized auditing platform which turns the complex contract auditing process into a prediciton marketplace.",
       "Helped build and maintain full-stack production applications like Transcript-Gradesheet Portal and Course-Feedback Software for AUGSD, BITS Goa.",
       "Full-stack Web2 and Web3 development projects made using Django/NodeJS for backend, React/NextJS for frontend and Solidity/Rust for programs residing on the blockchain.",
       "Worked with component libraries like ChakraUI, MUI, Neo-Pop Web and CSS frameworks like TailwindCSS, Bootstrap and BulmaCSS.",
-      "Web scraping and vulnerability testing of SQLi and XSS using BeautifulSoup and Selenium with Python.",
-      "Time-Series forecasting of Polar Temperature using the Seasonal Autoregressive Integrated Moving Average Model (SARIMA) and Extra Trees Regression."
+      "Web scraping and vulnerability testing of SQLi and XSS using BeautifulSoup and Selenium with Python."
    ],
    "Learning": [
-      "Whenever time permits, I like to dive into exploring DevOps tools.",
-      "Learning to master the Anchor-framework for writing Solana programs.",
-      "Working on improving my Rust-lang skills because man, that thing is fast.",
-      "I also try to spend some time improving my core Computer Science skills."
+      "Whenever time permits, I like to dive into exploring the working of core NodeJS modules and some DevOps tools.",
+      "Working on improving my Rust-lang skills because man, that language is insanely fast.",
+      "I also try to spend some time improving my fundamental Computer Science skills."
    ],
    "Achievments": [
       "Won $8500 for our Polygon-based project DeAudit in the BUIDL IT Hackathon and IPFS Grants for continuing to build our product in the domain.",
@@ -66,7 +63,7 @@
    "Interests": [
       "I love spending my time watching Football and F1 on weekends, supporting Tottenham Hotspur and Scuderia Ferrari.",
       "Fanboying over Star Wars, Batman and the Green Arrow.",
-      "Listening to Linkin Park and Jagjit Singh. I have always been a huge fan.",
-      "Reading documentation and articles regarding the decentralized Web, JavaScript runtimes and frameworks and budding protocols in the space."
+      "Listening to Linkin Park and Jagjit Singh 💜.",
+      "Reading documentation and articles regarding the decentralized Web, JavaScript runtimes, frameworks and budding protocols in the space."
    ]
 }
