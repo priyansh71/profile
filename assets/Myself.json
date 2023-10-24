@@ -1,6 +1,6 @@
 {
    "Myself": [
-      "Voild, I am Priyansh Vyas, residing in Bikaner, Rajasthan.",
+      "Hello there, I am Priyansh Vyas from Bikaner, Rajasthan.",
       "I am currently a Computer Science final year student, pursuing my Bachelor's degree from the BITS Pilani University.",
       "I love building stuff. Especially related to the Web.",
       "You can connect with me via LinkedIn, GitHub or even find me on Leetcode LOL."
@@ -32,8 +32,8 @@
       "Core Member at BITSKrieg, BITS Goa. [January 2021, May 2022]"
    ],
    "Projects": [
-      "Built @niftyclick on the Solana Mobile Stack, for simplifying the NFT minting process for photographers and artists.",
-      "Hacked @deaudit on Polygon, a decentralized auditing platform which turns the complex contract auditing process into a prediciton marketplace.",
+      "Built @niftyclick on the Solana Mobile Stack using Metaplex and Flutter, for simplifying the NFT minting process for photographers and artists.",
+      "Hacked @deaudit on Polygon, a decentralized audit marketplace that turns the long and complex smart contract auditing process into a prediction marketplace by utilizing an open-source money streaming protocol hosted on the blockchain",
       "Helped build and maintain full-stack production applications like Transcript-Gradesheet Portal and Course-Feedback Software for AUGSD, BITS Goa.",
       "Full-stack Web2 and Web3 development projects made using Django/NodeJS for backend, React/NextJS for frontend and Solidity/Rust for programs residing on the blockchain.",
       "Worked with component libraries like ChakraUI, MUI, Neo-Pop Web and CSS frameworks like TailwindCSS, Bootstrap and BulmaCSS.",
@@ -63,7 +63,7 @@
    "Interests": [
       "I love spending my time watching Football and F1 on weekends, supporting Tottenham Hotspur and Scuderia Ferrari.",
       "Fanboying over Star Wars, Batman and the Green Arrow.",
-      "Listening to Linkin Park and Jagjit Singh 💜.",
+      "Listening to Linkin Park and Jagjit Singh.",
       "Reading documentation and articles regarding the decentralized Web, JavaScript runtimes, frameworks and budding protocols in the space."
    ]
 }
