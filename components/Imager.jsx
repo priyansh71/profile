@@ -1,13 +1,12 @@
 import React from "react";
 import background from "@/assets/background.jpg";
-import myself from "@/assets/myself.png";
+import myself from "@/assets/myself.jpg";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import leetcode from "../assets/leetcode.svg";
 import "animate.css";
 import Image from "next/image";
-import { Article, PictureAsPdf } from "@mui/icons-material";
+   import { Article } from "@mui/icons-material";
 
 const Imager = () => {
    const style = {
@@ -37,7 +36,7 @@ const Imager = () => {
                alt="Priyansh"
                src={myself}
             />
-            <h1 className="username">Priyansh Vyas</h1>
+            {/* <h1 className="username">Priyansh Vyas</h1> */}
          </div>
          <div className="navicons">
             <a
@@ -55,32 +54,18 @@ const Imager = () => {
                <LinkedInIcon style={style} />
             </a>
             <a
-               href="mailto:priyansh710@outlook.com"
+               href="mailto:priyanshvyas710@gmail.com"
                target="_blank"
                rel="noreferrer"
             >
                <MailOutlineIcon style={style} />
             </a>
             <a
-               href="https://drive.google.com/file/d/1tw3hMw67t_sOykYv93UMCvlAxvhx9tig/view?usp=sharing"
+               href="https://drive.google.com/file/d/1zY-9342P7WmZE7SKYkvJGjLx9AWQu9Fn/view?usp=sharing"
                target="_blank"
                rel="noreferrer"
             >
                <Article style={style} />
-            </a>
-            <a
-               href="https://leetcode.com/priyansh71/"
-               target="_blank"
-               rel="noreferrer"
-            >
-               <Image
-                  src={leetcode}
-                  alt="leetcode"
-                  style={{
-                     ...style,
-                     scale: "1.3",
-                  }}
-               />
             </a>
          </div>
       </div>

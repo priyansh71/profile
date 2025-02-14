@@ -18,18 +18,18 @@ const Allen = () => {
                   <div className={styles.phone}>+91.992.987.6698</div>
                   <div className={styles.topRight}>
                      <div className={styles.firm}>Computer Science</div>
-                     <div className={styles.department}>Undergraduate</div>
+                     <div className={styles.department}>Graduate</div>
                   </div>
                </div>
                <div className={styles.middle}>
                   <div className={styles.name}>
                      P<span>riyansh</span> Vyas
                   </div>
-                  <div className={styles.title}>Full-Stack Developer</div>
+                  <div className={styles.title}>Software Engineer</div>
                </div>
                <div className={styles.bottom}>
                   <div className={styles.address}>
-                     AH1 336, BITS Pilani Goa Campus, 403726.
+                     Bengaluru, Karnataka, India.
                   </div>
                </div>
                <a

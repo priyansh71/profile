@@ -1,12 +1,13 @@
 {
    "Myself": [
       "Hello there, I am Priyansh Vyas from Bikaner, Rajasthan.",
-      "I am currently a Computer Science final year student, pursuing my Bachelor's degree from the BITS Pilani University.",
+      "I graduated from BITS Pilani University in 2024 with a Bachelor's degree in Computer Science.",
+      "I am currently working as a Software Engineer at Wayfair, Bengaluru.",
       "I love building stuff. Especially related to the Web.",
-      "You can connect with me via LinkedIn, GitHub or even find me on Leetcode LOL."
+      "You can connect with me via LinkedIn or GitHub."
    ],
    "Education": [
-      "BITS Pilani Goa Campus [2020-24], ongoing",
+      "BITS Pilani Goa Campus [2020-24]",
       "Jesus and Mary School, Bikaner [2018-20]",
       "Delhi Public School, Bikaner [2017-18]",
       "Bikaner Boys' School [2008-17]",
@@ -19,11 +20,14 @@
       ["Flask", "73%"],
       ["Version Control", "70%"],
       ["C++", "69%"],
+      ["Java", "68%"],
       ["Rust", "67%"],
       ["CSS and Designing", "66%"],
       ["Python", "64%"]
    ],
    "Experience": [
+      "Software Engineer I, Wayfair. [July 2024, ongoing]",
+      "SDE Intern, Wayfair. [January 2024, June 2024]",
       "SDE Intern, Publicis Sapient. [May 2023, June 2023]",
       "SuperteamDAO Contributor. [August 2022, ongoing]",
       "AUGSD Software Team Member, BITS Goa. [October 2021, July 2022]",
@@ -40,9 +44,8 @@
       "Web scraping and vulnerability testing of SQLi and XSS using BeautifulSoup and Selenium with Python."
    ],
    "Learning": [
-      "Whenever time permits, I like to dive into exploring the working of core NodeJS modules and some DevOps tools.",
-      "Working on improving my Rust-lang skills because man, that language is insanely fast.",
-      "I also try to spend some time improving my fundamental Computer Science skills."
+      "Whenever time permits, I like to dive into exploring the working of the Web and the tools that make it work.",
+      "I also try to spend some time improving my fundamental Computer Science skills. Currently, I am focused on Spring and Apache Spark."
    ],
    "Achievments": [
       "Won $8500 for our Polygon-based project DeAudit in the BUIDL IT Hackathon and IPFS Grants for continuing to build our product in the domain.",
@@ -63,7 +66,7 @@
    "Interests": [
       "I love spending my time watching Football and F1 on weekends, supporting Tottenham Hotspur and Scuderia Ferrari.",
       "Fanboying over Star Wars, Batman and the Green Arrow.",
-      "Listening to Linkin Park and Jagjit Singh.",
-      "Reading documentation and articles regarding the decentralized Web, JavaScript runtimes, frameworks and budding protocols in the space."
+      "Listening to Linkin Park, Jagjit Singh, Ankit Tiwari and Cigarettes After Sex.",
+      "Reading documentation and articles regarding the Web, JavaScript runtimes, frameworks and emerging technologies."
    ]
 }

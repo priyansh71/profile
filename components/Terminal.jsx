@@ -26,7 +26,7 @@ const Terminal = ({ techStack, items, filename, command }) => {
             <TermHeader name={headerName} click={handleTerm} />
             <section className="terminal">
                <div className="history"></div>
-               ╭─<span className="typer">priyansh@felix</span>
+               ╭─<span className="typer">root@priyanshvyas</span>
                ~
                <TypeWriterEffect
                   startDelay={200}

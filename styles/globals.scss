@@ -92,9 +92,10 @@ li::selection {
       top: 30%;
       right: 8vw;
       width: auto;
-      height: 30vh;
+      height: 35vw;
       border-radius: 100%;
       filter: grayscale(10%);
+      margin-bottom: 1em;
    }
 
    .terminal-window {
@@ -196,7 +197,7 @@ li::selection {
       font-size: 50px;
       color: #fff;
       position: absolute;
-      bottom: 28%;
+      bottom: 100%;
       right: 10vw;
       font-weight: lighter;
       font-stretch: expanded;
@@ -214,7 +215,7 @@ li::selection {
       top: 30%;
       right: 10vw;
       width: auto;
-      height: 29vh;
+      height: 49vh;
       border-radius: 100%;
       filter: grayscale(10%);
    }
@@ -335,7 +336,7 @@ li::selection {
       filter: grayscale(10%);
       right: 12vw;
       width: auto;
-      height: 25vh;
+      height: 55vh;
       border-radius: 100%;
    }
 

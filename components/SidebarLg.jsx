@@ -37,15 +37,16 @@ const SidebarLg = () => {
          >
             <article
                style={{
-                  fontSize: "3em",
+                  fontSize: "2em",
                   textAlign: "center",
                   color: "rgb(216, 216, 216)",
+                  marginTop: "1em",
                }}
             >
                &copy;
             </article>
          </Link>
-         <p>Coded by Priyansh.</p>
+         <p>Made by Priyansh.</p>
       </div>
    );
 };
