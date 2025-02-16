@@ -13,8 +13,8 @@ const Main = ({ title }) => {
       <div className="info" id={title}>
          <Heading heading={title} />
          <Terminal
-            command={`cat ${title}.md`}
-            filename={`${title}.md`}
+            command={`cat ${title}`}
+            filename={`${title}`}
             items={Myself[title]}
             techStack={title === "TechStack"}
          />

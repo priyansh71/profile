@@ -23,12 +23,16 @@ const Imager = () => {
          }}
       >
          <Image
-            src={background}
-            alt="the tech"
-            style={{
-               width: "100%",
-               height: "100vh",
-            }}
+              src={background}
+              alt="Tech Background"
+              style={{
+               width : "100%",
+               height : "100vh",
+               objectFit : "cover"
+              }}
+              quality={80} // Increases performance without losing much quality
+              priority
+              placeholder="blur"
          />
          <div id="image">
             <Image
@@ -36,7 +40,6 @@ const Imager = () => {
                alt="Priyansh"
                src={myself}
             />
-            {/* <h1 className="username">Priyansh Vyas</h1> */}
          </div>
          <div className="navicons">
             <a

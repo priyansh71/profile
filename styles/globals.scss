@@ -1,6 +1,6 @@
 :root {
    --black: #000;
-   --heading-color: #fff;
+   --heading-color: #2a0a0a;
 }
 
 * {
@@ -93,10 +93,18 @@ li::selection {
       right: 8vw;
       width: auto;
       height: 35vw;
-      border-radius: 100%;
-      filter: grayscale(10%);
+      filter: grayscale(15%) contrast(110%) brightness(105%);
+      border-radius: 12px;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
       margin-bottom: 1em;
    }
+   
+   .avatar:hover {
+      transform: scale(1.05);
+      filter: grayscale(0%) contrast(115%) brightness(110%);
+   }
+   
 
    .terminal-window {
       border-radius: 0.625rem;
@@ -216,9 +224,17 @@ li::selection {
       right: 10vw;
       width: auto;
       height: 49vh;
-      border-radius: 100%;
-      filter: grayscale(10%);
+      filter: grayscale(5%) contrast(110%) brightness(105%);
+      border-radius: 15px; /* Soft rounded corners for a sleek look */
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* Soft shadow */
+      transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
    }
+   
+   .avatar:hover {
+      transform: scale(1.05); /* Subtle zoom effect */
+      filter: grayscale(0%) contrast(115%) brightness(110%);
+   }
+   
 
    .terminal-window {
       border-radius: 0.625rem;
@@ -333,12 +349,20 @@ li::selection {
    .avatar {
       position: absolute;
       top: 38%;
-      filter: grayscale(10%);
       right: 12vw;
       width: auto;
       height: 55vh;
-      border-radius: 100%;
+      filter: grayscale(5%) contrast(108%) brightness(103%);
+      border-radius: 12px; /* Slightly rounded edges for a clean aesthetic */
+      box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15); /* Soft depth effect */
+      transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
    }
+   
+   .avatar:hover {
+      transform: scale(1.04); /* Subtle zoom effect for interactivity */
+      filter: grayscale(0%) contrast(112%) brightness(108%);
+   }
+   
 
    .terminal-window {
       border-radius: 0.625rem;

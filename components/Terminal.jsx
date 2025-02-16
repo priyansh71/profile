@@ -31,7 +31,7 @@ const Terminal = ({ techStack, items, filename, command }) => {
                <TypeWriterEffect
                   startDelay={200}
                   cursorColor="transparent"
-                  text={"╰─$ " + command + "_"}
+                  text={"╰─$ " + command }
                   typeSpeed={130}
                   textStyle={{
                      color: "#f2f2f2",
