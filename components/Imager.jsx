@@ -64,7 +64,7 @@ const Imager = () => {
                <MailOutlineIcon style={style} />
             </a>
             <a
-               href="https://drive.google.com/file/d/1zY-9342P7WmZE7SKYkvJGjLx9AWQu9Fn/view?usp=sharing"
+               href="https://drive.google.com/file/d/1UU7gRnP7LMwGDUP-6fvu2iEMSxMu4_QR/view?usp=sharing"
                target="_blank"
                rel="noreferrer"
             >
